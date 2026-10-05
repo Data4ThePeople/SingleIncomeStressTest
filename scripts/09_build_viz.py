@@ -58,7 +58,7 @@ def main():
                              'window.addEventListener("unhandledrejection",e=>document.body.setAttribute("data-err","promise: "+e.reason));', 1)
         with tempfile.TemporaryDirectory() as d:
             Path(d, "probe.html").write_text(probe)
-            for mode in ("", "#embed=1", "#view=change", "#a=22380&y=2024&embed=1", "#y=2016&m=pct&p=0", "#est=0&y=2024", "#st=20", "#fam=1-2"):
+            for mode in ("", "#embed=1", "#view=change", "#a=22380&y=2024&embed=1", "#y=2016&m=pct&p=0", "#est=0&y=2024", "#st=20", "#fam=1-2", "#y=2020&p=1&c=5000", "#y=2016&fam=2-0&est=0"):
                 dom = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--virtual-time-budget=15000", "--window-size=1200,900",
                                       "--dump-dom", f"file://{d}/probe.html{mode}"], capture_output=True, text=True, timeout=300).stdout
                 err = re.search(r'data-err="([^"]*)"', dom)

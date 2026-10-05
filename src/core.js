@@ -330,6 +330,13 @@
   const usd = (v) => (v < 0 ? MINUS : "") + "$" + nf.format(Math.abs(Math.round(v)));
   const usdS = (v) => (v > 0 ? "+" : "") + usd(v);
   const pc = (v) => v.toFixed(0) + "%";
+  // share for the headline: one decimal near the ends, so 99.76% never reads as 100% and 0.28% never as 0%
+  const share = (v) => ((v > 0 && v < 1) || (v > 99 && v < 100) ? v.toFixed(1) : v.toFixed(0)) + "%";
+  // years an area is in the wage data, e.g. "2015 to 2023"
+  function span(a) {
+    const have = []; for (let i = 0; i < NY; i++) if (a.w[i]) have.push(YEARS[i]);
+    return have.length === 1 ? `${have[0]}` : `${have[0]} to ${have[have.length - 1]}`;
+  }
   const pts = (v) => (v > 0 ? "+" : v < 0 ? MINUS : "") + Math.abs(v).toFixed(1) + " points";
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const stAbbr = (s) => DATA.states[s][0];
@@ -492,7 +499,7 @@
     }
     if (!n) { $("sub").textContent = `${where}, ${y}: no areas with a figure for this view.`; return; }
     $("sub").textContent = S.mode === "year"
-      ? `${where}, ${y}, ${setup}: one income falls short in ${nf.format(short)} of ${nf.format(n)} areas, which hold ${pc((100 * shortJobs) / jobs)} of the jobs.`
+      ? `${where}, ${y}, ${setup}: one income falls short in ${nf.format(short)} of ${nf.format(n)} areas, which hold ${share((100 * shortJobs) / jobs)} of the jobs.`
       : `${where}, ${YEARS[S.from]} to ${y}, ${setup}: of ${nf.format(n)} areas with comparable figures, the result improved in ${nf.format(up)} and worsened in ${nf.format(down)}.`;
   }
 
@@ -607,7 +614,7 @@
   const searchIdx = A.map((a) => [a, (a.n + " " + DATA.states[a.s][0] + " " + DATA.states[a.s][1]).toLowerCase()]);
   let hits = [], act = -1;
   function renderLb() {
-    lb.innerHTML = hits.map((a, i) => `<li role="option" id="o${i}" data-i="${i}" aria-selected="${i === act}">${esc(label(a))}${shapeOf(a) ? "" : ` <small>not in ${YEARS[S.yi]}</small>`}</li>`).join("");
+    lb.innerHTML = hits.map((a, i) => `<li role="option" id="o${i}" data-i="${i}" aria-selected="${i === act}">${esc(label(a))} <small>${span(a)}</small></li>`).join("");
     lb.hidden = !hits.length; q.setAttribute("aria-expanded", String(!!hits.length));
     lb.querySelectorAll("li").forEach((li) => (li.onmousedown = (e) => { e.preventDefault(); choose(hits[+li.dataset.i]); }));
   }
