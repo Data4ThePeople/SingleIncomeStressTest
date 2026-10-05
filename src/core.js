@@ -491,7 +491,7 @@
     }
     if (!n) { $("sub").textContent = `${where}, ${y}: no areas with a figure for this view.`; return; }
     $("sub").textContent = S.mode === "year"
-      ? `${where}, ${y}, ${setup}: one income falls short in ${nf.format(short)} of ${nf.format(n)} areas, which hold ${pc((100 * shortJobs) / jobs)} of their jobs.`
+      ? `${where}, ${y}, ${setup}: one income falls short in ${nf.format(short)} of ${nf.format(n)} areas, which hold ${pc((100 * shortJobs) / jobs)} of the jobs.`
       : `${where}, ${YEARS[S.from]} to ${y}, ${setup}: of ${nf.format(n)} areas with comparable figures, the result improved in ${nf.format(up)} and worsened in ${nf.format(down)}.`;
   }
 
