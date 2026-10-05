@@ -42,7 +42,7 @@ This map runs one test on every part of the United States. Take one person's ann
 We first published this map on January 29, 2026, built in Tableau from 2024 data. This version is rebuilt from scratch and adds four things. It shows every year from 2015 to 2025, so you can play it and see where the result got better or worse. It covers 521 areas in 2025, up from 383, by adding rural areas, Alaska and Hawaii. It lets you change the family and the housing. And it gives smaller metro areas a threshold based on their own rents.
 
 ::: blurb Read this first
-This is a stress test, not a poverty rate. It compares one job's pay before taxes with a poverty threshold. It does not count taxes, a second earner, tax credits, food aid or housing aid, and it does not subtract child care, commuting or medical bills. The Census Bureau's own poverty measure counts all of those. So a shortfall on this map does not mean a family is in poverty, and an excess does not mean a family is comfortable. It shows how far one paycheck goes against a bare-bones local standard.
+This map is an illustration, not a poverty rate. Its purpose is to show how much room one paycheck leaves to absorb a surprise expense, once a family's most basic local costs are covered. It compares one job's pay before taxes with the local poverty threshold plus a cushion you set. It does not count taxes, a second earner, tax credits, food aid or housing aid, and it does not subtract child care, commuting or medical bills. So a shortfall does not mean a family is in poverty. It means one paycheck does not cover the threshold and the cushion together. Read it as a rough, illustrative guide.
 :::
 
 ## Using the visualization
@@ -215,7 +215,7 @@ The Bureau of Labor Statistics releases new May wage estimates each spring, and 
 
 ::: spacer
 
-**The threshold was built for a different comparison.** The Census Bureau compares its threshold with a family's resources after taxes and benefits, and after subtracting work expenses, child care and medical costs. This map compares it with one job's pay before taxes. That makes the test rougher than a poverty measure, in both directions.
+**This is an illustration, not a measurement of hardship.** The Census Bureau compares its threshold with a family's resources: income after taxes, plus tax credits and aid such as food and housing help, minus work expenses, child care and medical costs. This map compares it with one job's pay before taxes. That leaves out costs nearly every working family pays, which makes the paycheck look larger than it is. It also leaves out a second earner, tax credits and aid, which makes a family look worse off than it may be. We have not measured which effect is larger, and it will differ from family to family. Read each area's dollar figure as a rough, illustrative guide.
 
 **One job is not one household.** The wage survey counts jobs, not families. It cannot say how many earners a family has, or whether the person at the median wage supports anyone else.
 
