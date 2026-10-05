@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Single Income Stress Test</title>
-<meta name="description" content="Interactive map: can one income support a family of four? Wages at five points of the pay scale in every U.S. metro and nonmetro area, set against the local Supplemental Poverty Measure threshold and a cushion for surprise expenses, 2015 to 2025. Built by Data 4 The People.">
+<meta name="description" content="Interactive map: can one income support a family? Wages at five points of the pay scale in every U.S. metro and nonmetro area, set against the local Supplemental Poverty Measure threshold and a cushion for surprise expenses, 2015 to 2025. Built by Data 4 The People.">
 <style>
   :root{ color-scheme: light; }
   .ss{
@@ -61,7 +61,7 @@
   .seg button{border:0; background:none; padding:5px 12px; cursor:pointer; font-size:13.5px}
   .seg button[aria-pressed="true"]{background:var(--accent); color:var(--accent-ink)}
   .yr{display:flex; align-items:center; gap:8px}
-  .yr input[type=range]{width:170px; accent-color:var(--accent)}
+  .yr input[type=range]{width:150px; accent-color:var(--accent)}
   .cush input[type=range]{width:120px}
   .yr output{font-weight:600; font-variant-numeric:tabular-nums; min-width:36px}
   .btn{background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:5px 10px; cursor:pointer; font-size:13px}
@@ -181,6 +181,10 @@
     <label>Money for surprise expenses
       <span class="yr cush"><input type="range" id="cush" min="0" max="25000" step="500" value="10000" aria-label="Money for surprise expenses"><output id="cushOut">$10,000</output></span>
     </label>
+    <label>Family
+      <select id="fam"><option value="2-0">Two adults, no children</option><option value="2-1">Two adults, one child</option><option value="2-2" selected>Two adults, two children</option><option value="2-3">Two adults, three children</option><option value="2-4">Two adults, four children</option>
+      <option value="1-0">One adult, no children</option><option value="1-1">One adult, one child</option><option value="1-2">One adult, two children</option><option value="1-3">One adult, three children</option></select>
+    </label>
     <label>Housing
       <select id="ten"><option value="0" selected>Renter</option><option value="1">Owner with a mortgage</option><option value="2">Owner, no mortgage</option></select>
     </label>
@@ -218,7 +222,7 @@
   </div>
 
   <div class="foot">
-    <span>Sources: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, all occupations, May 2015 to May 2025 (pay before taxes); U.S. Census Bureau, Supplemental Poverty Measure thresholds by metro area, two adults and two children, 2015 to 2025, and American Community Survey table B25031 for our small-metro estimates. Dollars are not adjusted for inflation.</span>
+    <span>Sources: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, all occupations, May 2015 to May 2025 (pay before taxes); U.S. Census Bureau, Supplemental Poverty Measure thresholds by metro area, two adults and two children, 2015 to 2025 (other family sizes by the Census equivalence scale), and American Community Survey table B25031 for our small-metro estimates. Dollars are not adjusted for inflation.</span>
     <span>Built by Data 4 The People</span>
   </div>
 </div>

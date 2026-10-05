@@ -150,6 +150,20 @@ upstream: metros too small to identify in the public CPS have no row.
    unmatched New England areas (Danbury, Waterbury, Dover-Durham, Portsmouth).
    These are shown as "no published threshold". Nothing is guessed.
 
+**Family size.** The published metro thresholds are for two adults and two
+children. Other families are scaled from that figure with the SPM
+three-parameter equivalence scale (technical documentation, "Equivalence
+Scales"): one adult 1.00; two adults 1.41; single parent (1.8 + 0.5 x each
+child after the first) ^ 0.7; all others (adults + 0.5 x children) ^ 0.7. The
+reference family is 3 ^ 0.7. The local adjustment multiplies through, so the
+scaled local figure is the Census figure for that family in that place.
+Measured (`scripts/11_tieout.py`): the scale reproduces every cell of each
+workbook's "Matrix" sheet (family size by number of children, three housing
+groups, 11 years) to within $1. One cell in the 2015 workbook (three people,
+two children, owners with a mortgage) sits in the "two or more adults" block
+with one adult and does not follow the scale; the single-parent row of the same
+sheet does. The page offers one or two adults with up to four children.
+
 **Revisions.** The 2015 workbook is marked revised. We use the file as posted
 on October 5, 2026.
 

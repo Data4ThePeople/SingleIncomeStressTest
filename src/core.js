@@ -108,7 +108,19 @@
   }
 
   // ---------- state ----------
-  const S = { mode: "year", meas: "dol", yi: NY - 1, from: 0, p: 2, ten: 0, cush: 10000, est: true, st: "", sel: null, hover: null, rankTab: 0 };
+  const S = { mode: "year", meas: "dol", yi: NY - 1, from: 0, p: 2, ten: 0, cush: 10000, est: true, ad: 2, kids: 2, st: "", sel: null, hover: null, rankTab: 0 };
+  // Family size: the SPM three-parameter equivalence scale (Census SPM technical documentation).
+  // Published thresholds are for two adults and two children; other families scale from that one.
+  function equiv(ad, kids) {
+    if (kids === 0) return ad === 1 ? 1 : ad === 2 ? 1.41 : Math.pow(ad, 0.7);
+    if (ad === 1) return Math.pow(1.8 + 0.5 * (kids - 1), 0.7);
+    return Math.pow(ad + 0.5 * kids, 0.7);
+  }
+  const REF = equiv(2, 2);
+  const famScale = () => equiv(S.ad, S.kids) / REF;
+  const T = (arr) => Math.round(arr[S.ten] * famScale());       // threshold for the chosen housing status and family
+  const plural = (n, w) => `${["no", "one", "two", "three", "four"][n]} ${n === 1 ? w : w === "child" ? "children" : w + "s"}`;
+  const famName = () => `${plural(S.ad, "adult")}, ${plural(S.kids, "child")}`;
   const era = () => ERAS[eraOf[S.yi]];
   const shapeOf = (a) => (a ? era().shapes.get(a.id) : null);
 
@@ -121,7 +133,7 @@
     const inc = a.w[i][S.p];
     const k = kindOf(a, i);
     if (k === "x") return { inc, none: true };         // no published threshold and no estimate
-    const thr = (k === "e" ? a.est[i] : a.th[i])[S.ten];
+    const thr = T(k === "e" ? a.est[i] : a.th[i]);
     const dol = inc - thr - S.cush;
     return { inc, thr, dol, pct: (100 * inc) / (thr + S.cush) };
   }
@@ -329,8 +341,8 @@
   // where the threshold comes from, in plain words
   function sourceLine(a, i) {
     const k = kindOf(a, i);
-    if (k === "e") return `Threshold: our estimate from this metro's median two-bedroom rent ($${nf.format(a.r2[i])} a month, ${DATA.acs[i]} American Community Survey), using the Census formula. `
-      + (a.th[i] ? `Census's figure for ${a.sp[i].replace(/ Metro$/, "")}'s smaller metros combined is ${usd(a.th[i][S.ten])}.` : "Census publishes no figure that covers this metro.");
+    if (k === "e") return `Threshold: our estimate from this metro's median two-bedroom rent ($${nf.format(a.r2[i])} a month, ${DATA.acs[i]} ACS) and the Census formula. `
+      + (a.th[i] ? `Census's figure for ${a.sp[i].replace(/ Metro$/, "")}'s smaller metros combined: ${usd(T(a.th[i]))}.` : "Census publishes no figure that covers this metro.");
     if (k === "m") return `Threshold: Census figure for the ${a.sp[i].replace(/ MSA$/, "")} metro area.`;
     if (k === "s") return `Threshold: Census figure for ${a.sp[i].replace(/ Metro$/, "")}'s smaller metros combined. None is published for this metro alone.`;
     if (k === "n") return `Threshold: Census figure for nonmetro ${a.sp[i].replace(/ Nonmetro$/, "")}.`;
@@ -361,7 +373,7 @@
       h += `<div class="src">${y} in detail:</div>`;
     }
     h += mathTable(a, S.yi, v.c);
-    h += `<div class="src">Income is ${pc(v.c.pct)} of the threshold plus the cushion. ${esc(sourceLine(a, S.yi))}</div>`;
+    h += `<div class="src">Income is ${pc(v.c.pct)} of the threshold plus the cushion. ${esc(sourceLine(a, S.yi))}${S.ad === 2 && S.kids === 2 ? "" : ` Scaled to ${famName()} with the Census family-size scale.`}</div>`;
     return h;
   }
 
@@ -429,7 +441,7 @@
   }
   function showDetail(a) {
     const el = $("detail");
-    if (!a) { el.innerHTML = `<h2>Area</h2><div class="empty">Hover over or tap an area to see the math and its history. The test: one income, less the local poverty threshold for two adults and two children, less money set aside for surprise expenses.</div>`; return; }
+    if (!a) { el.innerHTML = `<h2>Area</h2><div class="empty">Hover over or tap an area to see the math and its history. The test: one income, less the local poverty threshold for the family, less money set aside for surprise expenses.</div>`; return; }
     const v = vals.get(a.id);
     let big = "";
     if (shaded(v)) big = S.mode === "year" ? (S.meas === "dol" ? verdict(v.c) : `${pc(v.v)} of what the family needs`) : `${fmt(v.v)} since ${YEARS[S.from]}`;
@@ -463,7 +475,7 @@
   function headline() {
     const where = S.st ? DATA.states[S.st][1] : "United States";
     const y = YEARS[S.yi];
-    const setup = `${PCT_NAME[S.p]} earner, ${TEN_NAME[S.ten]}, ${usd(S.cush)} for surprise expenses`;
+    const setup = `${PCT_NAME[S.p]} earner, ${famName()}, ${TEN_NAME[S.ten]}, ${usd(S.cush)} cushion`;
     let n = 0, short = 0, jobs = 0, shortJobs = 0, up = 0, down = 0;
     for (const a of A) {
       if (!inState(a)) continue;
@@ -542,6 +554,8 @@
   $("pct").onchange = () => { S.p = +$("pct").value; update(); };
   $("ten").onchange = () => { S.ten = +$("ten").value; update(); };
   $("est").onchange = () => { S.est = $("est").value === "1"; update(); };
+  const setFam = (v) => { const [ad, kids] = v.split("-").map(Number); S.ad = ad; S.kids = kids; $("fam").value = v; };
+  $("fam").onchange = () => { setFam($("fam").value); update(); };
   $("cush").oninput = () => { S.cush = +$("cush").value; update(); };
   const yr = $("year");
   yr.max = NY - 1; yr.value = S.yi;
@@ -575,7 +589,7 @@
   stSel.onchange = () => { S.st = stSel.value; home(); update(); };
   $("reset").onclick = () => {
     stopPlay(); S.st = ""; stSel.value = ""; S.sel = null; S.hover = null; S.yi = NY - 1; yr.value = S.yi;
-    S.p = 2; $("pct").value = 2; S.ten = 0; $("ten").value = 0; S.cush = 10000; $("cush").value = 10000; S.meas = "dol"; press("mDol", "mPct"); S.est = true; $("est").value = "1";
+    S.p = 2; $("pct").value = 2; S.ten = 0; $("ten").value = 0; S.cush = 10000; $("cush").value = 10000; S.meas = "dol"; press("mDol", "mPct"); S.est = true; $("est").value = "1"; setFam("2-2");
     S.from = 0; fromSel.value = 0; hideTip(); home(); setMode("year");
   };
 
@@ -619,12 +633,13 @@
   if (hs.get("c") && +hs.get("c") >= 0 && +hs.get("c") <= 25000) { S.cush = +hs.get("c"); $("cush").value = S.cush; }
   if (hs.get("m") === "pct") { S.meas = "pct"; press("mPct", "mDol"); }
   if (hs.get("est") === "0") { S.est = false; $("est").value = "0"; }
+  if (hs.get("fam") && [...$("fam").options].some((o) => o.value === hs.get("fam"))) setFam(hs.get("fam"));
   if (hs.get("st") && DATA.states[hs.get("st")]) { S.st = hs.get("st"); stSel.value = S.st; }
   computeVals();
   $("loading").remove();
   new ResizeObserver(resize).observe(wrap);
   if (hs.get("view") === "change") setMode("change"); else update();
-  if (hs.get("debug") === "1") window.__ssdbg = { S, vals: () => vals, calc, byId, hoverAt, select, update, view };
+  if (hs.get("debug") === "1") window.__ssdbg = { S, equiv, vals: () => vals, calc, byId, hoverAt, select, update, view };
   if (hs.get("a") && byId.get(hs.get("a"))) { pendingSel = byId.get(hs.get("a")); if (W) { select(pendingSel, true); pendingSel = null; } }
 })().catch((e) => {
   const s = document.getElementById("sub");

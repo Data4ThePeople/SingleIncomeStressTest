@@ -47,3 +47,7 @@ None.
 - 2026-10-05 Eric reviewed data/ref/spm_oews_hand.csv: fine as is. State filter:
   now includes metros that cross into the chosen state, moved up in the
   controls.
+- 2026-10-05 Eric: add the family size selector. Added (one or two adults, zero
+  to four children) using the SPM equivalence scale, checked against the
+  Census matrix sheet in every year's workbook. Scale midpoint changed from
+  grey to pale yellow at Eric's request.

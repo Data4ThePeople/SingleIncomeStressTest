@@ -59,6 +59,44 @@ def main():
     print(f"rent-based estimates recomputed: {n_e:,}; differences: {bad}")
     assert bad == 0
 
+    # family-size scale: every cell of each workbook's "Matrix" sheet (thresholds by family size and
+    # number of children for one sample area) against the scale the page uses
+    def equiv(ad, kids):
+        if kids == 0:
+            return 1 if ad == 1 else 1.41 if ad == 2 else ad ** 0.7
+        return (1.8 + 0.5 * (kids - 1)) ** 0.7 if ad == 1 else (ad + 0.5 * kids) ** 0.7
+
+    n_f, worst = 0, 0.0
+    for y in YEARS:
+        m = pd.read_excel(RAW / "spm" / f"spm_{y}.xlsx", sheet_name="Matrix", header=None)
+        num = m.apply(pd.to_numeric, errors="coerce")
+        blocks = [r for r in range(len(m)) if str(m.iloc[r, 0]).strip() == "Size of Family Unit"]
+        for b, start in enumerate(blocks):
+            end = blocks[b + 1] if b + 1 < len(blocks) else len(m)
+            base = next(num.iloc[r, 4] for r in range(start, end) if str(m.iloc[r, 0]).strip() == "Four people")
+            for r in range(start, end):
+                label, size = str(m.iloc[r, 0]).strip(), num.iloc[r, 1]
+                for c in range(2, 11):
+                    v = num.iloc[r, c]
+                    if pd.isna(v) or v < 1000:
+                        continue
+                    kids = c - 2
+                    if label == "Single Parent":
+                        ad = 1
+                    elif pd.notna(size):
+                        ad = int(size) - kids
+                        if size >= 3 and ad < 2:           # rows of three or more people are "two or more adults";
+                            continue                       # the 2015 file has one stray one-adult cell there
+                    else:
+                        continue
+                    n_f += 1
+                    diff = abs(base * equiv(ad, kids) / equiv(2, 2) - v)
+                    if diff > 1:
+                        print(f"    {y} block {b} {label!r} adults {ad} children {kids}: Census {v:,.0f}, scale gives {base * equiv(ad, kids) / equiv(2, 2):,.0f}")
+                    worst = max(worst, diff)
+    print(f"family-size cells checked against the Census matrix: {n_f:,}; largest difference ${worst:.2f}")
+    assert n_f > 1000 and worst < 1
+
     def thr(a, i, est):
         return a["est"][i] if est and a["est"][i] else a["th"][i]
 
