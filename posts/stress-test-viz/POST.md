@@ -284,7 +284,6 @@ No. The test uses one job's pay before taxes. It leaves out a second earner, tax
 
 It depends on where and on the paycheck. In 2025, a median earner with two adults and two children in a rented home and a $10,000 cushion falls short in 283 of 521 areas, which hold 49% of the jobs. With no cushion, the same paycheck falls short in 5.
 
-
 ### Where can a family live on one income?
 
 By this test, in 2025 the median paycheck covers the local threshold for two adults and two children and a $10,000 cushion in 238 of 521 areas. The most room is in the West North Dakota nonmetropolitan area, San Jose, CA, Seattle, WA, Rochester, MN and Washington, DC. The test is against a poverty threshold plus a cushion, not a comfortable budget.
