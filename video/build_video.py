@@ -239,21 +239,21 @@ def main():
         return m.group(1), m.group(2)
 
     c0, total = headline("S.cush = 0", "S.cush = 10000")
-    c20, _ = headline("S.cush = 20000", "S.cush = 10000")
+    c25, _ = headline("S.cush = 25000", "S.cush = 10000")     # the slider's top, where the drag ends
     p25, _ = headline("S.p = 1", "S.p = 2")
     p75, _ = headline("S.p = 3", "S.p = 2")
     fl, fl_n = headline(f"S.st = '{STATE}'", "S.st = ''")
     assert p25 == total and p75 == "0", (p25, p75, total)
     spare = ch.js(f"(() => {{ const c = __ssdbg.calc(__ssdbg.byId.get('{CITY_ID}'), __ssdbg.S.yi); return c.dol; }})()")
     city_line = f"${spare:,} to spare" if spare >= 0 else f"short by ${-spare:,}"
-    print("caption numbers:", c0, c20, total, p25, p75, fl, fl_n, city_line)
+    print("caption numbers:", c0, c25, total, p25, p75, fl, fl_n, city_line)
 
     # captions sit over open water so they never cover the country: under the lower 48 while the whole
     # map shows, and in the lower left once the map is zoomed to a city or a state
     GULF = lambda: (650, 672, "left")
     LOWLEFT = lambda: (48, 672, "left")
     steps = [
-        (4.0, 14.0, f"Slide the cushion. At $0, one income falls short in {c0} of {total} areas. At $20,000, in {c20}.", GULF),
+        (4.0, 14.0, f"Slide the cushion. At $0, one income falls short in {c0} of {total} areas. At $25,000, in {c25 if c25 != total else 'all ' + total}.", GULF),
         (14.0, 21.0, "Press Play to watch 2015 to 2025", GULF),
         (21.0, 27.0, "Pick the earner. At the 25th percentile, every area falls short. At the 75th, none do.", GULF),
         (27.0, 34.0, f"Search any city to see the math: {CITY}, {city_line}", LOWLEFT),
