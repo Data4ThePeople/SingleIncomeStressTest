@@ -7,10 +7,25 @@ updated: 2026-10-06
 section: Visualization
 hero: images/stress-test-viz-hero-1680x1080.png
 hero_alt: Map of U.S. metro and rural areas in 2025 on a dark background, titled One income, less the local poverty threshold, less $10,000. Areas run from deep red (short by $10,000 or more) through pale yellow (near break-even) to deep teal ($10,000 or more to spare). Red covers much of California, Florida and the Southeast; teal covers the upper Midwest and Northeast. Beside it: The Single Income Stress Test, 49% of jobs are in areas where one median paycheck falls short. Data 4 The People.
-meta_title:
-description:
-keywords:
+meta_title: "Can One Income Support a Family? Map by City, 2015-2025"
+description: "Free interactive map: does one paycheck cover the local poverty threshold plus a cushion for surprises? Every U.S. metro and rural area, 2015 to 2025."
+keywords: can one income support a family, single income family, cost of living by city, poverty threshold by city, supplemental poverty measure by metro area, median wage by city, how much does a family of four need, one income household map
 schema_type: dataset
+dataset_name: Single income excess or shortfall against local Supplemental Poverty Measure thresholds, U.S. metro and nonmetro areas, 2015 to 2025
+dataset_description: "Annual pay at the 10th, 25th, 50th, 75th and 90th percentiles for every U.S. metro and nonmetro area, May 2015 to May 2025, from BLS Occupational Employment and Wage Statistics, set against the Census Bureau's Supplemental Poverty Measure threshold for the area and year, by housing status. Metro areas with no Census threshold of their own carry an estimate built from American Community Survey two-bedroom rents with the Census formula. Each year is on that year's area boundaries."
+temporal: 2015/2025
+spatial: United States
+measured: Annual wage at the 10th, 25th, 50th, 75th and 90th percentiles|U.S. dollars; Supplemental Poverty Measure threshold, two adults and two children, by housing status|U.S. dollars; Income less threshold less cushion|U.S. dollars; Income as a share of threshold plus cushion|percent; Payroll jobs|count
+sources: https://www.bls.gov/oes/|https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html|https://www.census.gov/programs-surveys/acs|https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+distribution: text/html|https://data4thepeople.github.io/SingleIncomeStressTest/;text/csv|https://github.com/Data4ThePeople/SingleIncomeStressTest/tree/main/data/processed
+measurement_technique: OEWS all-occupations wage percentiles matched by area and year to Census SPM thresholds (named metro, state smaller-metro figure or state nonmetro figure); thresholds for unnamed metros estimated as national threshold x (housing share x ACS two-bedroom rent ratio + 1 - housing share); other family sizes by the SPM three-parameter equivalence scale; result is wage less threshold less a chosen cushion.
+credit: Data 4 The People, from the U.S. Bureau of Labor Statistics and the U.S. Census Bureau
+license: https://www.data4thepeople.com/terms-of-use
+app_url: https://data4thepeople.github.io/SingleIncomeStressTest/
+app_name: "The Single Income Stress Test: interactive map, 2015 to 2025"
+app_category: EducationalApplication
+app_description: Free interactive map of whether one paycheck covers the local poverty threshold plus a cushion for surprise expenses, in every U.S. metro and rural area, each year from 2015 to 2025.
+app_features: Every U.S. metro and nonmetro area, 2015 to 2025|Play through the years at 1x, 2x or 3x|Slider for money set aside for surprise expenses|Five pay levels from the 10th to the 90th percentile|Nine family types and three housing types|Hover or tap any area for the math|History chart for each area|Search any area by name|Filter to one state|Change between any two years|Rankings of largest shortfalls and most room
 drop_cap: false
 heading_spacer: 20px
 caption_spacer: 20px

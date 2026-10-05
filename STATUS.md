@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2d
+Step: 2e
 Since: 2026-10-05
 
 ## Steps
@@ -17,7 +17,7 @@ Since: 2026-10-05
 | 2a | Draft with brackets resolved | 2026-10-05 | Written by Claude in the rebuild-post format at Eric's request |
 | 2b | Eric's edit, Claude's look-over | 2026-10-05 | No edits from Eric; six look-over edits accepted and applied |
 | 2c | Slice markup | 2026-10-05 | 2 embeds (map, video), 3 blurbs, 1 divider; same structure as children-poverty-viz |
-| 2d | Hero 1680x1080 + alt text | | |
+| 2d | Hero 1680x1080 + alt text | 2026-10-05 | Viz image via scripts/14_hero.py; alt 488 characters |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
@@ -91,3 +91,7 @@ None.
 - 2026-10-05 Step 2c confirmed by Eric. Step 2d: Eric chose an image of the new
   viz. Hero rendered by scripts/14_hero.py (2025 map, starting settings, dark
   palette) and padded with `hero pad` to 1680x1080; alt text written.
+- 2026-10-05 Step 2d confirmed by Eric (keeps the 49% hero). Step 2e: Eric gave
+  no target searches, so Claude proposed them; meta title, description,
+  keywords and dataset fields written; schema has Dataset, WebApplication and
+  FAQPage with 13 questions. Three text proposals waiting for accept or reject.
