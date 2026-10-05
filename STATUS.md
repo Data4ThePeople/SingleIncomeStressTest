@@ -115,3 +115,7 @@ None.
 - 2026-10-05 Step 2f confirmed by Eric. Step 2g: EMAIL.md drafted from the post
   text; hero email JPG (166 KB) and a screenshot of the live map (151 KB)
   exported. Waiting for Eric to approve or reject.
+- 2026-10-05 Eric: recreate the email hero with the new map. Hero re-rendered
+  with Alaska and Hawaii in the new position (same script, same 283 of 521 and
+  49%); email JPG re-exported (180 KB); Prismic draft re-pushed so the post's
+  hero matches. YouTube thumbnail and video unchanged.
