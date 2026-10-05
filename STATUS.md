@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2e
+Step: 2f
 Since: 2026-10-05
 
 ## Steps
@@ -18,7 +18,7 @@ Since: 2026-10-05
 | 2b | Eric's edit, Claude's look-over | 2026-10-05 | No edits from Eric; six look-over edits accepted and applied |
 | 2c | Slice markup | 2026-10-05 | 2 embeds (map, video), 3 blurbs, 1 divider; same structure as children-poverty-viz |
 | 2d | Hero 1680x1080 + alt text | 2026-10-05 | Viz image via scripts/14_hero.py; alt 488 characters |
-| 2e | SEO | | |
+| 2e | SEO | 2026-10-05 | New title; meta title 55, description 150, 8 keywords; Dataset + WebApplication + FAQPage (15); all proposals accepted |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
 
@@ -100,3 +100,9 @@ None.
   all: new title and H1, meta title, rankings heading, one question reworded,
   two questions added, keywords, and two internal links. State-level table
   deferred by Eric.
+- 2026-10-05 Step 2e confirmed by Eric. Step 2f: existing January page id read
+  from the live page (aXtuIxAAACAABefK, uid stress-test-viz, first published
+  2026-01-29). Dry run, then publish: updated draft aXtuIxAAACAABefK in the
+  Migration Release, 95 slices; hero uploaded as cAegbpDwzgQZ0e_j. Not verified
+  by read-back (no PRISMIC_READ_TOKEN). Before publishing in Prismic: set the
+  author (Eric Pachman) and the Visualization tag, which an update does not carry.
