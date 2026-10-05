@@ -69,7 +69,7 @@ def main():
                 out = Path(sys.argv[sys.argv.index("--shots") + 1])
                 out.mkdir(parents=True, exist_ok=True)
                 for name, mode, size in [("wide", "#embed=1", "1200,780"), ("flagstaff", "#a=22380&y=2024&embed=1", "1200,780"),
-                                         ("change", "#view=change&m=pct&embed=1", "1200,780"), ("fam", "#fam=1-1&a=22380&y=2024&embed=1", "1200,780"), ("y2015", "#y=2015&embed=1", "1200,780"),
+                                         ("change", "#view=change&m=pct&embed=1", "1200,780"), ("florida", "#st=12&embed=1", "1200,780"), ("y2015", "#y=2015&embed=1", "1200,780"),
                                          ("narrow", "#embed=1", "420,780"), ("full", "", "1300,900")]:
                     subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--virtual-time-budget=8000",
                                     f"--window-size={size}", f"--screenshot={out / (name + '.png')}", f"file://{d}/probe.html{mode}"],
