@@ -6,6 +6,7 @@
   try { framed = window.self !== window.top; } catch (e) { framed = true; }
   const hashFlags = new URLSearchParams(location.hash.slice(1));
   if (hashFlags.get("embed") === "1") framed = true;
+  if (hashFlags.get("embed") === "0") framed = false;      // lets the standalone layout be tested inside a frame
   if (framed) { root.classList.add("framed"); document.documentElement.setAttribute("data-theme", "light"); }
 
   const $ = (id) => document.getElementById(id);
@@ -592,6 +593,13 @@
     stopPlay(); S.st = ""; stSel.value = ""; S.sel = null; S.hover = null; S.yi = NY - 1; yr.value = S.yi;
     S.p = 2; $("pct").value = 2; S.ten = 0; $("ten").value = 0; S.cush = 10000; $("cush").value = 10000; S.meas = "dol"; press("mDol", "mPct"); S.est = true; $("est").value = "1"; setFam("2-2");
     S.from = 0; fromSel.value = 0; hideTip(); home(); setMode("year");
+  };
+
+  // phone width: the less-used controls sit behind this button
+  $("more").onclick = () => {
+    const open = document.querySelector(".controls").classList.toggle("open");
+    $("more").textContent = open ? "Fewer options" : "More options";
+    $("more").setAttribute("aria-expanded", String(open));
   };
 
   // search: areas in the selected year's boundaries first, then the rest

@@ -51,3 +51,6 @@ None.
   to four children) using the SPM equivalence scale, checked against the
   Census matrix sheet in every year's workbook. Scale midpoint changed from
   grey to pale yellow at Eric's request.
+- 2026-10-05 Legend moved below the map (Eric: it covered Florida). Phone
+  layout checked at 390px: less-used controls now sit behind a "More options"
+  button so the map is on the first screen.

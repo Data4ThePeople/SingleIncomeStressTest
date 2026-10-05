@@ -131,6 +131,7 @@
   .rank .msg{color:var(--ink-3); font-size:12.5px}
   .rank .scope{font-size:11.5px; color:var(--ink-3); margin:0 0 4px}
 
+  #more{display:none}
   .foot{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; font-size:11px; color:var(--ink-3); margin-top:6px}
 
   @container (max-width: 759px){
@@ -147,8 +148,17 @@
     .hdr h1{font-size:17px}
     .brand .logo{height:18px}
     .mapbox{height:300px}
-    .combo input{width:100%}
-    .controls > label:has(.combo){flex:1 1 100%}
+    .hdr .sub{font-size:12.5px}
+    .controls{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:end}
+    .controls .wide{grid-column:1 / -1}
+    .controls select,.combo input{width:100%}
+    .yr input[type=range],.cush input[type=range]{flex:1; width:auto; min-width:0}
+    .controls:not(.open) .sec{display:none}
+    .controls > *{order:4}
+    #yearCtl{order:1}
+    .controls > label:has(#pct),.controls > label:has(#fam){order:2}
+    .controls > label:has(#cush){order:3}
+    #more{display:block; grid-column:1 / -1; order:5}
   }
 </style>
 </head>
@@ -163,45 +173,46 @@
   </div>
 
   <div class="controls">
-    <label>View
+    <label class="sec">View
       <span class="seg" role="group" aria-label="View">
         <button type="button" id="vYear" aria-pressed="true">One year</button>
         <button type="button" id="vChange" aria-pressed="false">Change</button>
       </span>
     </label>
-    <label id="fromCtl" hidden>Since <select id="from"></select></label>
-    <label id="yearCtl"><span id="yearLab">Year</span>
+    <label id="fromCtl" class="sec" hidden>Since <select id="from"></select></label>
+    <label id="yearCtl" class="wide"><span id="yearLab">Year</span>
       <span class="yr"><input type="range" id="year" min="0" max="10" step="1" value="10" aria-label="Year"><output id="yearOut">2025</output>
       <button type="button" class="btn" id="play" aria-label="Play through the years">Play</button><button type="button" class="btn" id="speed" aria-label="Play speed 1 times" title="Play speed">1x</button></span>
     </label>
     <label>Earner's place on the pay scale
       <select id="pct"><option value="0">10th percentile</option><option value="1">25th percentile</option><option value="2" selected>50th percentile (median)</option><option value="3">75th percentile</option><option value="4">90th percentile</option></select>
     </label>
-    <label>Money for surprise expenses
+    <label class="wide">Money for surprise expenses
       <span class="yr cush"><input type="range" id="cush" min="0" max="25000" step="500" value="10000" aria-label="Money for surprise expenses"><output id="cushOut">$10,000</output></span>
     </label>
     <label>Family
       <select id="fam"><option value="2-0">Two adults, no children</option><option value="2-1">Two adults, one child</option><option value="2-2" selected>Two adults, two children</option><option value="2-3">Two adults, three children</option><option value="2-4">Two adults, four children</option>
       <option value="1-0">One adult, no children</option><option value="1-1">One adult, one child</option><option value="1-2">One adult, two children</option><option value="1-3">One adult, three children</option></select>
     </label>
-    <label>Housing
+    <label class="sec">Housing
       <select id="ten"><option value="0" selected>Renter</option><option value="1">Owner with a mortgage</option><option value="2">Owner, no mortgage</option></select>
     </label>
-    <label>Show one state <select id="state"><option value="">All states</option></select></label>
-    <label>Small-metro thresholds
+    <label class="sec">Show one state <select id="state"><option value="">All states</option></select></label>
+    <label class="sec">Small-metro thresholds
       <select id="est"><option value="1" selected>Our estimate from local rents</option><option value="0">Census state-level figure</option></select>
     </label>
-    <label>Show as
+    <label class="sec">Show as
       <span class="seg" role="group" aria-label="Measure">
         <button type="button" id="mDol" aria-pressed="true">Dollars</button>
         <button type="button" id="mPct" aria-pressed="false">Percent</button>
       </span>
     </label>
-    <label>Find an area
+    <label class="sec wide">Find an area
       <span class="combo"><input type="search" id="q" placeholder="City or area name" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="lb" aria-autocomplete="list">
       <ul class="lb" id="lb" role="listbox" hidden></ul></span>
     </label>
-    <button type="button" class="btn" id="reset">Reset</button>
+    <button type="button" class="btn sec" id="reset">Reset</button>
+    <button type="button" class="btn" id="more" aria-expanded="false">More options</button>
   </div>
 
   <div class="main">
