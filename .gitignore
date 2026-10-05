@@ -1,0 +1,7 @@
+.venv/
+.idea/workspace.xml
+.DS_Store
+data/raw/*
+!data/raw/README.md
+data/interim/
+*.pdf
