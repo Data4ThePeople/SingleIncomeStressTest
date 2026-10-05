@@ -6,7 +6,7 @@ date: 2026-10-06
 updated: 2026-10-06
 section: Visualization
 hero: images/stress-test-viz-hero-1680x1080.png
-hero_alt:
+hero_alt: Map of U.S. metro and rural areas in 2025 on a dark background, titled One income, less the local poverty threshold, less $10,000. Areas run from deep red (short by $10,000 or more) through pale yellow (near break-even) to deep teal ($10,000 or more to spare). Red covers much of California, Florida and the Southeast; teal covers the upper Midwest and Northeast. Beside it: The Single Income Stress Test, 49% of jobs are in areas where one median paycheck falls short. Data 4 The People.
 meta_title:
 description:
 keywords:

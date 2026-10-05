@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2c
+Step: 2d
 Since: 2026-10-05
 
 ## Steps
@@ -16,7 +16,7 @@ Since: 2026-10-05
 | 1  | Exploration and analysis | 2026-10-05 | Viz live on Pages; tie-out and independent tie-out clean |
 | 2a | Draft with brackets resolved | 2026-10-05 | Written by Claude in the rebuild-post format at Eric's request |
 | 2b | Eric's edit, Claude's look-over | 2026-10-05 | No edits from Eric; six look-over edits accepted and applied |
-| 2c | Slice markup | | |
+| 2c | Slice markup | 2026-10-05 | 2 embeds (map, video), 3 blurbs, 1 divider; same structure as children-poverty-viz |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
@@ -88,3 +88,6 @@ None.
   $25,000) and uploaded by Eric: https://www.youtube.com/watch?v=zkITTX8_02c.
   Embedded in the post under "Using the visualization".
 - 2026-10-05 Eric accepted all six look-over edits; applied.
+- 2026-10-05 Step 2c confirmed by Eric. Step 2d: Eric chose an image of the new
+  viz. Hero rendered by scripts/14_hero.py (2025 map, starting settings, dark
+  palette) and padded with `hero pad` to 1680x1080; alt text written.
