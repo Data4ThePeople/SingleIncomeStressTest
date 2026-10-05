@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Single Income Stress Test</title>
+<meta name="description" content="Interactive map: can one income support a family of four? Wages at five points of the pay scale in every U.S. metro and nonmetro area, set against the local Supplemental Poverty Measure threshold and a cushion for surprise expenses, 2015 to 2025. Built by Data 4 The People.">
+<style>
+  :root{ color-scheme: light; }
+  .ss{
+    --paper:#F7F5EF; --panel:#FFFFFF; --ink:#1F2A27; --ink-2:#4E5B57; --ink-3:#7E8A86; --line:#D9D5CC; --grid:#E8E4DB;
+    --accent:#085041; --accent-ink:#F7F5EF;
+    --edge:rgba(247,245,239,.55); --state:#5E6B67; --hi:#1F2A27;
+    --nohist:#ECE9E2; --hatch:#C9C4B9; --mark:rgba(31,42,39,.42);
+    --neg3:#a52a24; --neg2:#e0604c; --neg1:#f6b8a8; --mid:#e8e6e1; --pos1:#a0dad6; --pos2:#2a9d9b; --pos3:#00646b;
+    --need:#8A5A00;
+    container-type:inline-size; background:var(--paper); color:var(--ink);
+    font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    padding:12px 16px 8px; box-sizing:border-box; max-width:1200px; margin:0 auto; overflow-x:hidden;
+    display:flex; flex-direction:column; height:780px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])) .ss:not(.framed){ color-scheme:dark;
+      --paper:#181A1B; --panel:#202325; --ink:#E4E2DC; --ink-2:#BBBDC0; --ink-3:#8C9094; --line:#33373A; --grid:#2A2E31;
+      --accent:#8FBFAF; --accent-ink:#181A1B; --edge:rgba(24,26,27,.55); --state:#9AA5A1; --hi:#FFFFFF;
+      --nohist:#232628; --hatch:#3F4447; --mark:rgba(255,255,255,.5);
+      --mid:#383835; --need:#E0B45A; }
+  }
+  :root[data-theme="dark"] .ss:not(.framed){ color-scheme:dark;
+      --paper:#181A1B; --panel:#202325; --ink:#E4E2DC; --ink-2:#BBBDC0; --ink-3:#8C9094; --line:#33373A; --grid:#2A2E31;
+      --accent:#8FBFAF; --accent-ink:#181A1B; --edge:rgba(24,26,27,.55); --state:#9AA5A1; --hi:#FFFFFF;
+      --nohist:#232628; --hatch:#3F4447; --mark:rgba(255,255,255,.5);
+      --mid:#383835; --need:#E0B45A; }
+  body{margin:0; background:#F7F5EF}
+  @media (prefers-color-scheme: dark){ :root:where(:not([data-theme="light"])) body{background:#181A1B} }
+  :root[data-theme="dark"] body{background:#181A1B}
+  .ss.framed{max-width:100%; overflow:hidden}
+  @media (max-width: 759px){ .ss:not(.framed){height:auto} }
+  .ss [hidden]{display:none !important}
+  .ss *{box-sizing:border-box}
+  .ss button,.ss select,.ss input{font:inherit; color:inherit}
+
+  .hdr{display:flex; justify-content:space-between; align-items:flex-start; gap:12px}
+  .hdr > div:first-child{min-width:0}
+  .hdr h1{font-size:19px; line-height:1.2; margin:0}
+  .hdr .sub{margin:3px 0 0; color:var(--ink-2); font-size:13px; min-height:18px}
+  .brand{flex:none}
+  .brand .logo{height:22px; width:auto; display:block}
+  .brand .logo-dark{display:none}
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])) .ss:not(.framed) .brand .logo-light{display:none}
+    :root:where(:not([data-theme="light"])) .ss:not(.framed) .brand .logo-dark{display:block}
+  }
+  :root[data-theme="dark"] .ss:not(.framed) .brand .logo-light{display:none}
+  :root[data-theme="dark"] .ss:not(.framed) .brand .logo-dark{display:block}
+
+  .controls{display:flex; flex-wrap:wrap; gap:6px 12px; align-items:flex-end; margin:8px 0 8px}
+  .controls label{display:flex; flex-direction:column; font-size:11.5px; color:var(--ink-2); gap:2px}
+  .controls select,.controls input[type=search]{background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:5px 8px; font-size:13.5px; min-width:0}
+  .seg{display:inline-flex; border:1px solid var(--line); border-radius:7px; overflow:hidden; background:var(--panel)}
+  .seg button{border:0; background:none; padding:5px 12px; cursor:pointer; font-size:13.5px}
+  .seg button[aria-pressed="true"]{background:var(--accent); color:var(--accent-ink)}
+  .yr{display:flex; align-items:center; gap:8px}
+  .yr input[type=range]{width:170px; accent-color:var(--accent)}
+  .cush input[type=range]{width:120px}
+  .yr output{font-weight:600; font-variant-numeric:tabular-nums; min-width:36px}
+  .btn{background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:5px 10px; cursor:pointer; font-size:13px}
+  .btn:hover{background:var(--grid)}
+  .combo{position:relative; display:block}
+  .combo input{width:170px; max-width:100%}
+  .lb{position:absolute; z-index:30; left:0; top:calc(100% + 2px); min-width:100%; width:max-content; max-width:min(420px,92vw); max-height:280px; overflow:auto;
+      margin:0; padding:4px 0; list-style:none; background:var(--panel); border:1px solid var(--line); border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,.16); color:var(--ink)}
+  .lb li{padding:5px 10px; cursor:pointer; font-size:13px}
+  .lb li[aria-selected="true"],.lb li:hover{background:var(--grid)}
+  .lb li small{color:var(--ink-3)}
+
+  .main{flex:1; min-height:0; display:grid; grid-template-columns:minmax(0,1fr) 330px; gap:12px}
+  .mapwrap{position:relative; min-height:0; background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow:hidden; touch-action:none}
+  .mapwrap canvas{position:absolute; inset:0; width:100%; height:100%; cursor:grab; display:block}
+  .mapwrap canvas.drag{cursor:grabbing}
+  .zoom{position:absolute; right:8px; top:8px; display:flex; flex-direction:column; gap:4px}
+  .zoom button{width:28px; height:28px; padding:0; font-size:17px; line-height:1}
+  .tip{position:absolute; pointer-events:none; background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:6px 9px;
+       box-shadow:0 6px 18px rgba(0,0,0,.14); font-size:12.5px; max-width:260px; z-index:5}
+  .tip b{display:block; font-size:13px; margin-bottom:2px}
+  .math{width:100%; border-collapse:collapse; font-size:12.5px; font-variant-numeric:tabular-nums}
+  .math td{padding:1px 0}
+  .math td:last-child{text-align:right; padding-left:12px; white-space:nowrap}
+  .math tr.eq td{border-top:1px solid var(--line); font-weight:600; padding-top:3px}
+  .tip .src,.detail .src{font-size:11.5px; color:var(--ink-3); margin-top:4px; line-height:1.3}
+  .key{font-size:11.5px; color:var(--ink-2); margin-top:6px}
+  .key i{display:inline-block; width:16px; height:0; border-top:2px solid var(--accent); vertical-align:middle; margin-right:4px}
+  .key i.need{border-top:2px dashed var(--need); margin-left:10px}
+  .tip .v{font-variant-numeric:tabular-nums}
+  .loading{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--ink-3)}
+
+  .side{min-height:0; display:flex; flex-direction:column; gap:10px; overflow:auto}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px 12px}
+  .card h2{font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-2); margin:0 0 6px; font-weight:600}
+  .legend{position:absolute; right:8px; bottom:8px; width:236px; background:var(--panel); border:1px solid var(--line); border-radius:8px;
+          padding:7px 10px 8px; box-shadow:0 2px 10px rgba(0,0,0,.06); z-index:4}
+  .legend h2{font-size:11px; text-transform:uppercase; letter-spacing:.03em; color:var(--ink-2); margin:0 0 3px; font-weight:600; line-height:1.3}
+  .legend .strip{display:flex; height:12px; border-radius:3px; overflow:hidden; border:1px solid var(--line)}
+  .legend .strip span{flex:1}
+  .legend .ticks{position:relative; height:15px; font-size:10.5px; color:var(--ink-2); font-variant-numeric:tabular-nums}
+  .legend .ticks span{position:absolute; top:1px; transform:translateX(-50%)}
+  .legend .unit{font-size:10.5px; color:var(--ink-3); margin-bottom:3px}
+  .legend .row{display:flex; align-items:center; gap:7px; font-size:11.5px; margin:2px 0}
+  .legend .sw{width:18px; height:11px; border-radius:3px; flex:none; border:1px solid var(--line)}
+  .legend .note{font-size:10.5px; color:var(--ink-3); margin-top:4px; line-height:1.3}
+  .mapbox{position:absolute; inset:0}
+  .detail{height:404px; overflow:auto; flex:none}
+  .detail .name{font-weight:600; font-size:14.5px; line-height:1.25}
+  .detail .meta{color:var(--ink-3); font-size:12px; margin-bottom:6px}
+  .detail .big{font-size:20px; font-weight:600; font-variant-numeric:tabular-nums}
+  .detail .counts{font-size:12.5px; color:var(--ink-2)}
+  .detail .hist{font-size:11.5px; color:var(--ink-3); margin-top:6px}
+  .detail .empty{color:var(--ink-3); font-size:12.5px}
+  .spark{width:100%; height:104px; display:block; margin-top:2px}
+  .tabs{display:flex; gap:4px; margin-bottom:6px}
+  .tabs button{flex:1; border:1px solid var(--line); background:var(--panel); border-radius:6px; padding:4px 6px; cursor:pointer; font-size:12.5px}
+  .tabs button[aria-pressed="true"]{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+  .rank table{width:100%; border-collapse:collapse; font-size:12.5px}
+  .rank td{padding:3px 4px; border-top:1px solid var(--grid); vertical-align:top}
+  .rank td.n{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+  .rank td.r{color:var(--ink-3); width:22px; font-variant-numeric:tabular-nums}
+  .rank tr{cursor:pointer}
+  .rank tr:hover td{background:var(--grid)}
+  .rank tr.sel td{background:var(--grid); font-weight:600}
+  .rank td small{color:var(--ink-3)}
+  .rank .msg{color:var(--ink-3); font-size:12.5px}
+  .rank .scope{font-size:11.5px; color:var(--ink-3); margin:0 0 4px}
+
+  .foot{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; font-size:11px; color:var(--ink-3); margin-top:6px}
+
+  @container (max-width: 759px){
+    .main{grid-template-columns:1fr; grid-template-rows:auto auto}
+    .mapwrap{display:flex; flex-direction:column}
+    .mapbox{position:relative; inset:auto; height:360px; flex:none}
+    .legend{position:static; width:auto; border:0; border-top:1px solid var(--line); border-radius:0; box-shadow:none}
+    .ss.framed .main{flex:none}
+    .ss.framed{overflow-y:auto}
+    .side{overflow:visible}
+    .detail{height:auto}
+    .yr input[type=range]{width:160px}
+  }
+  @container (max-width: 520px){
+    .hdr h1{font-size:17px}
+    .brand .logo{height:18px}
+    .mapbox{height:300px}
+    .combo input{width:100%}
+    .controls > label:has(.combo){flex:1 1 100%}
+  }
+</style>
+</head>
+<body>
+<div class="ss" id="ss">
+  <div class="hdr">
+    <div>
+      <h1 id="title">The Single Income Stress Test</h1>
+      <p class="sub" id="sub">Loading&hellip;</p>
+    </div>
+    <div class="brand"><!--__LOGO_ON_LIGHT__--><!--__LOGO_ON_DARK__--></div>
+  </div>
+
+  <div class="controls">
+    <label>View
+      <span class="seg" role="group" aria-label="View">
+        <button type="button" id="vYear" aria-pressed="true">One year</button>
+        <button type="button" id="vChange" aria-pressed="false">Change</button>
+      </span>
+    </label>
+    <label id="fromCtl" hidden>Since <select id="from"></select></label>
+    <label id="yearCtl"><span id="yearLab">Year</span>
+      <span class="yr"><input type="range" id="year" min="0" max="10" step="1" value="10" aria-label="Year"><output id="yearOut">2025</output>
+      <button type="button" class="btn" id="play" aria-label="Play through the years">Play</button><button type="button" class="btn" id="speed" aria-label="Play speed 1 times" title="Play speed">1x</button></span>
+    </label>
+    <label>Earner's place on the pay scale
+      <select id="pct"><option value="0">10th percentile</option><option value="1">25th percentile</option><option value="2" selected>50th percentile (median)</option><option value="3">75th percentile</option><option value="4">90th percentile</option></select>
+    </label>
+    <label>Money for surprise expenses
+      <span class="yr cush"><input type="range" id="cush" min="0" max="25000" step="500" value="10000" aria-label="Money for surprise expenses"><output id="cushOut">$10,000</output></span>
+    </label>
+    <label>Housing
+      <select id="ten"><option value="0" selected>Renter</option><option value="1">Owner with a mortgage</option><option value="2">Owner, no mortgage</option></select>
+    </label>
+    <label>Show as
+      <span class="seg" role="group" aria-label="Measure">
+        <button type="button" id="mDol" aria-pressed="true">Dollars</button>
+        <button type="button" id="mPct" aria-pressed="false">Percent</button>
+      </span>
+    </label>
+    <label>State <select id="state"><option value="">All states</option></select></label>
+    <label>Find an area
+      <span class="combo"><input type="search" id="q" placeholder="City or area name" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="lb" aria-autocomplete="list">
+      <ul class="lb" id="lb" role="listbox" hidden></ul></span>
+    </label>
+    <button type="button" class="btn" id="reset">Reset</button>
+  </div>
+
+  <div class="main">
+    <div class="mapwrap" id="mapwrap">
+      <div class="mapbox" id="mapbox">
+        <canvas id="map" aria-label="Map of single income excess or shortfall by metro and nonmetro area" role="img"></canvas>
+        <div class="loading" id="loading">Loading map&hellip;</div>
+        <div class="zoom"><button type="button" class="btn" id="zin" aria-label="Zoom in">+</button><button type="button" class="btn" id="zout" aria-label="Zoom out">&minus;</button></div>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="side">
+      <div class="card detail" id="detail"></div>
+      <div class="card rank" id="rank"></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span>Sources: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, all occupations, May 2015 to May 2025 (pay before taxes); U.S. Census Bureau, Supplemental Poverty Measure thresholds by metro area, two adults and two children, 2015 to 2025. Dollars are not adjusted for inflation.</span>
+    <span>Built by Data 4 The People</span>
+  </div>
+</div>
+<script>
+/*__DATA__*/
+/*__CORE__*/
+</script>
+</body>
+</html>

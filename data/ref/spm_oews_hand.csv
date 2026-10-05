@@ -1,0 +1,19 @@
+oews_area,oews_title,spm_code,spm_name,first_year,last_year,reason
+17410,"Cleveland, OH",17460,"Cleveland-Elyria, OH MSA",2024,2024,renumbered in the 2023 metro delineations; SPM file still on the old code
+19430,"Dayton-Kettering-Beavercreek, OH",19380,"Dayton, OH MSA",2024,2024,renumbered in the 2023 metro delineations; SPM file still on the old code
+30500,"Lexington Park, MD",15680,"California-Lexington Park, MD MSA",2024,2024,renumbered in the 2023 metro delineations; SPM file still on the old code
+39150,"Prescott Valley-Prescott, AZ",39140,"Prescott, AZ MSA",2024,2024,renumbered in the 2023 metro delineations; SPM file still on the old code
+70750,"Bangor, ME",12620,"Bangor, ME MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+70900,"Barnstable Town, MA",12700,"Barnstable Town, MA MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+71650,"Boston-Cambridge-Nashua, MA-NH",14460,"Boston-Cambridge-Newton, MA-NH MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same principal city
+71950,"Bridgeport-Stamford-Norwalk, CT",14860,"Bridgeport-Stamford-Norwalk, CT MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+72400,"Burlington-South Burlington, VT",15540,"Burlington-South Burlington, VT MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+73450,"Hartford-West Hartford-East Hartford, CT",25540,"Hartford-West Hartford-East Hartford, CT MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+74650,"Lewiston-Auburn, ME",30340,"Lewiston-Auburn, ME MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+74950,"Manchester, NH",31700,"Manchester-Nashua, NH MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same principal city
+75700,"New Haven, CT",35300,"New Haven-Milford, CT MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same principal city
+76450,"Norwich-New London-Westerly, CT-RI",35980,"Norwich-New London, CT MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same principal city
+76750,"Portland-South Portland, ME",38860,"Portland-South Portland, ME MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+77200,"Providence-Warwick, RI-MA",39300,"Providence-Warwick, RI-MA MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name
+78100,"Springfield, MA-CT",44140,"Springfield, MA MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same principal city
+79600,"Worcester, MA-CT",49340,"Worcester, MA-CT MSA",2015,2023,OEWS town-based New England area; SPM uses the county-based metro of the same name

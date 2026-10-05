@@ -33,3 +33,10 @@ None.
   interactive map that plays over time. Metro level only, no occupations.
   OEWS percentile wages against SPM local thresholds, 2015 to 2025. Goals:
   a year slider with play, better map coverage, better usability.
+- 2026-10-05 First build. Pipeline scripts 01 to 11, DATASETS.md, dist/index.html.
+  626 areas, May 2015 to May 2025, five boundary sets, metro and nonmetro
+  areas, Alaska and Hawaii. Tie-out: 0 differences across 29,150 wages and
+  16,821 thresholds; 2024 lower-48 metro range matches the published Tableau
+  legend (-$12,628 to $14,053). Open with Eric: areas with no published
+  threshold (5 to 27 a year), and whether to use ACS-based thresholds for
+  metros on a state figure.
