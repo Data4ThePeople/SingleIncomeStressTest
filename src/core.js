@@ -36,6 +36,15 @@
     if (byId.has(a.id)) throw new Error("duplicate area id " + a.id);
     byId.set(a.id, a);
   }
+  // every state an area touches: a metro title ends with its states ("Kansas City, MO-KS")
+  const fipsOf = {};
+  for (const f in DATA.states) fipsOf[DATA.states[f][0]] = f;
+  for (const a of A) {
+    const m = a.t === 4 && a.n.match(/, ([A-Z]{2}(?:-[A-Z]{2})*)$/);
+    a.sts = m ? m[1].split("-").map((x) => fipsOf[x]).filter(Boolean) : [a.s];
+    if (!a.sts.includes(a.s)) a.sts.push(a.s);
+  }
+  const inState = (a) => !S.st || a.sts.includes(S.st);
   const eraOf = YEARS.map((y) => DATA.eras.findIndex((e) => y >= e.from && y <= e.to));
 
   // ---------- geometry: one set of shapes per boundary era ----------
@@ -226,7 +235,7 @@
     for (const s of era().list) {
       if (s.bb[2] < x0 || s.bb[0] > x1 || s.bb[3] < y0 || s.bb[1] > y1) continue;
       const v = vals.get(s.a.id);
-      c.globalAlpha = dim && s.a.s !== dim ? 0.3 : 1;
+      c.globalAlpha = dim && !inState(s.a) ? 0.18 : 1;
       c.fillStyle = colorOf(v);
       c.fill(s.path, "evenodd");
       if (shaded(v) && "se".includes(kindOf(s.a, S.yi))) { c.fillStyle = C.markPat; c.fill(s.path, "evenodd"); }
@@ -457,7 +466,7 @@
     const setup = `${PCT_NAME[S.p]} earner, ${TEN_NAME[S.ten]}, ${usd(S.cush)} for surprise expenses`;
     let n = 0, short = 0, jobs = 0, shortJobs = 0, up = 0, down = 0;
     for (const a of A) {
-      if (S.st && a.s !== S.st) continue;
+      if (!inState(a)) continue;
       const v = vals.get(a.id);
       if (!shaded(v)) continue;
       n++;
@@ -469,7 +478,7 @@
     }
     if (!n) { $("sub").textContent = `${where}, ${y}: no areas with a figure for this view.`; return; }
     $("sub").textContent = S.mode === "year"
-      ? `${where}, ${y}, ${setup}: one income falls short in ${nf.format(short)} of ${nf.format(n)} areas, which hold ${pc((100 * shortJobs) / jobs)} of the jobs.`
+      ? `${where}, ${y}, ${setup}: one income falls short in ${nf.format(short)} of ${nf.format(n)} areas, which hold ${pc((100 * shortJobs) / jobs)} of the jobs${S.st ? " in those areas" : ""}.`
       : `${where}, ${YEARS[S.from]} to ${y}, ${setup}: of ${nf.format(n)} areas with comparable figures, the result improved in ${nf.format(up)} and worsened in ${nf.format(down)}.`;
   }
 
@@ -479,7 +488,7 @@
     const tabs = S.mode === "year" ? ["Largest shortfall", "Most room"] : ["Got worse", "Got better"];
     const rows = [];
     for (const a of A) {
-      if (S.st && a.s !== S.st) continue;
+      if (!inState(a)) continue;
       const v = vals.get(a.id);
       if (shaded(v)) rows.push([a, v]);
     }
@@ -587,7 +596,7 @@
   q.oninput = () => {
     const t = q.value.trim().toLowerCase();
     act = -1;
-    const m = t.length < 2 ? [] : searchIdx.filter(([a, s]) => s.includes(t) && (!S.st || a.s === S.st)).map((x) => x[0]);
+    const m = t.length < 2 ? [] : searchIdx.filter(([a, s]) => s.includes(t) && inState(a)).map((x) => x[0]);
     hits = m.filter((a) => shapeOf(a)).concat(m.filter((a) => !shapeOf(a))).slice(0, 12);
     renderLb();
   };
@@ -610,6 +619,7 @@
   if (hs.get("c") && +hs.get("c") >= 0 && +hs.get("c") <= 25000) { S.cush = +hs.get("c"); $("cush").value = S.cush; }
   if (hs.get("m") === "pct") { S.meas = "pct"; press("mPct", "mDol"); }
   if (hs.get("est") === "0") { S.est = false; $("est").value = "0"; }
+  if (hs.get("st") && DATA.states[hs.get("st")]) { S.st = hs.get("st"); stSel.value = S.st; }
   computeVals();
   $("loading").remove();
   new ResizeObserver(resize).observe(wrap);

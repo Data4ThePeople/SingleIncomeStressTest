@@ -44,3 +44,6 @@ None.
   for metros with no Census figure of their own (default on, with a switch
   back to Census figures only). 4,041 estimates recomputed in the tie-out, 0
   differences. Still open: review of data/ref/spm_oews_hand.csv.
+- 2026-10-05 Eric reviewed data/ref/spm_oews_hand.csv: fine as is. State filter:
+  now includes metros that cross into the chosen state, moved up in the
+  controls.
