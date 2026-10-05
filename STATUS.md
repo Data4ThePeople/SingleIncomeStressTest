@@ -15,7 +15,7 @@ Since: 2026-10-05
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-05 | Viz live on Pages; tie-out and independent tie-out clean |
 | 2a | Draft with brackets resolved | 2026-10-05 | Written by Claude in the rebuild-post format at Eric's request |
-| 2b | Eric's edit, Claude's look-over | 2026-10-05 | No edits from Eric; six look-over edits proposed, waiting for accept or reject by number |
+| 2b | Eric's edit, Claude's look-over | 2026-10-05 | No edits from Eric; six look-over edits accepted and applied |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
@@ -87,3 +87,4 @@ None.
 - 2026-10-05 Tutorial video re-rendered (caption now matches the slider at
   $25,000) and uploaded by Eric: https://www.youtube.com/watch?v=zkITTX8_02c.
   Embedded in the post under "Using the visualization".
+- 2026-10-05 Eric accepted all six look-over edits; applied.

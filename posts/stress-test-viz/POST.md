@@ -91,7 +91,7 @@ So does the earner's place on the pay scale. At the 25th percentile, one income 
 
 Family size and housing matter as well. For one adult with two children, the median paycheck falls short in 35 areas. For two adults with three children, it falls short in 473. For a family that owns its home with no mortgage, it falls short in 40.
 
-Thresholds rose faster than pay over these years. The national threshold for renters with two adults and two children went from $25,583 in 2015 to $41,701 in 2025, an increase of 63.0%. Among the 290 areas we can compare across both years, the median wage rose 45.8% in the typical area and the local threshold rose 60.9%. The wage rose faster than the threshold in 5 of the 290.
+Thresholds rose faster than pay over these years. The national threshold for renters with two adults and two children went from $25,583 in 2015 to $41,701 in 2025, an increase of 63.0%. Among the 290 areas we can compare across both years, the median wage rose 45.8% in the typical area and the local threshold rose 60.9%. The wage rose faster than the threshold in 5 of the 290. The threshold follows what families spend on basics, so it can rise faster than prices.
 
 ### Where one income falls shortest and goes furthest
 
@@ -185,13 +185,13 @@ The Census Bureau's adjustment follows a formula, which we confirmed against eve
 
 To check the method, we ran it each year on the metro areas the Census Bureau does name. Our figure differed from the published one by $38 to $122 for the typical metro area, depending on the year, and by $1,869 at most. It runs slightly low.
 
-For the metro areas that use it, the estimate can move the threshold a lot. In 2024 it is $7,943 lower than the state figure in Sierra Vista-Douglas, AZ, and $7,367 higher in Bremerton, WA. In 2025, 112 metro areas use an estimate. They are hatched on the map, and the box for each one shows the Census Bureau's state figure beside it. Rural areas always use the Census Bureau's figure.
+For the metro areas that use it, the estimate can move the threshold a lot. In 2024 it is $7,943 lower than the state figure in Sierra Vista-Douglas, AZ, and $7,367 higher in Bremerton, WA. In 2025, 112 metro areas use an estimate. They are hatched on the map, and the box for each one shows the Census Bureau's state figure beside it, where one exists. Rural areas always use the Census Bureau's figure.
 
 ### Step 5: Scale for family size
 
 The published thresholds are for two adults and two children. For other families, the Census Bureau uses a fixed scale, and we apply the same one. One adult is 46% of the two-adult, two-child figure. Two adults are 65%. One adult with two children is 83%. Two adults with three children are 111%.
 
-A second adult adds less than a first because the scale assumes a couple shares one home and one set of bills. We checked the scale against the family-size table in each year's Census file. It matches every figure to the dollar.
+A second adult adds less than a first because the scale assumes a couple shares one home and one set of bills. We checked the scale against the family-size table in each year's Census file. It matches to the dollar, apart from one cell in the 2015 file that does not follow the Census Bureau's own scale.
 
 ### Step 6: Draw each year on that year's boundaries
 
@@ -207,7 +207,7 @@ The change view subtracts one year's result from another's. It compares an area 
 
 ### Step 8: Check the numbers
 
-Before publishing, a script recomputes the map's numbers from the source files and compares them with what the map shows: 29,150 wage figures, 16,821 thresholds and 4,041 estimates, with no differences. A second check, written separately from the raw files without using our scripts, reached the same wages, thresholds, estimates and headline counts. Every number on this page comes from that output.
+Before publishing, a script recomputes the map's numbers from the source files and compares them with what the map shows: 29,150 wage figures, 16,821 thresholds and 4,041 estimates, with no differences. A second check, written separately from the raw files without using our scripts, reached the same wages, thresholds, estimates and headline counts. The numbers on this page come from a script that reads the same checked data.
 
 ## Updating
 
@@ -223,7 +223,7 @@ The Bureau of Labor Statistics releases new May wage estimates each spring, and 
 
 **One job is not one household.** The wage survey counts jobs, not families. It cannot say how many earners a family has, or whether the person at the median wage supports anyone else.
 
-**Child care is not in the threshold.** That matters most for single parents. One adult with two children falls short in 35 areas in 2025, but a single parent who works usually pays for child care, and the test does not subtract it.
+**Child care is not in the threshold.** That matters most for single parents. One adult with two children falls short in 35 areas in 2025, but a single parent who works may need to pay for child care, and the test does not subtract it.
 
 **The threshold is not adjusted for inflation alone.** It follows what families spend on basics, so it can rise faster than prices. It rose 63.0% from 2015 to 2025. The share of the threshold that the Census Bureau adjusts for local rents also dropped in 2020, from about 50% to about 44% for renters, so local thresholds sit closer to the national figure from 2020 on. We did not adjust for either.
 
@@ -275,7 +275,7 @@ The share of jobs in areas that fall short was 40% in 2015, 31% in 2020 and 49% 
 
 ### Are the dollars adjusted for inflation?
 
-No. Each year uses that year's pay and that year's threshold. The Percent view is the fairer way to compare years.
+No. Each year uses that year's pay and that year's threshold. The Percent view makes years easier to compare, though the cushion you set stays the same in every year.
 
 ### Why is my metro area hatched?
 
