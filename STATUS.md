@@ -5,8 +5,8 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 
 ## Current
 
-Post: none yet
-Step: 2a (waiting for slug and draft)
+Post: stress-test-viz
+Step: 2a
 Since: 2026-10-05
 
 ## Steps
@@ -65,3 +65,7 @@ None.
   methodology. Fixed headline rounding near 0% and 100%; search shows years.
   Not independently checked: map outlines, Change view, rankings past the top five.
 - 2026-10-05 Step 1 confirmed by Eric.
+- 2026-10-05 Step 2a opened. Slug stress-test-viz (reuses the January post's
+  slug). Eric asked for the post in the format of the child poverty and wage
+  gap rebuild posts, written by Claude. Draft in posts/stress-test-viz/POST.md;
+  every number from scripts/13_post_numbers.py.
