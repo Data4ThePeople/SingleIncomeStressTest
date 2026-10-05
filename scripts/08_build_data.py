@@ -14,6 +14,9 @@ def main():
     o = pd.read_csv(PROC / "oews_areas.csv", dtype={"area": str, "state": str})
     t = pd.read_csv(PROC / "area_thresholds.csv", dtype={"area": str})
     d = o.merge(t, on=["year", "area"], validate="one_to_one")
+    # our rent-based estimate, kept only for metros with no Census figure of their own
+    est = pd.read_csv(PROC / "acs_thresholds.csv", dtype={"area": str})[["year", "area", "rent2br"] + ["est_" + c for c in TEN]]
+    d = d.merge(est, on=["year", "area"], how="left", validate="one_to_one")
     d["id"] = d.area.str.lstrip("0")
     assert not d.duplicated(["year", "id"]).any(), "duplicate (year, area)"
     shapes = pd.read_csv(PROC / "area_shapes.csv", dtype={"area": str})
@@ -28,7 +31,7 @@ def main():
         g = g.sort_values("year")
         last = g.iloc[-1]
         a = {"id": aid, "n": last.title, "t": int(last.area_type), "s": last.state,
-             "w": [None] * n, "e": [None] * n, "th": [None] * n, "k": [None] * n, "sp": [None] * n, "sh": [None] * n}
+             "w": [None] * n, "e": [None] * n, "th": [None] * n, "k": [None] * n, "sp": [None] * n, "sh": [None] * n, "est": [None] * n, "r2": [None] * n}
         assert g.state.nunique() == 1, f"{aid}: principal state changes"
         for r in g.itertuples():
             i = yi[r.year]
@@ -38,11 +41,15 @@ def main():
             if r.kind != "none":
                 a["th"][i] = [int(getattr(r, c)) for c in TEN]
                 a["sp"][i] = r.spm_name
+            if r.kind in ("state_metro", "none") and pd.notna(r.rent2br):
+                a["est"][i] = [int(getattr(r, "est_" + c)) for c in TEN]
+                a["r2"][i] = int(r.rent2br)
             a["sh"][i] = int(shape[(r.year, aid)])
         areas.append(a)
 
     out = {"years": YEARS, "grid": geo["grid"], "states": STATE_INFO,
            "nat": [[int(nat.loc[y, c]) for c in TEN] for y in YEARS],
+           "acs": [f"{max(y - 1, 2015) - 4} to {max(y - 1, 2015)}" for y in YEARS],
            "eras": [{"from": e["from"], "to": e["to"], "geo": e["geo"]} for e in geo["eras"]],
            "borders": geo["borders"], "areas": areas}
     for e in out["eras"]:      # every area with data in an era has a shape, and the reverse

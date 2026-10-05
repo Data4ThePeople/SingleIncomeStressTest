@@ -40,3 +40,7 @@ None.
   legend (-$12,628 to $14,053). Open with Eric: areas with no published
   threshold (5 to 27 a year), and whether to use ACS-based thresholds for
   metros on a state figure.
+- 2026-10-05 Eric: try the ACS rent-based thresholds. Added for all 11 years
+  for metros with no Census figure of their own (default on, with a switch
+  back to Census figures only). 4,041 estimates recomputed in the tie-out, 0
+  differences. Still open: review of data/ref/spm_oews_hand.csv.

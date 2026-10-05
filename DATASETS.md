@@ -162,14 +162,9 @@ wages from one job, which is a different and rougher test. Three named metros
 in the 2024 file are no longer OEWS metros (Carbondale-Marion, East
 Stroudsburg, Pine Bluff) and go unused.
 
-**Uncertainty.** Census publishes no error for the index. Check with the public
-ACS table B25031 (`scripts/07_acs_rent_check.py`, 2024): a threshold rebuilt
-from public two-bedroom rents lands within $108 of the published one for the
-median named metro and within $1,258 for all 253. For the 106 metros on a state
-figure, their own rebuilt threshold differs from the state figure by more than
-$1,000 in 42% of cases and by more than $2,500 in 20% (largest: Sierra
-Vista-Douglas, AZ, $7,943 lower; Bremerton, WA, $7,367 higher). So the state
-figure can be well off for an individual small metro.
+**Uncertainty.** Census publishes no error for the index. A state figure can be
+well off for an individual small metro; see section 4 for the check and for
+the rent-based estimate the page uses in its place by default.
 
 **License and attribution.** Public domain. Credit: U.S. Census Bureau;
 thresholds from the Bureau of Labor Statistics.
@@ -207,8 +202,46 @@ regions), county subdivisions 2020 for the six New England states, states 2024.
 
 ## 4. ACS table B25031, median gross rent by bedrooms (Census Bureau)
 
-Used only for the check described in section 2 (`scripts/07_acs_rent_check.py`,
-2019 to 2023 5-year file, Census API). Not shown on the map. The public table
-covers all renter units paying cash rent; Census's own index is limited to
-units with complete kitchen and plumbing, which the public table cannot
-reproduce exactly.
+**What it is.** Median monthly gross rent for two-bedroom renter units, from the
+5-year American Community Survey, for every metro area and the U.S. We use it
+to estimate a metro-specific threshold for metros the SPM file does not name
+(`scripts/07_acs_thresholds.py`). The estimate applies Census's own formula
+(section 2) with index = metro rent / U.S. rent.
+
+**Where it comes from.** Census API, `api.census.gov/data/<year>/acs/acs5`,
+variable `B25031_004E`, cached in `data/raw/acs/`. Key from the shared loader.
+
+**Version and vintage.** For threshold year Y we use the 5-year file ending
+Y - 1, as Census does. The table is first published in the 2011 to 2015 file,
+so the 2015 thresholds borrow that file, one year later than Census used.
+
+**Coverage.** Used only where an OEWS metro has no Census figure of its own:
+metros on a state smaller-metro figure and metros with no published figure,
+90 to 130 a year. Measured: every such metro has a rent from 2017 on; 5 lack
+one in 2015 and 8 in 2016 (code differences) and keep the state figure. Before
+2024 New England areas use the ACS town-based areas with the same codes.
+Nonmetro areas always use the Census state nonmetro figure.
+
+**How good the estimate is.** Measured each year on the 244 to 278 metros Census
+does name: our rebuilt renter threshold differs from the published one by $38
+to $122 at the median and by $366 to $1,869 at most. It runs slightly low
+(median $6 to $114 below Census).
+
+**What it changes.** The state figure and the metro's own estimate differ by
+more than $1,000 for 16% of these metros in 2015, rising to 43% in 2025.
+Largest in 2024: Sierra Vista-Douglas, AZ ($7,943 lower than the Arizona
+figure) and Bremerton, WA ($7,367 higher than the Washington figure).
+
+**Known quirks.** The public table covers all renter units paying cash rent.
+Census's internal figure is limited to units with complete kitchen and
+plumbing, which the public table cannot reproduce. The ACS metro boundaries of
+a given vintage can differ slightly from the OEWS boundaries of the matching
+May. These are our estimates, labeled as such on the page (hatched, and named
+in the tooltip with the Census state figure beside them). The page has a
+switch back to Census figures only.
+
+**Uncertainty.** ACS medians carry sampling error, larger in small metros. Not
+shown.
+
+**License and attribution.** Public domain. Credit: U.S. Census Bureau,
+American Community Survey 5-year estimates.

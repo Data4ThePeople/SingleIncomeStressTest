@@ -99,16 +99,20 @@
   }
 
   // ---------- state ----------
-  const S = { mode: "year", meas: "dol", yi: NY - 1, from: 0, p: 2, ten: 0, cush: 10000, st: "", sel: null, hover: null, rankTab: 0 };
+  const S = { mode: "year", meas: "dol", yi: NY - 1, from: 0, p: 2, ten: 0, cush: 10000, est: true, st: "", sel: null, hover: null, rankTab: 0 };
   const era = () => ERAS[eraOf[S.yi]];
   const shapeOf = (a) => (a ? era().shapes.get(a.id) : null);
 
   // The stress test for one area and year: income, less the local threshold, less the cushion.
+  // kind of threshold in use: m named metro, s state smaller-metro figure, n state nonmetro figure,
+  // e our rent-based estimate (replaces s and x when the estimate option is on), x none
+  const kindOf = (a, i) => (S.est && a.est[i] ? "e" : a.k[i]);
   function calc(a, i) {
     if (!a.w[i]) return null;                          // not an OEWS area that year
     const inc = a.w[i][S.p];
-    if (!a.th[i]) return { inc, none: true };          // no published threshold
-    const thr = a.th[i][S.ten];
+    const k = kindOf(a, i);
+    if (k === "x") return { inc, none: true };         // no published threshold and no estimate
+    const thr = (k === "e" ? a.est[i] : a.th[i])[S.ten];
     const dol = inc - thr - S.cush;
     return { inc, thr, dol, pct: (100 * inc) / (thr + S.cush) };
   }
@@ -121,7 +125,7 @@
     if (S.mode === "year") { const v = c[S.meas]; return { v, cls: binOf(v, BINS[S.meas]), c }; }
     const b = calc(a, S.from);
     // comparable only if the area existed, had the same outline, and had the same kind of threshold in both years
-    if (!b || b.none || a.sh[S.from] !== a.sh[S.yi] || a.k[S.from] !== a.k[S.yi] || S.from === S.yi) return { cls: "nocmp", c, b };
+    if (!b || b.none || a.sh[S.from] !== a.sh[S.yi] || kindOf(a, S.from) !== kindOf(a, S.yi) || S.from === S.yi) return { cls: "nocmp", c, b };
     const v = c[S.meas] - b[S.meas];
     return { v, cls: binOf(v, BINS[S.meas + "Chg"]), c, b };
   }
@@ -129,11 +133,13 @@
 
   // ---------- colors ----------
   let C = {};
-  function hatch(bg, line, w) {
+  function hatch(bg, line, w, cross) {
     const pc = document.createElement("canvas"); pc.width = pc.height = 8;
     const x = pc.getContext("2d");
     if (bg) { x.fillStyle = bg; x.fillRect(0, 0, 8, 8); }
-    x.strokeStyle = line; x.lineWidth = w; x.beginPath(); x.moveTo(-2, 10); x.lineTo(10, -2); x.moveTo(-2, 2); x.lineTo(2, -2); x.moveTo(6, 10); x.lineTo(10, 6); x.stroke();
+    x.strokeStyle = line; x.lineWidth = w; x.beginPath(); x.moveTo(-2, 10); x.lineTo(10, -2); x.moveTo(-2, 2); x.lineTo(2, -2); x.moveTo(6, 10); x.lineTo(10, 6);
+    if (cross) { x.moveTo(-2, -2); x.lineTo(10, 10); x.moveTo(-2, 6); x.lineTo(2, 10); x.moveTo(6, -2); x.lineTo(10, 2); }
+    x.stroke();
     return bctx.createPattern(pc, "repeat");
   }
   function readColors() {
@@ -141,7 +147,7 @@
     const g = (n) => cs.getPropertyValue(n).trim();
     C = { div: VARS.map(g), nohist: g("--nohist"), hatch: g("--hatch"), mark: g("--mark"),
       edge: g("--edge"), state: g("--state"), hi: g("--hi"), panel: g("--panel"), ink3: g("--ink-3"), accent: g("--accent") };
-    C.nonePat = hatch(C.nohist, C.hatch, 1.2);          // no published threshold, or no comparable figure
+    C.nonePat = hatch(C.nohist, C.hatch, 1.2, true);    // crosshatch: no threshold, or no comparable figure
     C.markPat = hatch(null, C.mark, 1);                 // overlay: metro on its state's figure for smaller metros
   }
   const colorOf = (val) => (shaded(val) ? C.div[val.cls] : C.nonePat);
@@ -223,7 +229,7 @@
       c.globalAlpha = dim && s.a.s !== dim ? 0.3 : 1;
       c.fillStyle = colorOf(v);
       c.fill(s.path, "evenodd");
-      if (shaded(v) && s.a.k[S.yi] === "s") { c.fillStyle = C.markPat; c.fill(s.path, "evenodd"); }
+      if (shaded(v) && "se".includes(kindOf(s.a, S.yi))) { c.fillStyle = C.markPat; c.fill(s.path, "evenodd"); }
       c.stroke(s.path);
     }
     c.globalAlpha = 1;
@@ -313,11 +319,13 @@
   }
   // where the threshold comes from, in plain words
   function sourceLine(a, i) {
-    const k = a.k[i];
+    const k = kindOf(a, i);
+    if (k === "e") return `Threshold: our estimate from this metro's median two-bedroom rent ($${nf.format(a.r2[i])} a month, ${DATA.acs[i]} American Community Survey), using the Census formula. `
+      + (a.th[i] ? `Census's figure for ${a.sp[i].replace(/ Metro$/, "")}'s smaller metros combined is ${usd(a.th[i][S.ten])}.` : "Census publishes no figure that covers this metro.");
     if (k === "m") return `Threshold: Census figure for the ${a.sp[i].replace(/ MSA$/, "")} metro area.`;
     if (k === "s") return `Threshold: Census figure for ${a.sp[i].replace(/ Metro$/, "")}'s smaller metros combined. None is published for this metro alone.`;
     if (k === "n") return `Threshold: Census figure for nonmetro ${a.sp[i].replace(/ Nonmetro$/, "")}.`;
-    return "Census publishes no threshold that covers this area in this year.";
+    return "Census publishes no threshold that covers this area in this year, and there is no rent figure to estimate one.";
   }
   function mathTable(a, i, c) {
     return `<table class="math"><tr><td>Annual income, ${PCT_NAME[S.p]}</td><td>${usd(c.inc)}</td></tr>`
@@ -402,9 +410,11 @@
     if (have.length < NY) notes.push(`In the wage data as a separate area from ${YEARS[have[0]]} to ${YEARS[have[have.length - 1]]}.`);
     const ch = []; for (let j = 1; j < have.length; j++) if (a.sh[have[j]] !== a.sh[have[j - 1]]) ch.push(YEARS[have[j]]);
     if (ch.length) notes.push(`Boundaries redrawn in ${ch.join(" and ")} (dotted line); figures before and after cover different places.`);
-    const st = have.filter((i) => a.k[i] === "s").map((i) => YEARS[i]), no = have.filter((i) => a.k[i] === "x").map((i) => YEARS[i]);
+    const st = have.filter((i) => kindOf(a, i) === "s").map((i) => YEARS[i]), no = have.filter((i) => kindOf(a, i) === "x").map((i) => YEARS[i]);
+    const es = have.filter((i) => kindOf(a, i) === "e").map((i) => YEARS[i]);
     const span = (ys) => (ys.length === 1 ? `${ys[0]}` : ys[ys.length - 1] - ys[0] === ys.length - 1 ? `${ys[0]} to ${ys[ys.length - 1]}` : ys.join(", "));
     if (st.length && st.length < have.length) notes.push(`Threshold is the state's smaller-metro figure in ${span(st)}.`);
+    if (es.length && es.length < have.length) notes.push(`Threshold is our rent-based estimate in ${span(es)}, and a Census figure for this metro in the other years.`);
     if (no.length) notes.push(`No published threshold in ${span(no)}.`);
     return notes.join(" ");
   }
@@ -435,8 +445,8 @@
     let h = `<h2>${esc(title)}</h2><div class="unit" style="display:flex;justify-content:space-between"><span>${ends[0]}</span><span>${ends[1]}</span></div>`
       + `<div class="strip">${C.div.map((c) => `<span style="background:${c}"></span>`).join("")}</div>`
       + `<div class="ticks">${edges.map((t, i) => `<span style="left:${((i + 1) / C.div.length) * 100}%">${t}</span>`).join("")}</div>`;
-    h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,${C.div[3]} 0 3px,${C.mark} 3px 4px)"></span>Metro on a state-level threshold</div>`;
-    h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,${C.nohist} 0 3px,${C.hatch} 3px 4.5px)"></span>${S.mode === "year" ? "No published threshold" : "No comparable figure"}</div>`;
+    h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,${C.div[3]} 0 3px,${C.mark} 3px 4px)"></span>${S.est ? "Threshold is our estimate from local rents" : "Metro on a state-level threshold"}</div>`;
+    h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,transparent 0 3px,${C.hatch} 3px 4.5px),repeating-linear-gradient(45deg,${C.nohist} 0 3px,${C.hatch} 3px 4.5px)"></span>${S.mode === "year" ? "No published threshold" : "No comparable figure"}</div>`;
     el.innerHTML = h;
   }
 
@@ -522,6 +532,7 @@
   $("mPct").onclick = () => { S.meas = "pct"; press("mPct", "mDol"); update(); };
   $("pct").onchange = () => { S.p = +$("pct").value; update(); };
   $("ten").onchange = () => { S.ten = +$("ten").value; update(); };
+  $("est").onchange = () => { S.est = $("est").value === "1"; update(); };
   $("cush").oninput = () => { S.cush = +$("cush").value; update(); };
   const yr = $("year");
   yr.max = NY - 1; yr.value = S.yi;
@@ -555,7 +566,7 @@
   stSel.onchange = () => { S.st = stSel.value; home(); update(); };
   $("reset").onclick = () => {
     stopPlay(); S.st = ""; stSel.value = ""; S.sel = null; S.hover = null; S.yi = NY - 1; yr.value = S.yi;
-    S.p = 2; $("pct").value = 2; S.ten = 0; $("ten").value = 0; S.cush = 10000; $("cush").value = 10000; S.meas = "dol"; press("mDol", "mPct");
+    S.p = 2; $("pct").value = 2; S.ten = 0; $("ten").value = 0; S.cush = 10000; $("cush").value = 10000; S.meas = "dol"; press("mDol", "mPct"); S.est = true; $("est").value = "1";
     S.from = 0; fromSel.value = 0; hideTip(); home(); setMode("year");
   };
 
@@ -598,6 +609,7 @@
   if (hs.get("p") && +hs.get("p") >= 0 && +hs.get("p") <= 4) { S.p = +hs.get("p"); $("pct").value = S.p; }
   if (hs.get("c") && +hs.get("c") >= 0 && +hs.get("c") <= 25000) { S.cush = +hs.get("c"); $("cush").value = S.cush; }
   if (hs.get("m") === "pct") { S.meas = "pct"; press("mPct", "mDol"); }
+  if (hs.get("est") === "0") { S.est = false; $("est").value = "0"; }
   computeVals();
   $("loading").remove();
   new ResizeObserver(resize).observe(wrap);
