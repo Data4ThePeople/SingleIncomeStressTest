@@ -1,5 +1,5 @@
 ---
-title: "The Single Income Stress Test"
+title: "The Single Income Stress Test: Can a Family Live on One Income Where You Live?"
 subtitle: A free, interactive map of whether one paycheck clears the local poverty threshold for a family, with money left for surprise expenses, in every U.S. metro and rural area from 2015 to 2025.
 slug: stress-test-viz
 date: 2026-10-06
@@ -7,9 +7,9 @@ updated: 2026-10-06
 section: Visualization
 hero: images/stress-test-viz-hero-1680x1080.png
 hero_alt: Map of U.S. metro and rural areas in 2025 on a dark background, titled One income, less the local poverty threshold, less $10,000. Areas run from deep red (short by $10,000 or more) through pale yellow (near break-even) to deep teal ($10,000 or more to spare). Red covers much of California, Florida and the Southeast; teal covers the upper Midwest and Northeast. Beside it: The Single Income Stress Test, 49% of jobs are in areas where one median paycheck falls short. Data 4 The People.
-meta_title: "Can One Income Support a Family? Map by City, 2015-2025"
+meta_title: "Can a Family Live on One Income? Map by City, 2015-2025"
 description: "Free interactive map: does one paycheck cover the local poverty threshold plus a cushion for surprises? Every U.S. metro and rural area, 2015 to 2025."
-keywords: can one income support a family, single income family, cost of living by city, poverty threshold by city, supplemental poverty measure by metro area, median wage by city, how much does a family of four need, one income household map
+keywords: can a family live on one income, cities where you can live on one income, can a family of 4 survive on one income, single income family, cost of living vs median income by city, poverty line by city, supplemental poverty measure by metro area, one income household map
 schema_type: dataset
 dataset_name: Single income excess or shortfall against local Supplemental Poverty Measure thresholds, U.S. metro and nonmetro areas, 2015 to 2025
 dataset_description: "Annual pay at the 10th, 25th, 50th, 75th and 90th percentiles for every U.S. metro and nonmetro area, May 2015 to May 2025, from BLS Occupational Employment and Wage Statistics, set against the Census Bureau's Supplemental Poverty Measure threshold for the area and year, by housing status. Metro areas with no Census threshold of their own carry an estimate built from American Community Survey two-bedroom rents with the Census formula. Each year is on that year's area boundaries."
@@ -32,7 +32,7 @@ caption_spacer: 20px
 dividers: false
 ---
 
-# The Single Income Stress Test
+# The Single Income Stress Test: Can a Family Live on One Income Where You Live?
 
 <iframe src="https://data4thepeople.github.io/SingleIncomeStressTest/?v=20261005a#embed=1" width="100%" height="780" loading="lazy" style="border:0" title="The Single Income Stress Test: interactive map, 2015 to 2025"></iframe>
 
@@ -108,7 +108,7 @@ Family size and housing matter as well. For one adult with two children, the med
 
 Thresholds rose faster than pay over these years. The national threshold for renters with two adults and two children went from $25,583 in 2015 to $41,701 in 2025, an increase of 63.0%. Among the 290 areas we can compare across both years, the median wage rose 45.8% in the typical area and the local threshold rose 60.9%. The wage rose faster than the threshold in 5 of the 290. The threshold follows what families spend on basics, so it can rise faster than prices.
 
-### Where one income falls shortest and goes furthest
+### Cities where one income goes furthest, and where it falls short
 
 These rankings use 2025, the median earner, two adults and two children, renters, and a $10,000 cushion.
 
@@ -149,7 +149,7 @@ Every chart we publish should be something you can check, question and rebuild y
 
 ::: spacer
 
-**Occupational Employment and Wage Statistics (OEWS), U.S. Bureau of Labor Statistics.** A survey of employers that reports pay for every metro and nonmetro area. We use the figures for all occupations combined: annual pay at the 10th, 25th, 50th, 75th and 90th percentiles, and the number of jobs, for each May from 2015 to 2025.
+**Occupational Employment and Wage Statistics (OEWS), U.S. Bureau of Labor Statistics.** A survey of employers that reports pay for every metro and nonmetro area. We use the figures for all occupations combined: annual pay at the 10th, 25th, 50th, 75th and 90th percentiles, and the number of jobs, for each May from 2015 to 2025. The same survey is behind our [chart of wage inequality by city and state](https://www.data4thepeople.com/p/lorenz-chart-viz).
 
 **Supplemental Poverty Measure thresholds by metro area, U.S. Census Bureau.** For each year from 2015 to 2025, the poverty threshold for two adults and two children, for renters, owners with a mortgage and owners without one. The Bureau of Labor Statistics sets the national figure and the Census Bureau adjusts it for local rents.
 
@@ -274,15 +274,24 @@ One person's annual pay, less the local poverty threshold for their family, less
 
 ### Which poverty threshold does it use?
 
-The Census Bureau's Supplemental Poverty Measure threshold, which is higher where rents are higher. In 2025 the national figure for two adults and two children who rent was $41,701. It is not the official poverty line, which is the same everywhere in the country.
+The Census Bureau's Supplemental Poverty Measure threshold, which is higher where rents are higher. In 2025 the national figure for two adults and two children who rent was $41,701. It is not the official poverty line, which is the same everywhere in the country. We wrote about how the official line was built in [Frozen in 1963](https://www.data4thepeople.com/p/frozen-in-1963/).
 
 ### Does a shortfall mean a family is in poverty?
 
 No. The test uses one job's pay before taxes. It leaves out a second earner, tax credits and aid, and it leaves out taxes, child care and medical costs. It shows how far one paycheck goes against a local standard.
 
-### Can one income support a family of four?
+### Can a family of four live on one income?
 
 It depends on where and on the paycheck. In 2025, a median earner with two adults and two children in a rented home and a $10,000 cushion falls short in 283 of 521 areas, which hold 49% of the jobs. With no cushion, the same paycheck falls short in 5.
+
+
+### Where can a family live on one income?
+
+By this test, in 2025 the median paycheck covers the local threshold for two adults and two children and a $10,000 cushion in 238 of 521 areas. The most room is in the West North Dakota nonmetropolitan area, San Jose, CA, Seattle, WA, Rochester, MN and Washington, DC. The test is against a poverty threshold plus a cushion, not a comfortable budget.
+
+### Is there a poverty line for my city?
+
+The official poverty line is the same everywhere in the country. The Census Bureau's Supplemental Poverty Measure threshold is not. It is higher where rents are higher, and this map shows it for every metro and rural area. Point at an area, or search for it, to see its figure.
 
 ### Is it getting better or worse?
 

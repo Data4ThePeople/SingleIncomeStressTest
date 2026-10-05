@@ -95,3 +95,8 @@ None.
   no target searches, so Claude proposed them; meta title, description,
   keywords and dataset fields written; schema has Dataset, WebApplication and
   FAQPage with 13 questions. Three text proposals waiting for accept or reject.
+- 2026-10-05 2e: search assessment from live results and Google suggestions (no
+  volume tool). Main target: the "live on one income" searches. Eric accepted
+  all: new title and H1, meta title, rankings heading, one question reworded,
+  two questions added, keywords, and two internal links. State-level table
+  deferred by Eric.
