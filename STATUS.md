@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2b
+Step: 2c
 Since: 2026-10-05
 
 ## Steps
@@ -15,7 +15,7 @@ Since: 2026-10-05
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-05 | Viz live on Pages; tie-out and independent tie-out clean |
 | 2a | Draft with brackets resolved | 2026-10-05 | Written by Claude in the rebuild-post format at Eric's request |
-| 2b | Eric's edit, Claude's look-over | | |
+| 2b | Eric's edit, Claude's look-over | 2026-10-05 | No edits from Eric; six look-over edits proposed, waiting for accept or reject by number |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
@@ -79,3 +79,8 @@ None.
   says otherwise: date October 6, 2026; no link to the old-method PDF; Step 1
   names the Cleveland and Prescott differences; no tutorial video in the post
   until he sends the YouTube link.
+- 2026-10-05 Step 2b: Eric had no edits. Look-over found no number mismatches
+  and proposed six wording edits; Eric said "good", edits not yet accepted by
+  number, so none applied.
+- 2026-10-05 Step 2c: convert-only run. 89 slices: 1 embed, 3 blurbs, 41 text,
+  43 spacers, 1 divider. Same structure as children-poverty-viz.
