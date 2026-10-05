@@ -1,0 +1,384 @@
+area,name,wage_diff,published_thr,published_row,census_thr,census_row,kind,thr_diff,our_estimate,median_wage,published_result_50,census_result_50,page_default_result_50
+10180,"Abilene, TX",,36408,"Abilene, TX MSA",36408.0,"Abilene, TX MSA",named metro,0.0,,42120,-4288,-4288.0,-4288
+10420,"Akron, OH",,35430,"Akron, OH MSA / Racine, WI MSA",35430.0,"Akron, OH MSA",named metro,0.0,,47530,2100,2100.0,2100
+10500,"Albany, GA",,33351,Georgia Metro,33351.0,Georgia Metro,state smaller-metro figure,0.0,32955.0,40590,-2761,-2761.0,-2365
+10540,"Albany, OR",,39133,"Odessa, TX MSA / Oregon Metro / Salem, OR MSA",39133.0,Oregon Metro,state smaller-metro figure,0.0,38307.0,48010,-1123,-1123.0,-297
+10580,"Albany-Schenectady-Troy, NY",,39168,"Albany-Schenectady-Troy, NY MSA / Gainesville, FL MSA / Providence-Warwick, RI-MA MSA",39168.0,"Albany-Schenectady-Troy, NY MSA",named metro,0.0,,56460,7292,7292.0,7292
+10740,"Albuquerque, NM",,36478,"Albuquerque, NM MSA / Clarksville, TN-KY MSA / Monroe, MI MSA",36478.0,"Albuquerque, NM MSA",named metro,0.0,,46940,462,462.0,462
+10780,"Alexandria, LA",,34120,"Louisiana Metro / McAllen-Edinburg-Mission, TX MSA",34120.0,Louisiana Metro,state smaller-metro figure,0.0,33477.0,39510,-4610,-4610.0,-3967
+10900,"Allentown-Bethlehem-Easton, PA-NJ",,39867,"Allentown-Bethlehem-Easton, PA-NJ MSA / Durham-Chapel Hill, NC MSA",39867.0,"Allentown-Bethlehem-Easton, PA-NJ MSA",named metro,0.0,,47770,-2097,-2097.0,-2097
+11020,"Altoona, PA",,35203,Pennsylvania Metro,35203.0,Pennsylvania Metro,state smaller-metro figure,0.0,33138.0,43100,-2103,-2103.0,-38
+11100,"Amarillo, TX",,35674,"Amarillo, TX MSA",35674.0,"Amarillo, TX MSA",named metro,0.0,,42060,-3614,-3614.0,-3614
+11180,"Ames, IA",,34958,"Iowa Metro / Sioux Falls, SD MSA",34958.0,Iowa Metro,state smaller-metro figure,0.0,34887.0,48860,3902,3902.0,3973
+11200,"Amherst Town-Northampton, MA",,36688,Massachusetts Metro,36688.0,Massachusetts Metro,state smaller-metro figure,0.0,40735.0,56860,10172,10172.0,6125
+11460,"Ann Arbor, MI",,41456,"Ann Arbor, MI MSA",41456.0,"Ann Arbor, MI MSA",named metro,0.0,,51990,534,534.0,534
+11500,"Anniston-Oxford, AL",,31622,Alabama Nonmetro,,,none published,,32185.0,39610,-2012,,-2575
+11540,"Appleton, WI",,35290,"Appleton, WI MSA / Bloomington, IL MSA / Green Bay, WI MSA",35290.0,"Appleton, WI MSA",named metro,0.0,,48490,3200,3200.0,3200
+11700,"Asheville, NC",,37351,"Asheville, NC MSA / Grand Rapids-Wyoming, MI MSA / Pensacola-Ferry Pass-Brent, FL MSA",37351.0,"Asheville, NC MSA",named metro,0.0,,44990,-2361,-2361.0,-2361
+12020,"Athens-Clarke County, GA",,36897,"Athens-Clarke County, GA MSA",36897.0,"Athens-Clarke County, GA MSA",named metro,0.0,,39340,-7557,-7557.0,-7557
+12060,"Atlanta-Sandy Springs-Roswell, GA",,41945,"Atlanta-Sandy Springs-Roswell, GA MSA",41945.0,"Atlanta-Sandy Springs-Roswell, GA MSA",named metro,0.0,,49770,-2175,-2175.0,-2175
+12100,"Atlantic City-Hammonton, NJ",,40216,"Atlantic City-Hammonton, NJ MSA / Greeley, CO MSA",40216.0,"Atlantic City-Hammonton, NJ MSA",named metro,0.0,,46290,-3926,-3926.0,-3926
+12220,"Auburn-Opelika, AL",,34801,"Auburn-Opelika, AL MSA",34801.0,"Auburn-Opelika, AL MSA",named metro,0.0,,38060,-6741,-6741.0,-6741
+12260,"Augusta-Richmond County, GA-SC",,35273,"Augusta-Richmond County, GA-SC MSA / Fayetteville-Springdale-Rogers, AR-MO MSA",35273.0,"Augusta-Richmond County, GA-SC MSA",named metro,0.0,,44280,-993,-993.0,-993
+12420,"Austin-Round Rock-San Marcos, TX",,44461,"Austin-Round Rock, TX MSA",44461.0,"Austin-Round Rock, TX MSA",named metro,0.0,,52610,-1851,-1851.0,-1851
+12540,"Bakersfield-Delano, CA",,36723,"Bakersfield, CA MSA / South Dakota Metro",36723.0,"Bakersfield, CA MSA",named metro,0.0,,46930,207,207.0,207
+12580,"Baltimore-Columbia-Towson, MD",,43168,"Baltimore-Columbia-Towson, MD MSA / Orlando-Kissimmee-Sanford, FL MSA",43168.0,"Baltimore-Columbia-Towson, MD MSA",named metro,0.0,,57340,4172,4172.0,4172
+12620,"Bangor, ME",,36233,"Bangor, ME MSA",36233.0,"Bangor, ME MSA",named metro,0.0,,47120,887,887.0,887
+12700,"Barnstable Town, MA",,44583,"Barnstable Town, MA MSA",44583.0,"Barnstable Town, MA MSA",named metro,0.0,,53640,-943,-943.0,-943
+12940,"Baton Rouge, LA",,36251,"Baton Rouge, LA MSA",36251.0,"Baton Rouge, LA MSA",named metro,0.0,,47940,1689,1689.0,1689
+12980,"Battle Creek, MI",,35081,"Battle Creek, MI MSA / Wyoming Metro",35081.0,"Battle Creek, MI MSA",named metro,0.0,,48200,3119,3119.0,3119
+13020,"Bay City, MI",,34347,Michigan Metro,34347.0,Michigan Metro,state smaller-metro figure,0.0,33151.0,41940,-2407,-2407.0,-1211
+13140,"Beaumont-Port Arthur, TX",,35587,"Beaumont-Port Arthur, TX MSA / Champaign-Urbana, IL MSA / Minnesota Metro",35587.0,"Beaumont-Port Arthur, TX MSA",named metro,0.0,,46740,1153,1153.0,1153
+13220,"Beckley, WV",,32810,"Georgia Nonmetro / Fort Smith, AR-OK MSA / Pine Bluff, AR MSA / West Virginia Metro",32810.0,West Virginia Metro,state smaller-metro figure,0.0,32211.0,38460,-4350,-4350.0,-3751
+13380,"Bellingham, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,41245.0,54860,7823,7823.0,3615
+13460,"Bend, OR",,42085,"Bend-Redmond, OR MSA",42085.0,"Bend-Redmond, OR MSA",named metro,0.0,,50620,-1465,-1465.0,-1465
+13740,"Billings, MT",,35797,"Billings, MT MSA",35797.0,"Billings, MT MSA",named metro,0.0,,47640,1843,1843.0,1843
+13780,"Binghamton, NY",,34452,"Binghamton, NY MSA",34452.0,"Binghamton, NY MSA",named metro,0.0,,48380,3928,3928.0,3928
+13820,"Birmingham, AL",,36006,"Birmingham-Hoover, AL MSA / Iowa City, IA MSA",36006.0,"Birmingham-Hoover, AL MSA",named metro,0.0,,46330,324,324.0,324
+13900,"Bismarck, ND",,34539,"Minnesota Nonmetro / Peoria, IL MSA / North Dakota Metro",34539.0,North Dakota Metro,state smaller-metro figure,0.0,34887.0,49990,5451,5451.0,5103
+13980,"Blacksburg-Christiansburg-Radford, VA",,36181,"Blacksburg-Christiansburg-Radford, VA MSA / Lubbock, TX MSA / St. Louis, MO-IL MSA",36181.0,"Blacksburg-Christiansburg-Radford, VA MSA",named metro,0.0,,47700,1519,1519.0,1519
+14010,"Bloomington, IL",,35290,"Appleton, WI MSA / Bloomington, IL MSA / Green Bay, WI MSA",35290.0,"Bloomington, IL MSA",named metro,0.0,,51270,5980,5980.0,5980
+14020,"Bloomington, IN",,36565,"Bloomington, IN MSA / Ocala, FL MSA",36565.0,"Bloomington, IN MSA",named metro,0.0,,46430,-135,-135.0,-135
+14260,"Boise City, ID",,39081,"Boise City, ID MSA",39081.0,"Boise City, ID MSA",named metro,0.0,,47580,-1501,-1501.0,-1501
+14460,"Boston-Cambridge-Newton, MA-NH",,49090,"Boston-Cambridge-Newton, MA-NH MSA / Santa Maria-Santa Barbara, CA MSA",49090.0,"Boston-Cambridge-Newton, MA-NH MSA",named metro,0.0,,64620,5530,5530.0,5530
+14500,"Boulder, CO",,46941,"Boulder, CO MSA",46941.0,"Boulder, CO MSA",named metro,0.0,,67510,10569,10569.0,10569
+14540,"Bowling Green, KY",,34504,"Bowling Green, KY MSA",34504.0,"Bowling Green, KY MSA",named metro,0.0,,43640,-864,-864.0,-864
+14580,"Bozeman, MT",,36146,"Montana Metro / Louisville/Jefferson County, KY-IN MSA / Syracuse, NY MSA",36146.0,Montana Metro,state smaller-metro figure,0.0,41179.0,49920,3774,3774.0,-1259
+14740,"Bremerton-Silverdale-Port Orchard, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,44404.0,61090,14053,14053.0,6686
+14860,"Bridgeport-Stamford-Danbury, CT",,46766,"Bridgeport-Stamford-Norwalk, CT MSA",46766.0,"Bridgeport-Stamford-Norwalk, CT MSA",named metro,0.0,,60440,3674,3674.0,3674
+15180,"Brownsville-Harlingen, TX",,33194,"Brownsville-Harlingen, TX MSA",33194.0,"Brownsville-Harlingen, TX MSA",named metro,0.0,,35050,-8144,-8144.0,-8144
+15260,"Brunswick-St. Simons, GA",,33351,Georgia Metro,33351.0,Georgia Metro,state smaller-metro figure,0.0,34913.0,39850,-3501,-3501.0,-5063
+15380,"Buffalo-Cheektowaga, NY",,35220,"Buffalo-Cheektowaga-Niagara Falls, NY MSA / Warner Robins, GA MSA",35220.0,"Buffalo-Cheektowaga-Niagara Falls, NY MSA",named metro,0.0,,50190,4970,4970.0,4970
+15500,"Burlington, NC",,34609,"Burlington, NC MSA",34609.0,"Burlington, NC MSA",named metro,0.0,,40980,-3629,-3629.0,-3629
+15540,"Burlington-South Burlington, VT",,43220,"Burlington-South Burlington, VT MSA",43220.0,"Burlington-South Burlington, VT MSA",named metro,0.0,,57920,4700,4700.0,4700
+15940,"Canton-Massillon, OH",,33526,"Canton-Massillon, OH MSA",33526.0,"Canton-Massillon, OH MSA",named metro,0.0,,44460,934,934.0,934
+15980,"Cape Coral-Fort Myers, FL",,41631,"Cape Coral-Fort Myers, FL MSA / Tampa-St. Petersburg-Clearwater, FL MSA",41631.0,"Cape Coral-Fort Myers, FL MSA",named metro,0.0,,45130,-6501,-6501.0,-6501
+16020,"Cape Girardeau, MO-IL",,32303,Missouri Metro,32303.0,Missouri Metro,state smaller-metro figure,0.0,33320.0,42060,-243,-243.0,-1260
+16180,"Carson City, NV",,41841,Nevada Metro,41841.0,Nevada Metro,state smaller-metro figure,0.0,37707.0,51830,-11,-11.0,4123
+16220,"Casper, WY",,35081,"Battle Creek, MI MSA / Wyoming Metro",35081.0,Wyoming Metro,state smaller-metro figure,0.0,34195.0,47640,2559,2559.0,3445
+16300,"Cedar Rapids, IA",,34923,"Cedar Rapids, IA MSA",34923.0,"Cedar Rapids, IA MSA",named metro,0.0,,48570,3647,3647.0,3647
+16540,"Chambersburg, PA",,35849,"Chambersburg-Waynesboro, PA MSA / Fayetteville, NC MSA",35849.0,"Chambersburg-Waynesboro, PA MSA",named metro,0.0,,46670,821,821.0,821
+16580,"Champaign-Urbana, IL",,35587,"Beaumont-Port Arthur, TX MSA / Champaign-Urbana, IL MSA / Minnesota Metro",35587.0,"Champaign-Urbana, IL MSA",named metro,0.0,,48600,3013,3013.0,3013
+16620,"Charleston, WV",,34050,"Charleston, WV MSA / Indiana Metro",34050.0,"Charleston, WV MSA",named metro,0.0,,45170,1120,1120.0,1120
+16700,"Charleston-North Charleston, SC",,41159,"Charleston-North Charleston, SC MSA",41159.0,"Charleston-North Charleston, SC MSA",named metro,0.0,,47620,-3539,-3539.0,-3539
+16740,"Charlotte-Concord-Gastonia, NC-SC",,39238,"Charlotte-Concord-Gastonia, NC-SC MSA",39238.0,"Charlotte-Concord-Gastonia, NC-SC MSA",named metro,0.0,,48880,-358,-358.0,-358
+16820,"Charlottesville, VA",,42504,"Charlottesville, VA MSA",42504.0,"Charlottesville, VA MSA",named metro,0.0,,51740,-764,-764.0,-764
+16860,"Chattanooga, TN-GA",,35937,"Chattanooga, TN-GA MSA / Jackson, MS MSA",35937.0,"Chattanooga, TN-GA MSA",named metro,0.0,,45440,-497,-497.0,-497
+16940,"Cheyenne, WY",,35081,"Battle Creek, MI MSA / Wyoming Metro",35081.0,Wyoming Metro,state smaller-metro figure,0.0,35540.0,50100,5019,5019.0,4560
+16980,"Chicago-Naperville-Elgin, IL-IN",,40094,"Chicago-Naperville-Elgin, IL-IN-WI MSA",40094.0,"Chicago-Naperville-Elgin, IL-IN-WI MSA",named metro,0.0,,51510,1416,1416.0,1416
+17020,"Chico, CA",,39517,"Chico, CA MSA",39517.0,"Chico, CA MSA",named metro,0.0,,47360,-2157,-2157.0,-2157
+17140,"Cincinnati, OH-KY-IN",,36076,"Cincinnati, OH-KY-IN MSA / Glens Falls, NY MSA / North Carolina Metro",36076.0,"Cincinnati, OH-KY-IN MSA",named metro,0.0,,48490,2414,2414.0,2414
+17300,"Clarksville, TN-KY",,36478,"Albuquerque, NM MSA / Clarksville, TN-KY MSA / Monroe, MI MSA",36478.0,"Clarksville, TN-KY MSA",named metro,0.0,,42990,-3488,-3488.0,-3488
+17410,"Cleveland, OH",,35270,no Census row has this value,35517.0,"Cleveland-Elyria, OH MSA",named metro,-247.0,,49000,3730,3483.0,3483
+17420,"Cleveland, TN",,34207,"Cleveland, TN MSA",34207.0,"Cleveland, TN MSA",named metro,0.0,,39650,-4557,-4557.0,-4557
+17660,"Coeur d'Alene, ID",,37753,"Coeur d'Alene, ID MSA / Detroit-Warren-Dearborn, MI MSA",37753.0,"Coeur d'Alene, ID MSA",named metro,0.0,,46010,-1743,-1743.0,-1743
+17780,"College Station-Bryan, TX",,35902,"College Station-Bryan, TX MSA",35902.0,"College Station-Bryan, TX MSA",named metro,0.0,,43010,-2892,-2892.0,-2892
+17820,"Colorado Springs, CO",,41648,"Colorado Springs, CO MSA",41648.0,"Colorado Springs, CO MSA",named metro,0.0,,51410,-238,-238.0,-238
+17860,"Columbia, MO",,32303,Missouri Metro,32303.0,Missouri Metro,state smaller-metro figure,0.0,34561.0,45670,3367,3367.0,1109
+17900,"Columbia, SC",,36216,"Columbia, SC MSA",36216.0,"Columbia, SC MSA",named metro,0.0,,45380,-836,-836.0,-836
+17980,"Columbus, GA-AL",,34993,"Columbus, GA-AL MSA",34993.0,"Columbus, GA-AL MSA",named metro,0.0,,40780,-4213,-4213.0,-4213
+18020,"Columbus, IN",,34050,"Charleston, WV MSA / Indiana Metro",34050.0,Indiana Metro,state smaller-metro figure,0.0,37563.0,46490,2440,2440.0,-1073
+18140,"Columbus, OH",,38382,"Columbus, OH MSA / Fresno, CA MSA / Springfield, MA MSA",38382.0,"Columbus, OH MSA",named metro,0.0,,49510,1128,1128.0,1128
+18580,"Corpus Christi, TX",,38364,"Corpus Christi, TX MSA / Vineland-Bridgeton, NJ MSA",38364.0,"Corpus Christi, TX MSA",named metro,0.0,,43770,-4594,-4594.0,-4594
+18700,"Corvallis, OR",,39133,"Odessa, TX MSA / Oregon Metro / Salem, OR MSA",39133.0,Oregon Metro,state smaller-metro figure,0.0,39926.0,54310,5177,5177.0,4384
+18880,"Crestview-Fort Walton Beach-Destin, FL",,34696,Florida Metro / Michigan Nonmetro,34696.0,Florida Metro,state smaller-metro figure,0.0,39900.0,45980,1284,1284.0,-3920
+19100,"Dallas-Fort Worth-Arlington, TX",,42260,"Dallas-Fort Worth-Arlington, TX MSA",42260.0,"Dallas-Fort Worth-Arlington, TX MSA",named metro,0.0,,49740,-2520,-2520.0,-2520
+19140,"Dalton, GA",,33351,Georgia Metro,33351.0,Georgia Metro,state smaller-metro figure,0.0,32746.0,40820,-2531,-2531.0,-1926
+19300,"Daphne-Fairhope-Foley, AL",,37369,"Daphne-Fairhope-Foley, AL MSA",37369.0,"Daphne-Fairhope-Foley, AL MSA",named metro,0.0,,37430,-9939,-9939.0,-9939
+19340,"Davenport-Moline-Rock Island, IA-IL",,34190,"Davenport-Moline-Rock Island, IA-IL MSA / Maine Nonmetro",34190.0,"Davenport-Moline-Rock Island, IA-IL MSA",named metro,0.0,,47470,3280,3280.0,3280
+19430,"Dayton-Kettering-Beavercreek, OH",,34749,"Dayton, OH MSA / Idaho Falls, ID MSA / Roanoke, VA MSA",34749.0,"Dayton, OH MSA",named metro,0.0,,48580,3831,3831.0,3831
+19460,"Decatur, AL",,31622,Alabama Nonmetro,,,none published,,32341.0,44470,2848,,2129
+19500,"Decatur, IL",,34295,"Illinois Metro / Wichita Falls, TX MSA",34295.0,Illinois Metro,state smaller-metro figure,0.0,32746.0,49640,5345,5345.0,6894
+19660,"Deltona-Daytona Beach-Ormond Beach, FL",,39570,"Deltona-Daytona Beach-Ormond Beach, FL MSA / Winchester, VA-WV MSA",39570.0,"Deltona-Daytona Beach-Ormond Beach, FL MSA",named metro,0.0,,41750,-7820,-7820.0,-7820
+19740,"Denver-Aurora-Centennial, CO",,46714,"Denver-Aurora-Lakewood, CO MSA",46714.0,"Denver-Aurora-Lakewood, CO MSA",named metro,0.0,,61110,4396,4396.0,4396
+19780,"Des Moines-West Des Moines, IA",,36810,"Des Moines-West Des Moines, IA MSA / Indianapolis-Carmel-Anderson, IN MSA / Vermont Nonmetro",36810.0,"Des Moines-West Des Moines, IA MSA",named metro,0.0,,50450,3640,3640.0,3640
+19820,"Detroit-Warren-Dearborn, MI",,37753,"Coeur d'Alene, ID MSA / Detroit-Warren-Dearborn, MI MSA",37753.0,"Detroit-Warren-Dearborn, MI MSA",named metro,0.0,,50740,2987,2987.0,2987
+20020,"Dothan, AL",,31622,Alabama Nonmetro,,,none published,,32459.0,36730,-4892,,-5729
+20100,"Dover, DE",,37980,"Dover, DE MSA",37980.0,"Dover, DE MSA",named metro,0.0,,45190,-2790,-2790.0,-2790
+20220,"Dubuque, IA",,34958,"Iowa Metro / Sioux Falls, SD MSA",34958.0,Iowa Metro,state smaller-metro figure,0.0,34456.0,47910,2952,2952.0,3454
+20260,"Duluth, MN-WI",,35587,"Beaumont-Port Arthur, TX MSA / Champaign-Urbana, IL MSA / Minnesota Metro",35587.0,Minnesota Metro,state smaller-metro figure,0.0,35122.0,48610,3023,3023.0,3488
+20500,"Durham-Chapel Hill, NC",,39867,"Allentown-Bethlehem-Easton, PA-NJ MSA / Durham-Chapel Hill, NC MSA",39867.0,"Durham-Chapel Hill, NC MSA",named metro,0.0,,59740,9873,9873.0,9873
+20580,"Eagle Pass, TX",,36268,Texas Metro,36268.0,Texas Metro,state smaller-metro figure,0.0,32041.0,33640,-12628,-12628.0,-8401
+20740,"Eau Claire, WI",,33456,Wisconsin Nonmetro,,,none published,,34809.0,47370,3914,,2561
+20940,"El Centro, CA",,38801,California Nonmetro,,,none published,,35187.0,44470,-4331,,-717
+21060,"Elizabethtown, KY",,33421,Kentucky Metro,33421.0,Kentucky Metro,state smaller-metro figure,0.0,33190.0,44810,1389,1389.0,1620
+21140,"Elkhart-Goshen, IN",,35098,"Elkhart-Goshen, IN MSA",35098.0,"Elkhart-Goshen, IN MSA",named metro,0.0,,47050,1952,1952.0,1952
+21300,"Elmira, NY",,33963,New York Nonmetro,,,none published,,35670.0,47220,3257,,1550
+21340,"El Paso, TX",,34906,"El Paso, TX MSA / Topeka, KS MSA",34906.0,"El Paso, TX MSA",named metro,0.0,,37880,-7026,-7026.0,-7026
+21420,"Enid, OK",,30923,Oklahoma Metro,30923.0,Oklahoma Metro,state smaller-metro figure,0.0,33568.0,38790,-2133,-2133.0,-4778
+21500,"Erie, PA",,33893,"Erie, PA MSA",33893.0,"Erie, PA MSA",named metro,0.0,,43410,-483,-483.0,-483
+21660,"Eugene-Springfield, OR",,39116,"Eugene, OR MSA",39116.0,"Eugene, OR MSA",named metro,0.0,,48200,-916,-916.0,-916
+21780,"Evansville, IN",,35168,"Evansville, IN-KY MSA / Texas Nonmetro / Utah Metro",35168.0,"Evansville, IN-KY MSA",named metro,0.0,,45220,52,52.0,52
+22020,"Fargo, ND-MN",,34469,"Fargo, ND-MN MSA / Mississippi Metro / Shreveport-Bossier City, LA MSA",34469.0,"Fargo, ND-MN MSA",named metro,0.0,,49690,5221,5221.0,5221
+22140,"Farmington, NM",,33543,"Farmington, NM MSA / Utah Nonmetro",33543.0,"Farmington, NM MSA",named metro,0.0,,43620,77,77.0,77
+22180,"Fayetteville, NC",,35849,"Chambersburg-Waynesboro, PA MSA / Fayetteville, NC MSA",35849.0,"Fayetteville, NC MSA",named metro,0.0,,44600,-1249,-1249.0,-1249
+22220,"Fayetteville-Springdale-Rogers, AR",,35273,"Augusta-Richmond County, GA-SC MSA / Fayetteville-Springdale-Rogers, AR-MO MSA",35273.0,"Fayetteville-Springdale-Rogers, AR-MO MSA",named metro,0.0,,44870,-403,-403.0,-403
+22380,"Flagstaff, AZ",,41316,Arizona Metro,41316.0,Arizona Metro,state smaller-metro figure,0.0,41075.0,45900,-5416,-5416.0,-5175
+22420,"Flint, MI",,34574,"Flint, MI MSA",34574.0,"Flint, MI MSA",named metro,0.0,,45010,436,436.0,436
+22500,"Florence, SC",,33019,"Florence, SC MSA",33019.0,"Florence, SC MSA",named metro,0.0,,40200,-2819,-2819.0,-2819
+22520,"Florence-Muscle Shoals, AL",,32967,"Florence-Muscle Shoals, AL MSA",32967.0,"Florence-Muscle Shoals, AL MSA",named metro,0.0,,38640,-4327,-4327.0,-4327
+22540,"Fond du Lac, WI",,33456,Wisconsin Nonmetro,,,none published,,34913.0,49590,6134,,4677
+22660,"Fort Collins-Loveland, CO",,42661,"Fort Collins, CO MSA / North Port-Sarasota-Bradenton, FL MSA",42661.0,"Fort Collins, CO MSA",named metro,0.0,,53620,959,959.0,959
+22900,"Fort Smith, AR-OK",,32810,"Georgia Nonmetro / Fort Smith, AR-OK MSA / Pine Bluff, AR MSA / West Virginia Metro",32810.0,"Fort Smith, AR-OK MSA",named metro,0.0,,38340,-4470,-4470.0,-4470
+23060,"Fort Wayne, IN",,34731,"Fort Wayne, IN MSA / Niles-Benton Harbor, MI MSA / Spartanburg, SC MSA",34731.0,"Fort Wayne, IN MSA",named metro,0.0,,46630,1899,1899.0,1899
+23420,"Fresno, CA",,38382,"Columbus, OH MSA / Fresno, CA MSA / Springfield, MA MSA",38382.0,"Fresno, CA MSA",named metro,0.0,,45810,-2572,-2572.0,-2572
+23460,"Gadsden, AL",,31622,Alabama Nonmetro,,,none published,,32485.0,35220,-6402,,-7265
+23540,"Gainesville, FL",,39168,"Albany-Schenectady-Troy, NY MSA / Gainesville, FL MSA / Providence-Warwick, RI-MA MSA",39168.0,"Gainesville, FL MSA",named metro,0.0,,46950,-2218,-2218.0,-2218
+23580,"Gainesville, GA",,37596,"Gainesville, GA MSA / Reading, PA MSA / Sherman-Denison, TX MSA",37596.0,"Gainesville, GA MSA",named metro,0.0,,44300,-3296,-3296.0,-3296
+23900,"Gettysburg, PA",,35203,Pennsylvania Metro,35203.0,Pennsylvania Metro,state smaller-metro figure,0.0,36258.0,45160,-43,-43.0,-1098
+24020,"Glens Falls, NY",,36076,"Cincinnati, OH-KY-IN MSA / Glens Falls, NY MSA / North Carolina Metro",36076.0,"Glens Falls, NY MSA",named metro,0.0,,48360,2284,2284.0,2284
+24140,"Goldsboro, NC",,33805,"Goldsboro, NC MSA",33805.0,"Goldsboro, NC MSA",named metro,0.0,,38540,-5265,-5265.0,-5265
+24220,"Grand Forks, ND-MN",,34539,"Minnesota Nonmetro / Peoria, IL MSA / North Dakota Metro",34539.0,North Dakota Metro,state smaller-metro figure,0.0,34104.0,48280,3741,3741.0,4176
+24260,"Grand Island, NE",,35570,"Killeen-Temple, TX MSA / Nebraska Metro",35570.0,Nebraska Metro,state smaller-metro figure,0.0,34326.0,48660,3090,3090.0,4334
+24300,"Grand Junction, CO",,38452,Colorado Nonmetro,,,none published,,35683.0,47250,-1202,,1567
+24340,"Grand Rapids-Wyoming-Kentwood, MI",,37351,"Asheville, NC MSA / Grand Rapids-Wyoming, MI MSA / Pensacola-Ferry Pass-Brent, FL MSA",37351.0,"Grand Rapids-Wyoming, MI MSA",named metro,0.0,,47510,159,159.0,159
+24420,"Grants Pass, OR",,39133,"Odessa, TX MSA / Oregon Metro / Salem, OR MSA",39133.0,Oregon Metro,state smaller-metro figure,0.0,36519.0,49010,-123,-123.0,2491
+24500,"Great Falls, MT",,36146,"Montana Metro / Louisville/Jefferson County, KY-IN MSA / Syracuse, NY MSA",36146.0,Montana Metro,state smaller-metro figure,0.0,34025.0,44770,-1376,-1376.0,745
+24540,"Greeley, CO",,40216,"Atlantic City-Hammonton, NJ MSA / Greeley, CO MSA",40216.0,"Greeley, CO MSA",named metro,0.0,,52110,1894,1894.0,1894
+24580,"Green Bay, WI",,35290,"Appleton, WI MSA / Bloomington, IL MSA / Green Bay, WI MSA",35290.0,"Green Bay, WI MSA",named metro,0.0,,48580,3290,3290.0,3290
+24660,"Greensboro-High Point, NC",,35133,"Greensboro-High Point, NC MSA / Macon, GA MSA / Morgantown, WV MSA",35133.0,"Greensboro-High Point, NC MSA",named metro,0.0,,44910,-223,-223.0,-223
+24780,"Greenville, NC",,34522,"Greenville, NC MSA / Springfield, IL MSA",34522.0,"Greenville, NC MSA",named metro,0.0,,44980,458,458.0,458
+24860,"Greenville-Anderson-Greer, SC",,35971,"Greenville-Anderson-Mauldin, SC MSA",35971.0,"Greenville-Anderson-Mauldin, SC MSA",named metro,0.0,,44920,-1051,-1051.0,-1051
+25060,"Gulfport-Biloxi, MS",,34469,"Fargo, ND-MN MSA / Mississippi Metro / Shreveport-Bossier City, LA MSA",34469.0,Mississippi Metro,state smaller-metro figure,0.0,34639.0,41610,-2859,-2859.0,-3029
+25180,"Hagerstown-Martinsburg, MD-WV",,37124,"Hagerstown-Martinsburg, MD-WV MSA",37124.0,"Hagerstown-Martinsburg, MD-WV MSA",named metro,0.0,,45920,-1204,-1204.0,-1204
+25220,"Hammond, LA",,34120,"Louisiana Metro / McAllen-Edinburg-Mission, TX MSA",34120.0,Louisiana Metro,state smaller-metro figure,0.0,34587.0,36960,-7160,-7160.0,-7627
+25260,"Hanford-Corcoran, CA",,36827,"Hanford-Corcoran, CA MSA",36827.0,"Hanford-Corcoran, CA MSA",named metro,0.0,,47920,1093,1093.0,1093
+25420,"Harrisburg-Carlisle, PA",,37683,"Harrisburg-Carlisle, PA MSA",37683.0,"Harrisburg-Carlisle, PA MSA",named metro,0.0,,48510,827,827.0,827
+25500,"Harrisonburg, VA",,35028,Virginia Metro,35028.0,Virginia Metro,state smaller-metro figure,0.0,35735.0,45610,582,582.0,-125
+25540,"Hartford-West Hartford-East Hartford, CT",,41177,"Hartford-West Hartford-East Hartford, CT MSA",41177.0,"Hartford-West Hartford-East Hartford, CT MSA",named metro,0.0,,59270,8093,8093.0,8093
+25620,"Hattiesburg, MS",,34469,"Fargo, ND-MN MSA / Mississippi Metro / Shreveport-Bossier City, LA MSA",34469.0,Mississippi Metro,state smaller-metro figure,0.0,34495.0,36360,-8109,-8109.0,-8135
+25740,"Helena, MT",,36146,"Montana Metro / Louisville/Jefferson County, KY-IN MSA / Syracuse, NY MSA",36146.0,Montana Metro,state smaller-metro figure,0.0,35709.0,49300,3154,3154.0,3591
+25860,"Hickory-Lenoir-Morganton, NC",,32408,"Hickory-Lenoir-Morganton, NC MSA",32408.0,"Hickory-Lenoir-Morganton, NC MSA",named metro,0.0,,43270,862,862.0,862
+25940,"Hilton Head Island-Bluffton-Port Royal, SC",,40565,"Hilton Head Island-Bluffton-Beaufort, SC MSA / Nashville-Davidson--Murfreesboro--Franklin, TN MSA",40565.0,"Hilton Head Island-Bluffton-Beaufort, SC MSA",named metro,0.0,,40090,-10475,-10475.0,-10475
+25980,"Hinesville, GA",,33351,Georgia Metro,33351.0,Georgia Metro,state smaller-metro figure,0.0,35487.0,45840,2489,2489.0,353
+26140,"Homosassa Springs, FL",,34696,Florida Metro / Michigan Nonmetro,34696.0,Florida Metro,state smaller-metro figure,0.0,34743.0,38560,-6136,-6136.0,-6183
+26300,"Hot Springs, AR",,33718,Arkansas Metro,33718.0,Arkansas Metro,state smaller-metro figure,0.0,34038.0,36010,-7708,-7708.0,-8028
+26380,"Houma-Bayou Cane-Thibodaux, LA",,34120,"Louisiana Metro / McAllen-Edinburg-Mission, TX MSA",34120.0,Louisiana Metro,state smaller-metro figure,0.0,34913.0,44150,30,30.0,-763
+26420,"Houston-Pasadena-The Woodlands, TX",,39937,"Houston-The Woodlands-Sugar Land, TX MSA / Palm Bay-Melbourne-Titusville, FL MSA",39937.0,"Houston-The Woodlands-Sugar Land, TX MSA",named metro,0.0,,48490,-1447,-1447.0,-1447
+26580,"Huntington-Ashland, WV-KY-OH",,33561,"Huntington-Ashland, WV-KY-OH MSA",33561.0,"Huntington-Ashland, WV-KY-OH MSA",named metro,0.0,,42390,-1171,-1171.0,-1171
+26620,"Huntsville, AL",,35552,"Huntsville, AL MSA",35552.0,"Huntsville, AL MSA",named metro,0.0,,50470,4918,4918.0,4918
+26820,"Idaho Falls, ID",,34749,"Dayton, OH MSA / Idaho Falls, ID MSA / Roanoke, VA MSA",34749.0,"Idaho Falls, ID MSA",named metro,0.0,,45080,331,331.0,331
+26900,"Indianapolis-Carmel-Greenwood, IN",,36810,"Des Moines-West Des Moines, IA MSA / Indianapolis-Carmel-Anderson, IN MSA / Vermont Nonmetro",36810.0,"Indianapolis-Carmel-Anderson, IN MSA",named metro,0.0,,48210,1400,1400.0,1400
+26980,"Iowa City, IA",,36006,"Birmingham-Hoover, AL MSA / Iowa City, IA MSA",36006.0,"Iowa City, IA MSA",named metro,0.0,,49390,3384,3384.0,3384
+27060,"Ithaca, NY",,33963,New York Nonmetro,,,none published,,41506.0,56350,12387,,4844
+27100,"Jackson, MI",,34434,"Jackson, MI MSA / Toledo, OH MSA",34434.0,"Jackson, MI MSA",named metro,0.0,,46710,2276,2276.0,2276
+27140,"Jackson, MS",,35937,"Chattanooga, TN-GA MSA / Jackson, MS MSA",35937.0,"Jackson, MS MSA",named metro,0.0,,42010,-3927,-3927.0,-3927
+27180,"Jackson, TN",,32688,Tennessee Nonmetro,,,none published,,33634.0,43170,482,,-464
+27260,"Jacksonville, FL",,40461,"Jacksonville, FL MSA",40461.0,"Jacksonville, FL MSA",named metro,0.0,,47030,-3431,-3431.0,-3431
+27340,"Jacksonville, NC",,35063,"Jacksonville, NC MSA",35063.0,"Jacksonville, NC MSA",named metro,0.0,,37610,-7453,-7453.0,-7453
+27500,"Janesville-Beloit, WI",,35517,"Cleveland-Elyria, OH MSA / Janesville-Beloit, WI MSA",35517.0,"Janesville-Beloit, WI MSA",named metro,0.0,,47410,1893,1893.0,1893
+27620,"Jefferson City, MO",,32303,Missouri Metro,32303.0,Missouri Metro,state smaller-metro figure,0.0,32015.0,45440,3137,3137.0,3425
+27740,"Johnson City, TN",,33736,"Johnson City, TN MSA",33736.0,"Johnson City, TN MSA",named metro,0.0,,41170,-2566,-2566.0,-2566
+27780,"Johnstown, PA",,31814,"Johnstown, PA MSA",31814.0,"Johnstown, PA MSA",named metro,0.0,,42020,206,206.0,206
+27860,"Jonesboro, AR",,33718,Arkansas Metro,33718.0,Arkansas Metro,state smaller-metro figure,0.0,33412.0,39900,-3818,-3818.0,-3512
+27900,"Joplin, MO-KS",,32303,Missouri Metro,32303.0,Missouri Metro,state smaller-metro figure,0.0,33386.0,43610,1307,1307.0,224
+28020,"Kalamazoo-Portage, MI",,35744,"Kalamazoo-Portage, MI MSA",35744.0,"Kalamazoo-Portage, MI MSA",named metro,0.0,,47360,1616,1616.0,1616
+28100,"Kankakee, IL",,34295,"Illinois Metro / Wichita Falls, TX MSA",34295.0,Illinois Metro,state smaller-metro figure,0.0,35879.0,45260,965,965.0,-619
+28140,"Kansas City, MO-KS",,37561,"Kansas City, MO-KS MSA",37561.0,"Kansas City, MO-KS MSA",named metro,0.0,,49480,1919,1919.0,1919
+28420,"Kennewick-Richland, WA",,38155,"Kennewick-Richland, WA MSA",38155.0,"Kennewick-Richland, WA MSA",named metro,0.0,,55490,7335,7335.0,7335
+28450,"Kenosha, WI",,33456,Wisconsin Nonmetro,,,none published,,37315.0,47590,4134,,275
+28660,"Killeen-Temple, TX",,35570,"Killeen-Temple, TX MSA / Nebraska Metro",35570.0,"Killeen-Temple, TX MSA",named metro,0.0,,44610,-960,-960.0,-960
+28700,"Kingsport-Bristol, TN-VA",,32600,"Kingsport-Bristol-Bristol, TN-VA MSA",32600.0,"Kingsport-Bristol-Bristol, TN-VA MSA",named metro,0.0,,43800,1200,1200.0,1200
+28740,"Kingston, NY",,33963,New York Nonmetro,,,none published,,42472.0,49050,5087,,-3422
+28880,"Kiryas Joel-Poughkeepsie-Newburgh, NY",,33963,New York Nonmetro,,,none published,,43816.0,49730,5767,,-4086
+28940,"Knoxville, TN",,36094,"Knoxville, TN MSA",36094.0,"Knoxville, TN MSA",named metro,0.0,,45460,-634,-634.0,-634
+29020,"Kokomo, IN",,34050,"Charleston, WV MSA / Indiana Metro",34050.0,Indiana Metro,state smaller-metro figure,0.0,33999.0,47310,3260,3260.0,3311
+29100,"La Crosse-Onalaska, WI-MN",,33456,Wisconsin Nonmetro,,,none published,,35944.0,48060,4604,,2116
+29180,"Lafayette, LA",,33998,"Lafayette, LA MSA / Monroe, LA MSA / Springfield, MO MSA",33998.0,"Lafayette, LA MSA",named metro,0.0,,39600,-4398,-4398.0,-4398
+29200,"Lafayette-West Lafayette, IN",,36286,"Lafayette-West Lafayette, IN MSA",36286.0,"Lafayette-West Lafayette, IN MSA",named metro,0.0,,47070,784,784.0,784
+29340,"Lake Charles, LA",,36338,"Lake Charles, LA MSA",36338.0,"Lake Charles, LA MSA",named metro,0.0,,45170,-1168,-1168.0,-1168
+29420,"Lake Havasu City-Kingman, AZ",,41316,Arizona Metro,41316.0,Arizona Metro,state smaller-metro figure,0.0,34939.0,42320,-8996,-8996.0,-2619
+29460,"Lakeland-Winter Haven, FL",,37439,"Lakeland-Winter Haven, FL MSA",37439.0,"Lakeland-Winter Haven, FL MSA",named metro,0.0,,44610,-2829,-2829.0,-2829
+29540,"Lancaster, PA",,39028,"Lancaster, PA MSA",39028.0,"Lancaster, PA MSA",named metro,0.0,,46960,-2068,-2068.0,-2068
+29620,"Lansing-East Lansing, MI",,36530,"Lansing-East Lansing, MI MSA",36530.0,"Lansing-East Lansing, MI MSA",named metro,0.0,,50620,4090,4090.0,4090
+29700,"Laredo, TX",,34784,"Laredo, TX MSA / Montgomery, AL MSA",34784.0,"Laredo, TX MSA",named metro,0.0,,36640,-8144,-8144.0,-8144
+29740,"Las Cruces, NM",,32950,"Las Cruces, NM MSA",32950.0,"Las Cruces, NM MSA",named metro,0.0,,38620,-4330,-4330.0,-4330
+29820,"Las Vegas-Henderson-North Las Vegas, NV",,40827,"Las Vegas-Henderson-Paradise, NV MSA",40827.0,"Las Vegas-Henderson-Paradise, NV MSA",named metro,0.0,,45120,-5707,-5707.0,-5707
+29940,"Lawrence, KS",,35482,Kansas Metro,35482.0,Kansas Metro,state smaller-metro figure,0.0,35644.0,45240,-242,-242.0,-404
+30020,"Lawton, OK",,30923,Oklahoma Metro,30923.0,Oklahoma Metro,state smaller-metro figure,0.0,33307.0,40000,-923,-923.0,-3307
+30140,"Lebanon, PA",,35203,Pennsylvania Metro,35203.0,Pennsylvania Metro,state smaller-metro figure,0.0,36245.0,45810,607,607.0,-435
+30300,"Lewiston, ID-WA",,33631,Idaho Metro / Wyoming Nonmetro,33631.0,Idaho Metro,state smaller-metro figure,0.0,34326.0,47340,3709,3709.0,3014
+30340,"Lewiston-Auburn, ME",,35308,"Lewiston-Auburn, ME MSA",35308.0,"Lewiston-Auburn, ME MSA",named metro,0.0,,48070,2762,2762.0,2762
+30460,"Lexington-Fayette, KY",,35867,"Lexington-Fayette, KY MSA",35867.0,"Lexington-Fayette, KY MSA",named metro,0.0,,47580,1713,1713.0,1713
+30500,"Lexington Park, MD",,42801,"California-Lexington Park, MD MSA",42801.0,"California-Lexington Park, MD MSA",named metro,0.0,,62970,10169,10169.0,10169
+30620,"Lima, OH",,33683,Ohio Metro,33683.0,Ohio Metro,state smaller-metro figure,0.0,33803.0,46430,2747,2747.0,2627
+30700,"Lincoln, NE",,35570,"Killeen-Temple, TX MSA / Nebraska Metro",35570.0,Nebraska Metro,state smaller-metro figure,0.0,35814.0,48860,3290,3290.0,3046
+30780,"Little Rock-North Little Rock-Conway, AR",,34626,"Little Rock-North Little Rock-Conway, AR MSA",34626.0,"Little Rock-North Little Rock-Conway, AR MSA",named metro,0.0,,44730,104,104.0,104
+30860,"Logan, UT-ID",,35168,"Evansville, IN-KY MSA / Texas Nonmetro / Utah Metro",35168.0,Utah Metro,state smaller-metro figure,0.0,34965.0,44770,-398,-398.0,-195
+30980,"Longview, TX",,35692,"Longview, TX MSA / Oklahoma City, OK MSA",35692.0,"Longview, TX MSA",named metro,0.0,,42710,-2982,-2982.0,-2982
+31020,"Longview-Kelso, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,36702.0,54120,7083,7083.0,7418
+31080,"Los Angeles-Long Beach-Anaheim, CA",,49910,"Los Angeles-Long Beach-Anaheim, CA MSA",49910.0,"Los Angeles-Long Beach-Anaheim, CA MSA",named metro,0.0,,53490,-6420,-6420.0,-6420
+31140,"Louisville/Jefferson County, KY-IN",,36146,"Montana Metro / Louisville/Jefferson County, KY-IN MSA / Syracuse, NY MSA",36146.0,"Louisville/Jefferson County, KY-IN MSA",named metro,0.0,,47750,1604,1604.0,1604
+31180,"Lubbock, TX",,36181,"Blacksburg-Christiansburg-Radford, VA MSA / Lubbock, TX MSA / St. Louis, MO-IL MSA",36181.0,"Lubbock, TX MSA",named metro,0.0,,39560,-6621,-6621.0,-6621
+31340,"Lynchburg, VA",,35028,Virginia Metro,35028.0,Virginia Metro,state smaller-metro figure,0.0,33816.0,45440,412,412.0,1624
+31420,"Macon-Bibb County, GA",,35133,"Greensboro-High Point, NC MSA / Macon, GA MSA / Morgantown, WV MSA",35133.0,"Macon, GA MSA",named metro,0.0,,43680,-1453,-1453.0,-1453
+31540,"Madison, WI",,39535,"Madison, WI MSA",39535.0,"Madison, WI MSA",named metro,0.0,,54620,5085,5085.0,5085
+31700,"Manchester-Nashua, NH",,43308,"Manchester-Nashua, NH MSA",43308.0,"Manchester-Nashua, NH MSA",named metro,0.0,,54410,1102,1102.0,1102
+31740,"Manhattan, KS",,35482,Kansas Metro,35482.0,Kansas Metro,state smaller-metro figure,0.0,34769.0,44510,-972,-972.0,-259
+31860,"Mankato, MN",,35587,"Beaumont-Port Arthur, TX MSA / Champaign-Urbana, IL MSA / Minnesota Metro",35587.0,Minnesota Metro,state smaller-metro figure,0.0,35722.0,48060,2473,2473.0,2338
+31900,"Mansfield, OH",,33683,Ohio Metro,33683.0,Ohio Metro,state smaller-metro figure,0.0,32002.0,43730,47,47.0,1728
+32580,"McAllen-Edinburg-Mission, TX",,34120,"Louisiana Metro / McAllen-Edinburg-Mission, TX MSA",34120.0,"McAllen-Edinburg-Mission, TX MSA",named metro,0.0,,34670,-9450,-9450.0,-9450
+32780,"Medford, OR",,38417,"Medford, OR MSA",38417.0,"Medford, OR MSA",named metro,0.0,,48340,-77,-77.0,-77
+32820,"Memphis, TN-MS-AR",,36199,"Memphis, TN-MS-AR MSA",36199.0,"Memphis, TN-MS-AR MSA",named metro,0.0,,45610,-589,-589.0,-589
+32900,"Merced, CA",,38801,California Nonmetro,,,none published,,36937.0,45930,-2871,,-1007
+33100,"Miami-Fort Lauderdale-West Palm Beach, FL",,45317,"Miami-Fort Lauderdale-West Palm Beach, FL MSA",45317.0,"Miami-Fort Lauderdale-West Palm Beach, FL MSA",named metro,0.0,,47920,-7397,-7397.0,-7397
+33140,"Michigan City-La Porte, IN",,34050,"Charleston, WV MSA / Indiana Metro",34050.0,Indiana Metro,state smaller-metro figure,0.0,34130.0,44190,140,140.0,60
+33220,"Midland, MI",,34347,Michigan Metro,34347.0,Michigan Metro,state smaller-metro figure,0.0,34978.0,50650,6303,6303.0,5672
+33260,"Midland, TX",,36268,Texas Metro,36268.0,Texas Metro,state smaller-metro figure,0.0,41702.0,52320,6052,6052.0,618
+33340,"Milwaukee-Waukesha, WI",,36583,"Milwaukee-Waukesha-West Allis, WI MSA",36583.0,"Milwaukee-Waukesha-West Allis, WI MSA",named metro,0.0,,49720,3137,3137.0,3137
+33460,"Minneapolis-St. Paul-Bloomington, MN-WI",,41474,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",41474.0,"Minneapolis-St. Paul-Bloomington, MN-WI MSA",named metro,0.0,,57640,6166,6166.0,6166
+33500,"Minot, ND",,34539,"Minnesota Nonmetro / Peoria, IL MSA / North Dakota Metro",34539.0,North Dakota Metro,state smaller-metro figure,0.0,34521.0,48210,3671,3671.0,3689
+33540,"Missoula, MT",,36146,"Montana Metro / Louisville/Jefferson County, KY-IN MSA / Syracuse, NY MSA",36146.0,Montana Metro,state smaller-metro figure,0.0,36923.0,46660,514,514.0,-263
+33660,"Mobile, AL",,34976,"Mobile, AL MSA / Rockford, IL MSA / Washington Nonmetro",34976.0,"Mobile, AL MSA",named metro,0.0,,44600,-376,-376.0,-376
+33700,"Modesto, CA",,40251,"Modesto, CA MSA",40251.0,"Modesto, CA MSA",named metro,0.0,,49360,-891,-891.0,-891
+33740,"Monroe, LA",,33998,"Lafayette, LA MSA / Monroe, LA MSA / Springfield, MO MSA",33998.0,"Monroe, LA MSA",named metro,0.0,,37000,-6998,-6998.0,-6998
+33780,"Monroe, MI",,36478,"Albuquerque, NM MSA / Clarksville, TN-KY MSA / Monroe, MI MSA",36478.0,"Monroe, MI MSA",named metro,0.0,,46220,-258,-258.0,-258
+33860,"Montgomery, AL",,34784,"Laredo, TX MSA / Montgomery, AL MSA",34784.0,"Montgomery, AL MSA",named metro,0.0,,42600,-2184,-2184.0,-2184
+34060,"Morgantown, WV",,35133,"Greensboro-High Point, NC MSA / Macon, GA MSA / Morgantown, WV MSA",35133.0,"Morgantown, WV MSA",named metro,0.0,,46260,1127,1127.0,1127
+34100,"Morristown, TN",,32688,Tennessee Nonmetro,,,none published,,33216.0,40320,-2368,,-2896
+34580,"Mount Vernon-Anacortes, WA",,39884,"Massachusetts Nonmetro / Mount Vernon-Anacortes, WA MSA",39884.0,"Mount Vernon-Anacortes, WA MSA",named metro,0.0,,57480,7596,7596.0,7596
+34620,"Muncie, IN",,34050,"Charleston, WV MSA / Indiana Metro",34050.0,Indiana Metro,state smaller-metro figure,0.0,33346.0,43000,-1050,-1050.0,-346
+34740,"Muskegon-Norton Shores, MI",,35378,"Muskegon, MI MSA",35378.0,"Muskegon, MI MSA",named metro,0.0,,43140,-2238,-2238.0,-2238
+34820,"Myrtle Beach-Conway-North Myrtle Beach, SC",,36967,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC MSA",36967.0,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC MSA",named metro,0.0,,36510,-10457,-10457.0,-10457
+34900,"Napa, CA",,38801,California Nonmetro,,,none published,,51127.0,52750,3949,,-8377
+34940,"Naples-Marco Island, FL",,43605,"Naples-Immokalee-Marco Island, FL MSA",43605.0,"Naples-Immokalee-Marco Island, FL MSA",named metro,0.0,,46520,-7085,-7085.0,-7085
+34980,"Nashville-Davidson--Murfreesboro--Franklin, TN",,40565,"Hilton Head Island-Bluffton-Beaufort, SC MSA / Nashville-Davidson--Murfreesboro--Franklin, TN MSA",40565.0,"Nashville-Davidson--Murfreesboro--Franklin, TN MSA",named metro,0.0,,48840,-1725,-1725.0,-1725
+35300,"New Haven, CT",,40810,"New Haven-Milford, CT MSA",40810.0,"New Haven-Milford, CT MSA",named metro,0.0,,57600,6790,6790.0,6790
+35380,"New Orleans-Metairie, LA",,37718,"New Orleans-Metairie, LA MSA / Tallahassee, FL MSA",37718.0,"New Orleans-Metairie, LA MSA",named metro,0.0,,45970,-1748,-1748.0,-1748
+35620,"New York-Newark-Jersey City, NY-NJ",,45736,"New York-Newark-Jersey City, NY-NJ-PA MSA",45736.0,"New York-Newark-Jersey City, NY-NJ-PA MSA",named metro,0.0,,60460,4724,4724.0,4724
+35660,"Niles, MI",,34731,"Fort Wayne, IN MSA / Niles-Benton Harbor, MI MSA / Spartanburg, SC MSA",34731.0,"Niles-Benton Harbor, MI MSA",named metro,0.0,,45180,449,449.0,449
+35840,"North Port-Bradenton-Sarasota, FL",,42661,"Fort Collins, CO MSA / North Port-Sarasota-Bradenton, FL MSA",42661.0,"North Port-Sarasota-Bradenton, FL MSA",named metro,0.0,,46030,-6631,-6631.0,-6631
+35980,"Norwich-New London-Willimantic, CT",,40426,"Norwich-New London, CT MSA",40426.0,"Norwich-New London, CT MSA",named metro,0.0,,54670,4244,4244.0,4244
+36100,"Ocala, FL",,36565,"Bloomington, IN MSA / Ocala, FL MSA",36565.0,"Ocala, FL MSA",named metro,0.0,,42230,-4335,-4335.0,-4335
+36220,"Odessa, TX",,39133,"Odessa, TX MSA / Oregon Metro / Salem, OR MSA",39133.0,"Odessa, TX MSA",named metro,0.0,,47420,-1713,-1713.0,-1713
+36260,"Ogden, UT",,38661,"Ogden-Clearfield, UT MSA / St. George, UT MSA",38661.0,"Ogden-Clearfield, UT MSA",named metro,0.0,,47520,-1141,-1141.0,-1141
+36420,"Oklahoma City, OK",,35692,"Longview, TX MSA / Oklahoma City, OK MSA",35692.0,"Oklahoma City, OK MSA",named metro,0.0,,45880,188,188.0,188
+36500,"Olympia-Lacey-Tumwater, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,42916.0,60300,13263,13263.0,7384
+36540,"Omaha, NE-IA",,37247,"Omaha-Council Bluffs, NE-IA MSA",37247.0,"Omaha-Council Bluffs, NE-IA MSA",named metro,0.0,,48720,1473,1473.0,1473
+36740,"Orlando-Kissimmee-Sanford, FL",,43168,"Baltimore-Columbia-Towson, MD MSA / Orlando-Kissimmee-Sanford, FL MSA",43168.0,"Orlando-Kissimmee-Sanford, FL MSA",named metro,0.0,,45410,-7758,-7758.0,-7758
+36780,"Oshkosh-Neenah, WI",,34225,"Oshkosh-Neenah, WI MSA",34225.0,"Oshkosh-Neenah, WI MSA",named metro,0.0,,50320,6095,6095.0,6095
+36980,"Owensboro, KY",,33421,Kentucky Metro,33421.0,Kentucky Metro,state smaller-metro figure,0.0,33816.0,42740,-681,-681.0,-1076
+37100,"Oxnard-Thousand Oaks-Ventura, CA",,50714,"Oxnard-Thousand Oaks-Ventura, CA MSA",50714.0,"Oxnard-Thousand Oaks-Ventura, CA MSA",named metro,0.0,,50010,-10704,-10704.0,-10704
+37140,"Paducah, KY-IL",,33421,Kentucky Metro,33421.0,Kentucky Metro,state smaller-metro figure,0.0,33464.0,44140,719,719.0,676
+37340,"Palm Bay-Melbourne-Titusville, FL",,39937,"Houston-The Woodlands-Sugar Land, TX MSA / Palm Bay-Melbourne-Titusville, FL MSA",39937.0,"Palm Bay-Melbourne-Titusville, FL MSA",named metro,0.0,,47590,-2347,-2347.0,-2347
+37460,"Panama City-Panama City Beach, FL",,40076,"Panama City, FL MSA",40076.0,"Panama City, FL MSA",named metro,0.0,,43000,-7076,-7076.0,-7076
+37620,"Parkersburg-Vienna, WV",,32810,"Georgia Nonmetro / Fort Smith, AR-OK MSA / Pine Bluff, AR MSA / West Virginia Metro",32810.0,West Virginia Metro,state smaller-metro figure,0.0,32707.0,39690,-3120,-3120.0,-3017
+37860,"Pensacola-Ferry Pass-Brent, FL",,37351,"Asheville, NC MSA / Grand Rapids-Wyoming, MI MSA / Pensacola-Ferry Pass-Brent, FL MSA",37351.0,"Pensacola-Ferry Pass-Brent, FL MSA",named metro,0.0,,44990,-2361,-2361.0,-2361
+37900,"Peoria, IL",,34539,"Minnesota Nonmetro / Peoria, IL MSA / North Dakota Metro",34539.0,"Peoria, IL MSA",named metro,0.0,,47990,3451,3451.0,3451
+37980,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",,41613,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",41613.0,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA",named metro,0.0,,51760,147,147.0,147
+38060,"Phoenix-Mesa-Chandler, AZ",,42312,"Phoenix-Mesa-Scottsdale, AZ MSA",42312.0,"Phoenix-Mesa-Scottsdale, AZ MSA",named metro,0.0,,49840,-2472,-2472.0,-2472
+38240,"Pinehurst-Southern Pines, NC",,36076,"Cincinnati, OH-KY-IN MSA / Glens Falls, NY MSA / North Carolina Metro",36076.0,North Carolina Metro,state smaller-metro figure,0.0,36440.0,41130,-4946,-4946.0,-5310
+38300,"Pittsburgh, PA",,35640,"Maryland Nonmetro / Pittsburgh, PA MSA",35640.0,"Pittsburgh, PA MSA",named metro,0.0,,48210,2570,2570.0,2570
+38340,"Pittsfield, MA",,36688,Massachusetts Metro,36688.0,Massachusetts Metro,state smaller-metro figure,0.0,36662.0,49970,3282,3282.0,3308
+38540,"Pocatello, ID",,33631,Idaho Metro / Wyoming Nonmetro,33631.0,Idaho Metro,state smaller-metro figure,0.0,33216.0,43180,-451,-451.0,-36
+38860,"Portland-South Portland, ME",,41718,"Portland-South Portland, ME MSA",41718.0,"Portland-South Portland, ME MSA",named metro,0.0,,53280,1562,1562.0,1562
+38900,"Portland-Vancouver-Hillsboro, OR-WA",,43552,"Portland-Vancouver-Hillsboro, OR-WA MSA",43552.0,"Portland-Vancouver-Hillsboro, OR-WA MSA",named metro,0.0,,59040,5488,5488.0,5488
+38940,"Port St. Lucie, FL",,40618,"Port St. Lucie, FL MSA",40618.0,"Port St. Lucie, FL MSA",named metro,0.0,,44820,-5798,-5798.0,-5798
+39150,"Prescott Valley-Prescott, AZ",,41316,Arizona Metro,38609.0,"Prescott, AZ MSA",named metro,2707.0,,45560,-5756,-3049.0,-3049
+39300,"Providence-Warwick, RI-MA",,39168,"Albany-Schenectady-Troy, NY MSA / Gainesville, FL MSA / Providence-Warwick, RI-MA MSA",39168.0,"Providence-Warwick, RI-MA MSA",named metro,0.0,,51250,2082,2082.0,2082
+39340,"Provo-Orem-Lehi, UT",,38085,"Provo-Orem, UT MSA",38085.0,"Provo-Orem, UT MSA",named metro,0.0,,46610,-1475,-1475.0,-1475
+39380,"Pueblo, CO",,38452,Colorado Nonmetro,,,none published,,36127.0,47780,-672,,1653
+39460,"Punta Gorda, FL",,34696,Florida Metro / Michigan Nonmetro,34696.0,Florida Metro,state smaller-metro figure,0.0,38007.0,44080,-616,-616.0,-3927
+39540,"Racine-Mount Pleasant, WI",,35430,"Akron, OH MSA / Racine, WI MSA",35430.0,"Racine, WI MSA",named metro,0.0,,47290,1860,1860.0,1860
+39580,"Raleigh-Cary, NC",,40723,"Raleigh, NC MSA",40723.0,"Raleigh, NC MSA",named metro,0.0,,49560,-1163,-1163.0,-1163
+39660,"Rapid City, SD",,36723,"Bakersfield, CA MSA / South Dakota Metro",36723.0,South Dakota Metro,state smaller-metro figure,0.0,36545.0,44260,-2463,-2463.0,-2285
+39740,"Reading, PA",,37596,"Gainesville, GA MSA / Reading, PA MSA / Sherman-Denison, TX MSA",37596.0,"Reading, PA MSA",named metro,0.0,,48210,614,614.0,614
+39820,"Redding, CA",,37945,"Redding, CA MSA",37945.0,"Redding, CA MSA",named metro,0.0,,47890,-55,-55.0,-55
+39900,"Reno, NV",,41841,Nevada Metro,41841.0,Nevada Metro,state smaller-metro figure,0.0,41806.0,48970,-2871,-2871.0,-2836
+40060,"Richmond, VA",,39779,"Richmond, VA MSA",39779.0,"Richmond, VA MSA",named metro,0.0,,50020,241,241.0,241
+40140,"Riverside-San Bernardino-Ontario, CA",,43744,"Riverside-San Bernardino-Ontario, CA MSA",43744.0,"Riverside-San Bernardino-Ontario, CA MSA",named metro,0.0,,48240,-5504,-5504.0,-5504
+40220,"Roanoke, VA",,34749,"Dayton, OH MSA / Idaho Falls, ID MSA / Roanoke, VA MSA",34749.0,"Roanoke, VA MSA",named metro,0.0,,46010,1261,1261.0,1261
+40340,"Rochester, MN",,35587,"Beaumont-Port Arthur, TX MSA / Champaign-Urbana, IL MSA / Minnesota Metro",35587.0,Minnesota Metro,state smaller-metro figure,0.0,37119.0,59220,13633,13633.0,12101
+40380,"Rochester, NY",,37281,"Rochester, NY MSA",37281.0,"Rochester, NY MSA",named metro,0.0,,50050,2769,2769.0,2769
+40420,"Rockford, IL",,34976,"Mobile, AL MSA / Rockford, IL MSA / Washington Nonmetro",34976.0,"Rockford, IL MSA",named metro,0.0,,45970,994,994.0,994
+40580,"Rocky Mount, NC",,36076,"Cincinnati, OH-KY-IN MSA / Glens Falls, NY MSA / North Carolina Metro",36076.0,North Carolina Metro,state smaller-metro figure,0.0,32681.0,41180,-4896,-4896.0,-1501
+40660,"Rome, GA",,33351,Georgia Metro,33351.0,Georgia Metro,state smaller-metro figure,0.0,33764.0,40930,-2421,-2421.0,-2834
+40900,"Sacramento-Roseville-Folsom, CA",,44426,"Sacramento--Roseville--Arden-Arcade, CA MSA",44426.0,"Sacramento--Roseville--Arden-Arcade, CA MSA",named metro,0.0,,58880,4454,4454.0,4454
+40980,"Saginaw, MI",,33980,"Saginaw, MI MSA",33980.0,"Saginaw, MI MSA",named metro,0.0,,45630,1650,1650.0,1650
+41060,"St. Cloud, MN",,35587,"Beaumont-Port Arthur, TX MSA / Champaign-Urbana, IL MSA / Minnesota Metro",35587.0,Minnesota Metro,state smaller-metro figure,0.0,35983.0,49820,4233,4233.0,3837
+41100,"St. George, UT",,38661,"Ogden-Clearfield, UT MSA / St. George, UT MSA",38661.0,"St. George, UT MSA",named metro,0.0,,44070,-4591,-4591.0,-4591
+41140,"St. Joseph, MO-KS",,32303,Missouri Metro,32303.0,Missouri Metro,state smaller-metro figure,0.0,33568.0,46420,4117,4117.0,2852
+41180,"St. Louis, MO-IL",,36181,"Blacksburg-Christiansburg-Radford, VA MSA / Lubbock, TX MSA / St. Louis, MO-IL MSA",36181.0,"St. Louis, MO-IL MSA",named metro,0.0,,48290,2109,2109.0,2109
+41420,"Salem, OR",,39133,"Odessa, TX MSA / Oregon Metro / Salem, OR MSA",39133.0,"Salem, OR MSA",named metro,0.0,,50810,1677,1677.0,1677
+41500,"Salinas, CA",,48041,"Salinas, CA MSA",48041.0,"Salinas, CA MSA",named metro,0.0,,46790,-11251,-11251.0,-11251
+41540,"Salisbury, MD",,37072,"Salisbury, MD-DE MSA",37072.0,"Salisbury, MD-DE MSA",named metro,0.0,,46650,-422,-422.0,-422
+41620,"Salt Lake City-Murray, UT",,41421,"Salt Lake City, UT MSA",41421.0,"Salt Lake City, UT MSA",named metro,0.0,,51430,9,9.0,9
+41660,"San Angelo, TX",,36268,Texas Metro,36268.0,Texas Metro,state smaller-metro figure,0.0,36923.0,41770,-4498,-4498.0,-5153
+41700,"San Antonio-New Braunfels, TX",,39395,"San Antonio-New Braunfels, TX MSA",39395.0,"San Antonio-New Braunfels, TX MSA",named metro,0.0,,46010,-3385,-3385.0,-3385
+41740,"San Diego-Chula Vista-Carlsbad, CA",,50469,"San Diego-Carlsbad, CA MSA",50469.0,"San Diego-Carlsbad, CA MSA",named metro,0.0,,56580,-3889,-3889.0,-3889
+41780,"Sandusky, OH",,33683,Ohio Metro,33683.0,Ohio Metro,state smaller-metro figure,0.0,33869.0,43820,137,137.0,-49
+41860,"San Francisco-Oakland-Fremont, CA",,55937,"San Francisco-Oakland-Hayward, CA MSA",55937.0,"San Francisco-Oakland-Hayward, CA MSA",named metro,0.0,,73960,8023,8023.0,8023
+41940,"San Jose-Sunnyvale-Santa Clara, CA",,59815,"San Jose-Sunnyvale-Santa Clara, CA MSA",59815.0,"San Jose-Sunnyvale-Santa Clara, CA MSA",named metro,0.0,,82470,12655,12655.0,12655
+42020,"San Luis Obispo-Paso Robles, CA",,47762,"San Luis Obispo-Paso Robles-Arroyo Grande, CA MSA",47762.0,"San Luis Obispo-Paso Robles-Arroyo Grande, CA MSA",named metro,0.0,,49760,-8002,-8002.0,-8002
+42100,"Santa Cruz-Watsonville, CA",,51797,"Santa Cruz-Watsonville, CA MSA",51797.0,"Santa Cruz-Watsonville, CA MSA",named metro,0.0,,52770,-9027,-9027.0,-9027
+42140,"Santa Fe, NM",,40950,"Santa Fe, NM MSA",40950.0,"Santa Fe, NM MSA",named metro,0.0,,47180,-3770,-3770.0,-3770
+42200,"Santa Maria-Santa Barbara, CA",,49090,"Boston-Cambridge-Newton, MA-NH MSA / Santa Maria-Santa Barbara, CA MSA",49090.0,"Santa Maria-Santa Barbara, CA MSA",named metro,0.0,,50240,-8850,-8850.0,-8850
+42220,"Santa Rosa-Petaluma, CA",,50312,"Santa Rosa, CA MSA",50312.0,"Santa Rosa, CA MSA",named metro,0.0,,55140,-5172,-5172.0,-5172
+42340,"Savannah, GA",,38993,"Savannah, GA MSA",38993.0,"Savannah, GA MSA",named metro,0.0,,46100,-2893,-2893.0,-2893
+42540,"Scranton--Wilkes-Barre, PA",,34417,"Scranton--Wilkes-Barre--Hazleton, PA MSA",34417.0,"Scranton--Wilkes-Barre--Hazleton, PA MSA",named metro,0.0,,45400,983,983.0,983
+42660,"Seattle-Tacoma-Bellevue, WA",,48076,"Seattle-Tacoma-Bellevue, WA MSA / Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",48076.0,"Seattle-Tacoma-Bellevue, WA MSA",named metro,0.0,,67510,9434,9434.0,9434
+42680,"Sebastian-Vero Beach-West Vero Corridor, FL",,34696,Florida Metro / Michigan Nonmetro,34696.0,Florida Metro,state smaller-metro figure,0.0,38764.0,43200,-1496,-1496.0,-5564
+42700,"Sebring, FL",,34696,Florida Metro / Michigan Nonmetro,34696.0,Florida Metro,state smaller-metro figure,0.0,34626.0,38460,-6236,-6236.0,-6166
+43100,"Sheboygan, WI",,33456,Wisconsin Nonmetro,,,none published,,34273.0,49300,5844,,5027
+43300,"Sherman-Denison, TX",,37596,"Gainesville, GA MSA / Reading, PA MSA / Sherman-Denison, TX MSA",37596.0,"Sherman-Denison, TX MSA",named metro,0.0,,40410,-7186,-7186.0,-7186
+43340,"Shreveport-Bossier City, LA",,34469,"Fargo, ND-MN MSA / Mississippi Metro / Shreveport-Bossier City, LA MSA",34469.0,"Shreveport-Bossier City, LA MSA",named metro,0.0,,42270,-2199,-2199.0,-2199
+43420,"Sierra Vista-Douglas, AZ",,41316,Arizona Metro,41316.0,Arizona Metro,state smaller-metro figure,0.0,33373.0,45940,-5376,-5376.0,2567
+43580,"Sioux City, IA-NE-SD",,34958,"Iowa Metro / Sioux Falls, SD MSA",34958.0,Iowa Metro,state smaller-metro figure,0.0,35030.0,45930,972,972.0,900
+43620,"Sioux Falls, SD-MN",,34958,"Iowa Metro / Sioux Falls, SD MSA",34958.0,"Sioux Falls, SD MSA",named metro,0.0,,46720,1762,1762.0,1762
+43640,"Slidell-Mandeville-Covington, LA",,34120,"Louisiana Metro / McAllen-Edinburg-Mission, TX MSA",34120.0,Louisiana Metro,state smaller-metro figure,0.0,37929.0,40760,-3360,-3360.0,-7169
+43780,"South Bend-Mishawaka, IN-MI",,35989,"South Bend-Mishawaka, IN-MI MSA",35989.0,"South Bend-Mishawaka, IN-MI MSA",named metro,0.0,,45800,-189,-189.0,-189
+43900,"Spartanburg, SC",,34731,"Fort Wayne, IN MSA / Niles-Benton Harbor, MI MSA / Spartanburg, SC MSA",34731.0,"Spartanburg, SC MSA",named metro,0.0,,46210,1479,1479.0,1479
+44060,"Spokane-Spokane Valley, WA",,37544,"Spokane-Spokane Valley, WA MSA",37544.0,"Spokane-Spokane Valley, WA MSA",named metro,0.0,,51600,4056,4056.0,4056
+44100,"Springfield, IL",,34522,"Greenville, NC MSA / Springfield, IL MSA",34522.0,"Springfield, IL MSA",named metro,0.0,,49550,5028,5028.0,5028
+44140,"Springfield, MA",,38382,"Columbus, OH MSA / Fresno, CA MSA / Springfield, MA MSA",38382.0,"Springfield, MA MSA",named metro,0.0,,49710,1328,1328.0,1328
+44180,"Springfield, MO",,33998,"Lafayette, LA MSA / Monroe, LA MSA / Springfield, MO MSA",33998.0,"Springfield, MO MSA",named metro,0.0,,44110,112,112.0,112
+44220,"Springfield, OH",,33683,Ohio Metro,33683.0,Ohio Metro,state smaller-metro figure,0.0,33386.0,44700,1017,1017.0,1314
+44300,"State College, PA",,35203,Pennsylvania Metro,35203.0,Pennsylvania Metro,state smaller-metro figure,0.0,37824.0,50250,5047,5047.0,2426
+44420,"Staunton-Stuarts Draft, VA",,35028,Virginia Metro,35028.0,Virginia Metro,state smaller-metro figure,0.0,34534.0,46140,1112,1112.0,1606
+44700,"Stockton-Lodi, CA",,41369,"Stockton-Lodi, CA MSA",41369.0,"Stockton-Lodi, CA MSA",named metro,0.0,,49000,-2369,-2369.0,-2369
+44940,"Sumter, SC",,32635,North Carolina Nonmetro / Ohio Nonmetro / South Carolina Nonmetro,,,none published,,34469.0,41590,-1045,,-2879
+45060,"Syracuse, NY",,36146,"Montana Metro / Louisville/Jefferson County, KY-IN MSA / Syracuse, NY MSA",36146.0,"Syracuse, NY MSA",named metro,0.0,,50800,4654,4654.0,4654
+45220,"Tallahassee, FL",,37718,"New Orleans-Metairie, LA MSA / Tallahassee, FL MSA",37718.0,"Tallahassee, FL MSA",named metro,0.0,,45760,-1958,-1958.0,-1958
+45300,"Tampa-St. Petersburg-Clearwater, FL",,41631,"Cape Coral-Fort Myers, FL MSA / Tampa-St. Petersburg-Clearwater, FL MSA",41631.0,"Tampa-St. Petersburg-Clearwater, FL MSA",named metro,0.0,,47720,-3911,-3911.0,-3911
+45460,"Terre Haute, IN",,34155,"Terre Haute, IN MSA",34155.0,"Terre Haute, IN MSA",named metro,0.0,,43960,-195,-195.0,-195
+45500,"Texarkana, TX-AR",,36268,Texas Metro,36268.0,Texas Metro,state smaller-metro figure,0.0,33895.0,41050,-5218,-5218.0,-2845
+45780,"Toledo, OH",,34434,"Jackson, MI MSA / Toledo, OH MSA",34434.0,"Toledo, OH MSA",named metro,0.0,,47320,2886,2886.0,2886
+45820,"Topeka, KS",,34906,"El Paso, TX MSA / Topeka, KS MSA",34906.0,"Topeka, KS MSA",named metro,0.0,,47840,2934,2934.0,2934
+45900,"Traverse City, MI",,34347,Michigan Metro,34347.0,Michigan Metro,state smaller-metro figure,0.0,36910.0,46530,2183,2183.0,-380
+45940,"Trenton-Princeton, NJ",,43255,"Trenton, NJ MSA",43255.0,"Trenton, NJ MSA",named metro,0.0,,62610,9355,9355.0,9355
+46060,"Tucson, AZ",,37771,"Tucson, AZ MSA",37771.0,"Tucson, AZ MSA",named metro,0.0,,46450,-1321,-1321.0,-1321
+46140,"Tulsa, OK",,35395,"Tulsa, OK MSA",35395.0,"Tulsa, OK MSA",named metro,0.0,,45460,65,65.0,65
+46220,"Tuscaloosa, AL",,31622,Alabama Nonmetro,,,none published,,34521.0,45440,3818,,919
+46300,"Twin Falls, ID",,33631,Idaho Metro / Wyoming Nonmetro,33631.0,Idaho Metro,state smaller-metro figure,0.0,34247.0,44160,529,529.0,-87
+46340,"Tyler, TX",,37229,"Tyler, TX MSA",37229.0,"Tyler, TX MSA",named metro,0.0,,41230,-5999,-5999.0,-5999
+46540,"Utica-Rome, NY",,34399,"Utica-Rome, NY MSA",34399.0,"Utica-Rome, NY MSA",named metro,0.0,,48080,3681,3681.0,3681
+46660,"Valdosta, GA",,33351,Georgia Metro,33351.0,Georgia Metro,state smaller-metro figure,0.0,33660.0,38000,-5351,-5351.0,-5660
+46700,"Vallejo, CA",,48321,"Vallejo-Fairfield, CA MSA",48321.0,"Vallejo-Fairfield, CA MSA",named metro,0.0,,57170,-1151,-1151.0,-1151
+47020,"Victoria, TX",,36268,Texas Metro,36268.0,Texas Metro,state smaller-metro figure,0.0,37694.0,41190,-5078,-5078.0,-6504
+47220,"Vineland, NJ",,38364,"Corpus Christi, TX MSA / Vineland-Bridgeton, NJ MSA",38364.0,"Vineland-Bridgeton, NJ MSA",named metro,0.0,,47650,-714,-714.0,-714
+47260,"Virginia Beach-Chesapeake-Norfolk, VA-NC",,39500,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",39500.0,"Virginia Beach-Norfolk-Newport News, VA-NC MSA",named metro,0.0,,48430,-1070,-1070.0,-1070
+47300,"Visalia, CA",,36548,"Visalia-Porterville, CA MSA",36548.0,"Visalia-Porterville, CA MSA",named metro,0.0,,44320,-2228,-2228.0,-2228
+47380,"Waco, TX",,36600,"Waco, TX MSA",36600.0,"Waco, TX MSA",named metro,0.0,,44530,-2070,-2070.0,-2070
+47460,"Walla Walla, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,38085.0,49920,2883,2883.0,1835
+47580,"Warner Robins, GA",,35220,"Buffalo-Cheektowaga-Niagara Falls, NY MSA / Warner Robins, GA MSA",35220.0,"Warner Robins, GA MSA",named metro,0.0,,47490,2270,2270.0,2270
+47900,"Washington-Arlington-Alexandria, DC-VA-MD-WV",,48076,"Seattle-Tacoma-Bellevue, WA MSA / Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",48076.0,"Washington-Arlington-Alexandria, DC-VA-MD-WV MSA",named metro,0.0,,68430,10354,10354.0,10354
+47930,"Waterbury-Shelton, CT",,39011,Connecticut Nonmetro,,,none published,,39561.0,50110,1099,,549
+47940,"Waterloo-Cedar Falls, IA",,34557,"Waterloo-Cedar Falls, IA MSA",34557.0,"Waterloo-Cedar Falls, IA MSA",named metro,0.0,,46580,2023,2023.0,2023
+48060,"Watertown-Fort Drum, NY",,37666,"Watertown-Fort Drum, NY MSA",37666.0,"Watertown-Fort Drum, NY MSA",named metro,0.0,,46630,-1036,-1036.0,-1036
+48140,"Wausau, WI",,34644,"Wausau, WI MSA",34644.0,"Wausau, WI MSA",named metro,0.0,,47970,3326,3326.0,3326
+48260,"Weirton-Steubenville, WV-OH",,32810,"Georgia Nonmetro / Fort Smith, AR-OK MSA / Pine Bluff, AR MSA / West Virginia Metro",32810.0,West Virginia Metro,state smaller-metro figure,0.0,32106.0,44830,2020,2020.0,2724
+48300,"Wenatchee-East Wenatchee, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,37511.0,47920,883,883.0,409
+48540,"Wheeling, WV-OH",,32810,"Georgia Nonmetro / Fort Smith, AR-OK MSA / Pine Bluff, AR MSA / West Virginia Metro",32810.0,West Virginia Metro,state smaller-metro figure,0.0,32746.0,41840,-970,-970.0,-906
+48620,"Wichita, KS",,34661,"Wichita, KS MSA",34661.0,"Wichita, KS MSA",named metro,0.0,,46650,1989,1989.0,1989
+48660,"Wichita Falls, TX",,34295,"Illinois Metro / Wichita Falls, TX MSA",34295.0,"Wichita Falls, TX MSA",named metro,0.0,,40410,-3885,-3885.0,-3885
+48680,"Wildwood-The Villages, FL",,34696,Florida Metro / Michigan Nonmetro,34696.0,Florida Metro,state smaller-metro figure,0.0,36884.0,44660,-36,-36.0,-2224
+48700,"Williamsport, PA",,33648,"Williamsport, PA MSA",33648.0,"Williamsport, PA MSA",named metro,0.0,,45310,1662,1662.0,1662
+48900,"Wilmington, NC",,36076,"Cincinnati, OH-KY-IN MSA / Glens Falls, NY MSA / North Carolina Metro",36076.0,North Carolina Metro,state smaller-metro figure,0.0,38699.0,44470,-1606,-1606.0,-4229
+49020,"Winchester, VA-WV",,39570,"Deltona-Daytona Beach-Ormond Beach, FL MSA / Winchester, VA-WV MSA",39570.0,"Winchester, VA-WV MSA",named metro,0.0,,47310,-2260,-2260.0,-2260
+49180,"Winston-Salem, NC",,34172,"Winston-Salem, NC MSA",34172.0,"Winston-Salem, NC MSA",named metro,0.0,,45050,878,878.0,878
+49340,"Worcester, MA",,40024,"Worcester, MA-CT MSA",40024.0,"Worcester, MA-CT MSA",named metro,0.0,,55300,5276,5276.0,5276
+49420,"Yakima, WA",,37037,Washington Metro,37037.0,Washington Metro,state smaller-metro figure,0.0,36023.0,46740,-297,-297.0,717
+49620,"York-Hanover, PA",,37002,"York-Hanover, PA MSA",37002.0,"York-Hanover, PA MSA",named metro,0.0,,46970,-32,-32.0,-32
+49660,"Youngstown-Warren, OH",,32460,"Youngstown-Warren-Boardman, OH-PA MSA",32460.0,"Youngstown-Warren-Boardman, OH-PA MSA",named metro,0.0,,42330,-130,-130.0,-130
+49700,"Yuba City, CA",,38801,California Nonmetro,,,none published,,37406.0,48330,-471,,924
+49740,"Yuma, AZ",,34819,"Yuma, AZ MSA",34819.0,"Yuma, AZ MSA",named metro,0.0,,42690,-2129,-2129.0,-2129

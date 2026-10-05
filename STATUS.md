@@ -54,3 +54,7 @@ None.
 - 2026-10-05 Legend moved below the map (Eric: it covered Florida). Phone
   layout checked at 390px: less-used controls now sit behind a "More options"
   button so the map is on the first screen.
+- 2026-10-05 Compared the published Tableau data (data/*pct.csv, May 2024, 383
+  metros x 5 percentiles) with this build (scripts/12_compare_published.py).
+  Wages: 0 differences. Thresholds: 357 equal, 2 differ (Cleveland, Prescott),
+  24 used a state nonmetro figure where Census publishes none for the metro.
