@@ -69,3 +69,7 @@ None.
   slug). Eric asked for the post in the format of the child poverty and wage
   gap rebuild posts, written by Claude. Draft in posts/stress-test-viz/POST.md;
   every number from scripts/13_post_numbers.py.
+- 2026-10-05 Tutorial video rendered (video/single-income-stress-test-tutorial.mp4,
+  57 s, 1920x1080, seven beats approved by Eric, cushion slider first) and
+  YouTube thumbnail. Waiting for Eric to watch it and upload; the post needs the
+  YouTube link.
