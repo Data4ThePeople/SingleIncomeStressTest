@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2a
+Step: 2b
 Since: 2026-10-05
 
 ## Steps
@@ -14,7 +14,7 @@ Since: 2026-10-05
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-05 | Viz live on Pages; tie-out and independent tie-out clean |
-| 2a | Draft with brackets resolved | | |
+| 2a | Draft with brackets resolved | 2026-10-05 | Written by Claude in the rebuild-post format at Eric's request |
 | 2b | Eric's edit, Claude's look-over | | |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
@@ -73,3 +73,9 @@ None.
   57 s, 1920x1080, seven beats approved by Eric, cushion slider first) and
   YouTube thumbnail. Waiting for Eric to watch it and upload; the post needs the
   YouTube link.
+- 2026-10-05 Eric accepted edits 1 and 2 (illustration framing), ending on
+  "rough, illustrative guide".
+- 2026-10-05 Step 2a confirmed by Eric. Carried forward as drafted unless he
+  says otherwise: date October 6, 2026; no link to the old-method PDF; Step 1
+  names the Cleveland and Prescott differences; no tutorial video in the post
+  until he sends the YouTube link.
