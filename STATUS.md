@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2f
+Step: 2g
 Since: 2026-10-05
 
 ## Steps
@@ -19,7 +19,7 @@ Since: 2026-10-05
 | 2c | Slice markup | 2026-10-05 | 2 embeds (map, video), 3 blurbs, 1 divider; same structure as children-poverty-viz |
 | 2d | Hero 1680x1080 + alt text | 2026-10-05 | Viz image via scripts/14_hero.py; alt 488 characters |
 | 2e | SEO | 2026-10-05 | New title; meta title 55, description 150, 8 keywords; Dataset + WebApplication + FAQPage (15); all proposals accepted |
-| 2f | Pushed to Prismic (draft) | | |
+| 2f | Pushed to Prismic (draft) | 2026-10-05 | Updated aXtuIxAAACAABefK in place (uid stress-test-viz), Migration Release, 95 slices |
 | 2g | Mailchimp teaser | | |
 
 ## Stale
@@ -112,3 +112,6 @@ None.
   viz rebuilt; tie-out unchanged (0 differences). At Eric's instruction the
   hero, thumbnail and video were not re-rendered and still show the old inset
   position. Embed cache-buster bumped to 20261005b and the Prismic draft re-pushed.
+- 2026-10-05 Step 2f confirmed by Eric. Step 2g: EMAIL.md drafted from the post
+  text; hero email JPG (166 KB) and a screenshot of the live map (151 KB)
+  exported. Waiting for Eric to approve or reject.
