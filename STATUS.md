@@ -84,3 +84,6 @@ None.
   number, so none applied.
 - 2026-10-05 Step 2c: convert-only run. 89 slices: 1 embed, 3 blurbs, 41 text,
   43 spacers, 1 divider. Same structure as children-poverty-viz.
+- 2026-10-05 Tutorial video re-rendered (caption now matches the slider at
+  $25,000) and uploaded by Eric: https://www.youtube.com/watch?v=zkITTX8_02c.
+  Embedded in the post under "Using the visualization".

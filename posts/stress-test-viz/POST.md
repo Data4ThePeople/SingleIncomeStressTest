@@ -49,6 +49,10 @@ This map is an illustration, not a poverty rate. Its purpose is to show how much
 
 ::: spacer
 
+<iframe src="https://www.youtube-nocookie.com/embed/zkITTX8_02c?rel=0" width="100%" height="440" loading="lazy" style="border:0" title="How to use the Single Income Stress Test map (57-second video)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: spacer
+
 **1. Pick a year.** Drag the Year slider, or click Play to move through every year from 2015 to 2025. The button next to Play sets the speed: 1x, 2x or 3x.
 
 **2. Pick the earner.** "Earner's place on the pay scale" chooses whose pay is tested. The 50th percentile is the median: half of jobs in the area pay more and half pay less. The 10th percentile is near the bottom of the pay scale and the 90th is near the top.

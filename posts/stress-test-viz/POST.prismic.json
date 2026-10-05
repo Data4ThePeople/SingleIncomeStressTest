@@ -225,6 +225,34 @@
       }
     },
     {
+      "slice_type": "html_embed",
+      "slice_label": null,
+      "variation": "fullWidth",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "html_content": [
+          {
+            "type": "preformatted",
+            "text": "<style>html,body{margin:0;padding:0;overflow:hidden}iframe{display:block}</style><iframe src=\"https://www.youtube-nocookie.com/embed/zkITTX8_02c?rel=0\" width=\"100%\" height=\"440\" loading=\"lazy\" style=\"border:0\" title=\"How to use the Single Income Stress Test map (57-second video)\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ],
+        "embed_height": "440px"
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
       "slice_type": "paragarph_text",
       "slice_label": null,
       "variation": "default",
