@@ -106,3 +106,9 @@ None.
   Migration Release, 95 slices; hero uploaded as cAegbpDwzgQZ0e_j. Not verified
   by read-back (no PRISMIC_READ_TOKEN). Before publishing in Prismic: set the
   author (Eric Pachman) and the Visualization tag, which an update does not carry.
+- 2026-10-05 Eric: Alaska sat too low and shrank the map. Alaska and Hawaii
+  insets moved up beside the Southwest (scripts/albers.py), inside the lower
+  48's bounding box; uninhabited Northwestern Hawaiian Islands left off. Live
+  viz rebuilt; tie-out unchanged (0 differences). At Eric's instruction the
+  hero, thumbnail and video were not re-rendered and still show the old inset
+  position. Embed cache-buster bumped to 20261005b and the Prismic draft re-pushed.

@@ -35,7 +35,7 @@ dividers: false
 
 # The Single Income Stress Test: Can a Family Live on One Income Where You Live?
 
-<iframe src="https://data4thepeople.github.io/SingleIncomeStressTest/?v=20261005a#embed=1" width="100%" height="780" loading="lazy" style="border:0" title="The Single Income Stress Test: interactive map, 2015 to 2025"></iframe>
+<iframe src="https://data4thepeople.github.io/SingleIncomeStressTest/?v=20261005b#embed=1" width="100%" height="780" loading="lazy" style="border:0" title="The Single Income Stress Test: interactive map, 2015 to 2025"></iframe>
 
 ::: spacer 40px
 
