@@ -454,7 +454,7 @@
     let h = `<h2>${esc(title)}</h2><div class="unit" style="display:flex;justify-content:space-between"><span>${ends[0]}</span><span>${ends[1]}</span></div>`
       + `<div class="strip">${C.div.map((c) => `<span style="background:${c}"></span>`).join("")}</div>`
       + `<div class="ticks">${edges.map((t, i) => `<span style="left:${((i + 1) / C.div.length) * 100}%">${t}</span>`).join("")}</div>`;
-    h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,${C.div[3]} 0 3px,${C.mark} 3px 4px)"></span>${S.est ? "Threshold is our estimate from local rents" : "Metro on a state-level threshold"}</div>`;
+    h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,${C.panel} 0 3px,${C.mark} 3px 4px)"></span>${S.est ? "Threshold is our estimate from local rents" : "Metro on a state-level threshold"}</div>`;
     h += `<div class="row"><span class="sw" style="background:repeating-linear-gradient(135deg,transparent 0 3px,${C.hatch} 3px 4.5px),repeating-linear-gradient(45deg,${C.nohist} 0 3px,${C.hatch} 3px 4.5px)"></span>${S.mode === "year" ? "No published threshold" : "No comparable figure"}</div>`;
     el.innerHTML = h;
   }
