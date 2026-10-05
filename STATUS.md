@@ -6,14 +6,14 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: none yet
-Step: 1
+Step: 2a (waiting for slug and draft)
 Since: 2026-10-05
 
 ## Steps
 
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
-| 1  | Exploration and analysis | | |
+| 1  | Exploration and analysis | 2026-10-05 | Viz live on Pages; tie-out and independent tie-out clean |
 | 2a | Draft with brackets resolved | | |
 | 2b | Eric's edit, Claude's look-over | | |
 | 2c | Slice markup | | |
@@ -58,3 +58,10 @@ None.
   metros x 5 percentiles) with this build (scripts/12_compare_published.py).
   Wages: 0 differences. Thresholds: 357 equal, 2 differ (Cleveland, Prescott),
   24 used a state nonmetro figure where Census publishes none for the metro.
+- 2026-10-05 Independent tie-out by a fresh agent from raw BLS, Census and ACS
+  files: 0 differences in wages, thresholds, estimates, family scale and nine
+  headlines. Judgment calls on 2024 boundaries, New England and multi-state
+  metros left as is (the rent-based estimate covers them); to be noted in the
+  methodology. Fixed headline rounding near 0% and 100%; search shows years.
+  Not independently checked: map outlines, Change view, rankings past the top five.
+- 2026-10-05 Step 1 confirmed by Eric.
