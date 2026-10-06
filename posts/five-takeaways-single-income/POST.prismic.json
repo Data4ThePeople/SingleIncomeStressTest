@@ -15,7 +15,7 @@
         "drop_cap_text": [
           {
             "type": "paragraph",
-            "text": "Yesterday we rebuilt our Single Income Stress Test, a map that takes one person's annual pay, subtracts the local poverty threshold for their family, and subtracts money for surprise expenses, for every U.S. metro and rural area from 2015 to 2025. Here are five things it shows. Unless we say otherwise, the figures are for 2025, a median earner, and two adults and two children who rent. The test uses one job's pay before taxes, so read it as an illustration, not a poverty rate.",
+            "text": "Yesterday we rebuilt our Single Income Stress Test, a map that takes one person's annual pay, subtracts the local poverty threshold for their family, and subtracts money for surprise expenses, for every U.S. metro and rural area from 2015 to 2025. Here are five findings that grabbed our attention.",
             "spans": [
               {
                 "start": 25,
@@ -28,6 +28,23 @@
                 }
               }
             ],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
+            "text": "Note: Unless we say otherwise, the figures are for 2025, a median earner, and two adults and two children who rent. The test uses one job's pay before taxes, so read it as an illustrative Data 4 Thought experiment, not an official poverty measure.",
+            "spans": [],
             "direction": "ltr"
           }
         ]
@@ -59,25 +76,37 @@
           },
           {
             "type": "paragraph",
-            "text": "This chart takes some explaining, so start with one city.",
+            "text": "This first chart takes some explaining, so start with one city.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "In the Cincinnati metro area, the median job paid $50,170 in 2025. The local poverty threshold for two adults and two children who rent was $38,265. That leaves $11,905. Call that the room: what one paycheck has left over for surprises once the family's most basic costs are covered.",
+            "text": "In the Cincinnati metro area, the median job paid $50,170 in 2025. The local poverty threshold for two adults and two children who rent was $38,265. That leaves $11,905. Call that the \"safety net\": what one paycheck has left over for surprise expenses once the family's most basic costs are covered.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Now set some money aside for a surprise expense. With $5,000 set aside, Cincinnati still has $6,905 of room. With $10,000 set aside, it has $1,905. With $12,000 set aside, the paycheck no longer covers both, and Cincinnati falls short.",
+            "text": "Now set some money aside for surprise expenses. With $5,000 set aside, a family living on Cincinnati's median paycheck has a $6,905 safety net. With $10,000 set aside, it has $1,905. With $12,000 set aside, the family's pre-tax income no longer covers both, and that Cincinnati family would have to borrow, perhaps on a credit card, or go without.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "Every area has a tipping point like that. The chart below runs the same test on all 521 areas at once. Along the bottom is the money set aside, from $0 to $25,000. The line is the share of U.S. jobs in areas that have fallen short by that amount.",
+            "text": "Every area has a tipping point like that. The chart below runs the same test on all 521 areas at once.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "One thing to know before reading it. Areas are not the same size. The New York area has about 9.5 million jobs, and Eagle Pass, TX has about 19,000. Counting areas would treat the two as equal. So the chart counts jobs. When an area falls short, all of its jobs go into the total.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Along the bottom is the money needed for surprise expenses, from $0 to $25,000. The line is the share of all U.S. jobs that are in areas that have fallen short by that amount.",
             "spans": [],
             "direction": "ltr"
           }
@@ -92,7 +121,7 @@
       "items": [],
       "primary": {
         "image": {
-          "alt": "Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000. At $10,000, one income falls short in 283 of 521 areas.",
+          "alt": "Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000.",
           "copyright": null
         },
         "source_text": []
@@ -108,13 +137,19 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "Read it from left to right. With nothing set aside, 5 areas fall short, and they hold 0.6% of the jobs. At $5,000, 66 areas have tipped, holding 15% of the jobs. At $10,000 it is 283 areas and 49%. At $15,000 it is 478 areas and 87%. By $20,000, 515 of the 521 have fallen short.",
+            "text": "Read it from left to right. If all goes as planned and there are NO surprise expenses anywhere in America, just 0.6% of jobs are in areas where a single income falls short of the poverty threshold. But that's not reality. So, add in $5,000 of surprise expenses and it is 15%. At $10,000 it is 49%. At $15,000 it is 87%, and at $20,000 it is 96%.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "The line is steepest between $5,000 and $15,000 because that is where most areas' room sits. In the typical area, the median paycheck clears the threshold by $9,694, a little less than Cincinnati's $11,905.",
+            "text": "Take the middle point. With $10,000 set aside, one median paycheck falls short in 283 of the 521 areas, and those 283 areas hold 49% of the country's jobs. That does not mean 49% of workers fall short. It means that about half of U.S. jobs are in places where the middle paycheck for a single-income family does not cover the poverty threshold plus $10,000 of surprise expenses.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "The line is steepest between $5,000 and $15,000 because that is where most areas' safety nets sit. In the typical area, the median paycheck clears the poverty threshold by $9,694, against Cincinnati's $11,905.",
             "spans": [],
             "direction": "ltr"
           }
@@ -184,7 +219,7 @@
           },
           {
             "type": "paragraph",
-            "text": "San Jose shows why the median alone is not enough. The chart below sets pay at five levels in the San Jose metro area against its poverty threshold, the highest on the map.",
+            "text": "San Jose shows why studying the median alone is not enough. The chart below sets pay at five levels in the San Jose metro area against its poverty threshold, the highest on the map.",
             "spans": [],
             "direction": "ltr"
           }
@@ -215,7 +250,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "San Jose's median wage of $84,050 clears the threshold by $22,287. Its 25th percentile wage of $49,800 falls $11,963 short. That drop from the median to the 25th percentile, 41%, is the largest of the 387 metro areas. In the typical metro area it is 25%.",
+            "text": "San Jose's median wage of $84,050 clears the threshold by $22,287. If you stopped here, San Jose would pass this test with flying colors. But its 25th percentile wage of $49,800 falls $11,963 short. That drop from the median to the 25th percentile, 41%, is the largest of the 387 metro areas. In the typical metro area it is 25%.",
             "spans": [],
             "direction": "ltr"
           },
@@ -254,7 +289,7 @@
           },
           {
             "type": "paragraph",
-            "text": "The chart below ranks the 36 metro areas with 1,000,000 or more jobs by the result of the test with a $10,000 cushion.",
+            "text": "The chart below ranks the 36 metro areas with 1,000,000 or more jobs by the result of the test with $10,000 of surprise expenses.",
             "spans": [],
             "direction": "ltr"
           }
@@ -285,7 +320,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "One income falls short in 15 of the 36. All 15 are in California, Florida, Texas, Arizona, Nevada, Georgia, Tennessee and North Carolina. None is in the Midwest or the Northeast. Texas, California and Florida together hold 48% of all the jobs in areas that fall short.",
+            "text": "One income falls short of the poverty threshold plus $10,000 in 15 of the 36 areas. All 15 are in California, Florida, Texas, Arizona, Nevada, Georgia, Tennessee and North Carolina. None are in the Midwest or the Northeast. Texas, California and Florida together hold 48% of all the jobs in areas that fall short.",
             "spans": [],
             "direction": "ltr"
           }
@@ -349,13 +384,13 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "The threshold rose 63.0% in ten years. The median wage in the typical area rose 45.8%. Most of the gap opened in two years: the threshold rose 9.7% in 2022 and 8.6% in 2023, while the typical area's median wage rose 4.7% and 5.8%. The threshold follows what families spend on food, clothing, shelter and utilities, so it can rise faster than prices. In 2020 the Census Bureau also changed how much of it moves with local rents.",
+            "text": "The poverty threshold rose 63.0% in ten years. The median wage in the typical area rose 45.8%. Most of the gap opened in two years: the threshold rose 9.7% in 2022 and 8.6% in 2023, while the typical area's median wage rose 4.7% and 5.8%. The threshold follows what families spend on food, clothing, shelter and utilities, so it can rise faster than prices. In 2020 the Census Bureau also changed how much of it moves with local rents.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "The national figures for the same ten years read differently. The chart below puts two of them beside ours.",
+            "text": "This tells a different story than the national figures that are often quoted. We hear about the national poverty rate falling. We hear about the median household income rising. We hear less about what families spend on basic necessities rising meaningfully faster than wages. The chart below puts all three side by side.",
             "spans": [],
             "direction": "ltr"
           }
@@ -392,7 +427,13 @@
           },
           {
             "type": "paragraph",
-            "text": "These measure different things. Household income counts every earner in a home and is adjusted for prices. Our figure is one job's pay against a threshold that follows what families spend on basics.",
+            "text": "All of these stats are technically true. But they measure different things. Household income counts every earner in a home and is adjusted for prices. Ours is one job's pay against a threshold that follows what families spend on basics. The first two measure the overall experience in America, which is no one's experience. In our view, our latest finding is closer to what a family living on one middle paycheck sees: the cost of the basics rising faster than their income.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "This is why we must analyze data. This additional analysis is like switching your iPhone camera from a photo to a panorama. We capture far more details in the image, and then can use it to tell a more complete story.",
             "spans": [],
             "direction": "ltr"
           }
@@ -462,7 +503,7 @@
           },
           {
             "type": "paragraph",
-            "text": "On the test with a $10,000 cushion, 21 of the 30 had room in 2015 and 15 did in 2025. Charlotte, Houston, Phoenix, Atlanta, Dallas and Nashville went from having room to falling short. None went the other way.",
+            "text": "On the test with $10,000 of surprise expenses, 21 of the 30 had breathing room in 2015, while just 15 did in 2025. Charlotte, Houston, Phoenix, Atlanta, Dallas and Nashville went from having room to falling short. None went the other way.",
             "spans": [],
             "direction": "ltr"
           },

@@ -56,3 +56,8 @@ None.
   metros (typical 66.7% against 42.4%); with each metro's rent index held at
   2015, pay still lost ground in all 30 and about three quarters of the drop
   remained. Eric: leave the post as is; he plans a follow-up study on this.
+- 2026-10-06 Eric added his context to POST.md. Look-over: numbers all match;
+  one error (section 3 said the 15 metros fall short of the threshold, not the
+  threshold plus $10,000) and six wording or consistency items. Eric accepted
+  all seven and asked Claude to restore what he had cut from section 4 (the
+  three sets of figures and how the measures differ), worked into his text.
