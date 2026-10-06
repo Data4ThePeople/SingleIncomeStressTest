@@ -464,7 +464,7 @@ def main():
     print(f"5. stable big metros {t5['n']} ({t5['same_outline']} same outline); fell {t5['fell']}, rose {t5['rose']}; cleared $10k test {t5['cleared_2015']} then {t5['cleared_2025']}; "
           f"cleared to short {t5['cleared_to_short']}; short to cleared {t5['short_to_cleared']}")
     print("   left out:", t5["left_out"])
-    for f in (chart_cushion, chart_levels, chart_san_jose, chart_big, chart_index, chart_top_down, chart_stable, hero):
+    for f in (chart_cushion, chart_levels, chart_san_jose, chart_big, chart_index, chart_top_down, chart_stable):      # hero() made the first, chart-based hero; the post now uses an AI image
         f(N)
 
 

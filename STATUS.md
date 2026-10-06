@@ -17,7 +17,7 @@ Since: 2026-10-06
 | 2a | Draft with brackets resolved | 2026-10-06 | Claude-drafted structure at Eric's request; Eric added context |
 | 2b | Eric's edit, Claude's look-over | 2026-10-06 | Seven look-over items accepted; section 4 figures and explanation restored |
 | 2c | Slice markup | 2026-10-06 | 42 slices, 4 FAQ entries; drop cap on the intro |
-| 2d | Hero 1680x1080 + alt text | 2026-10-06 | Chart 1 at hero scale; alt 414 characters |
+| 2d | Hero 1680x1080 + alt text | | Reopened: AI image (kitchen, hand holding a $5,000 repair invoice), cropped with hero fit; waiting for Eric |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
@@ -93,3 +93,7 @@ Since: 2026-10-06
   text. Prompt revised to spell out every word on the form (five line items
   that add to $5,000.00, no shop or person named) and to hold the image to
   landscape with the kitchen on the right.
+- 2026-10-06 2d: Eric generated the image from the fifth prompt and dropped it in
+  images/. Renamed to the hero source (jpg), cropped center to 1680x1080 with
+  `hero fit`; alt text 455 characters, says it is an AI-generated
+  illustration. The chart hero and its source are replaced.
