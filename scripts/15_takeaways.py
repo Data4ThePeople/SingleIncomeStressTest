@@ -72,7 +72,9 @@ def numbers():
         if acc >= jobs / 2:
             wmed = v
             break
-    N["t1"] = {"curve": curve, "room_median_area": st.median(v for v, _ in room), "room_median_job": wmed,
+    ex = next(r for r in R if r[0]["id"] == "17140")          # worked example in the post: Cincinnati
+    example = {"name": ex[0]["n"], "wage": ex[1][2], "threshold": ex[2], "room": ex[1][2] - ex[2]}
+    N["t1"] = {"example": example, "curve": curve, "room_median_area": st.median(v for v, _ in room), "room_median_job": wmed,
                "room_min": room[0][0], "room_max": room[-1][0]}
 
     # 2. pay levels with no cushion, and San Jose

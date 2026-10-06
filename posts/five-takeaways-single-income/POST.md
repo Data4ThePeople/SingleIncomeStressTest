@@ -22,11 +22,19 @@ Yesterday we rebuilt our [Single Income Stress Test](https://www.data4thepeople.
 
 ## 1. The result turns on about $10,000
 
-The chart below shows the share of U.S. jobs in areas where one median paycheck falls short, as the money set aside for surprise expenses goes from $0 to $25,000.
+This chart takes some explaining, so start with one city.
+
+In the Cincinnati metro area, the median job paid $50,170 in 2025. The local poverty threshold for two adults and two children who rent was $38,265. That leaves $11,905. Call that the room: what one paycheck has left over for surprises once the family's most basic costs are covered.
+
+Now set some money aside for a surprise expense. With $5,000 set aside, Cincinnati still has $6,905 of room. With $10,000 set aside, it has $1,905. With $12,000 set aside, the paycheck no longer covers both, and Cincinnati falls short.
+
+Every area has a tipping point like that. The chart below runs the same test on all 521 areas at once. Along the bottom is the money set aside, from $0 to $25,000. The line is the share of U.S. jobs in areas that have fallen short by that amount.
 
 ![Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000. At $10,000, one income falls short in 283 of 521 areas.](images/01-cushion-curve.png)
 
-With nothing set aside, one income falls short in 5 of 521 areas. At $10,000 it falls short in 283, and at $20,000 in 515. The line climbs fastest near $10,000 because, in the typical area, the median paycheck clears the local poverty threshold by $9,694.
+Read it from left to right. With nothing set aside, 5 areas fall short, and they hold 0.6% of the jobs. At $5,000, 66 areas have tipped, holding 15% of the jobs. At $10,000 it is 283 areas and 49%. At $15,000 it is 478 areas and 87%. By $20,000, 515 of the 521 have fallen short.
+
+The line is steepest between $5,000 and $15,000 because that is where most areas' room sits. In the typical area, the median paycheck clears the threshold by $9,694, a little less than Cincinnati's $11,905.
 
 ::: spacer
 

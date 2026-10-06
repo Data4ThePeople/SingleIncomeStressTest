@@ -1,6 +1,12 @@
 {
  "areas": 521,
  "t1": {
+  "example": {
+   "name": "Cincinnati, OH-KY-IN",
+   "wage": 50170,
+   "threshold": 38265,
+   "room": 11905
+  },
   "curve": [
    {
     "cushion": 0,
