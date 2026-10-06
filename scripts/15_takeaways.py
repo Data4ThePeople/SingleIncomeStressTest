@@ -234,9 +234,9 @@ def chart_cushion(N):
     for v in (0, 5000, 10000, 15000, 20000):
         p = next(q for q in c if q["cushion"] == v)
         ax.plot([v], [p["jobs_pct"]], "o", color=RED, ms=7, mec=BG, mew=1.5)
-        lab = (f"{p['jobs_pct']:.0f}%" if v else f"{p['jobs_pct']:.1f}%") + f" of jobs\n{p['areas']} of {N['areas']} areas"
+        lab = (f"{p['jobs_pct']:.0f}%" if v else f"{p['jobs_pct']:.1f}%") + " of jobs"
         if v == 0:                      # the curve leaves no room beside the first point: label it above, with a leader
-            ax.annotate(lab, (v, p["jobs_pct"]), (1400, 30), fontsize=7.2 * FS, linespacing=1.25, va="bottom",
+            ax.annotate(lab, (v, p["jobs_pct"]), (1300, 24), fontsize=7.2 * FS, linespacing=1.25, va="bottom",
                         arrowprops=dict(arrowstyle="-", color=MUTED, lw=0.8, shrinkB=4))
         else:                           # the other labels sit under the curve, to the right of their point
             ax.text(v + 650, p["jobs_pct"] - 4, lab, fontsize=7.2 * FS, ha="left", va="top", linespacing=1.25)

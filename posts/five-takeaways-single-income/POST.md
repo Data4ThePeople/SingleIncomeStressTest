@@ -34,7 +34,7 @@ One thing to know before reading it. Areas are not the same size. The New York a
 
 Along the bottom is the money set aside, from $0 to $25,000. The line is the share of all U.S. jobs that are in areas that have fallen short by that amount.
 
-![Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000. At $10,000, one income falls short in 283 of 521 areas.](images/01-cushion-curve.png)
+![Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000.](images/01-cushion-curve.png)
 
 Read it from left to right. With nothing set aside, 0.6% of jobs are in areas that fall short. At $5,000 it is 15%. At $10,000 it is 49%. At $15,000 it is 87%, and at $20,000 it is 96%.
 
