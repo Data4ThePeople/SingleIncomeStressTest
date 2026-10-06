@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2d
+Step: 2e
 Since: 2026-10-06
 
 ## Steps
@@ -17,7 +17,7 @@ Since: 2026-10-06
 | 2a | Draft with brackets resolved | 2026-10-06 | Claude-drafted structure at Eric's request; Eric added context |
 | 2b | Eric's edit, Claude's look-over | 2026-10-06 | Seven look-over items accepted; section 4 figures and explanation restored |
 | 2c | Slice markup | 2026-10-06 | 42 slices, 4 FAQ entries; drop cap on the intro |
-| 2d | Hero 1680x1080 + alt text | | |
+| 2d | Hero 1680x1080 + alt text | 2026-10-06 | Chart 1 at hero scale; alt 414 characters |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
@@ -69,3 +69,7 @@ None.
 - 2026-10-06 Step 2c confirmed by Eric. Step 2d: Eric chose the first chart. Hero
   = chart 1 re-rendered at hero scale (scripts/15_takeaways.py hero()), padded
   to 1680x1080; alt text 414 characters.
+- 2026-10-06 Step 2d confirmed by Eric. Step 2e: meta title (53), description
+  (152), 8 keywords written, aimed at the "live on one income" searches from
+  the map post's assessment; schema article + FAQPage (4). Two text proposals
+  sent to Eric.

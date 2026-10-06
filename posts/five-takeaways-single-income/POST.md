@@ -6,9 +6,9 @@ date: 2026-10-07
 section: Data 4 Thought
 hero: images/five-takeaways-single-income-hero-1680x1080.png
 hero_alt: Line chart on a dark background titled The result turns on about $10,000. It shows the share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025. The line rises from 0.6% of jobs with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000. The Single Income Stress Test: five takeaways. Data 4 The People.
-meta_title:
-description:
-keywords:
+meta_title: "Living on One Income: 5 Takeaways From 521 U.S. Areas"
+description: "What a $10,000 surprise does to one paycheck, what the median hides, where big metros fall short, and how pay lost ground against basic costs since 2015."
+keywords: living on one income, can a family live on one income, cities where one income is enough, hardest cities to live on one income, wages vs cost of basics, wages vs poverty threshold, surprise expenses and income, single income family statistics
 schema_type: article
 drop_cap: true
 heading_spacer: 20px
