@@ -80,3 +80,6 @@ Since: 2026-10-06
   chart hero stays in place until an image is chosen.
 - 2026-10-06 2d: Eric picked prompt 1 and asked for a big-ticket repair (a
   transmission replacement) and a bare-bones home. Prompt 1 revised.
+- 2026-10-06 2d: first image came back as a wide shot of the whole kitchen; the
+  estimate was too small to read as the surprise expense. Prompt 1 rewritten as
+  a close-up across the tabletop with the estimate in the foreground.
