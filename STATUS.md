@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2c
+Step: 2d
 Since: 2026-10-06
 
 ## Steps
@@ -16,7 +16,7 @@ Since: 2026-10-06
 | 1  | Exploration and analysis | 2026-10-06 | Five takeaways, 7 charts (scripts/15_takeaways.py); numbers in data/processed/takeaways.json |
 | 2a | Draft with brackets resolved | 2026-10-06 | Claude-drafted structure at Eric's request; Eric added context |
 | 2b | Eric's edit, Claude's look-over | 2026-10-06 | Seven look-over items accepted; section 4 figures and explanation restored |
-| 2c | Slice markup | | |
+| 2c | Slice markup | 2026-10-06 | 42 slices, 4 FAQ entries; drop cap on the intro |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
 | 2f | Pushed to Prismic (draft) | | |
@@ -66,3 +66,6 @@ None.
   spacers, 1 embed, 1 divider, 1 blurb; 4 FAQ entries; no doubled spacers. The
   40px spacer after the embed gives way to the divider dots, as in the earlier
   takeaways posts.
+- 2026-10-06 Step 2c confirmed by Eric. Step 2d: Eric chose the first chart. Hero
+  = chart 1 re-rendered at hero scale (scripts/15_takeaways.py hero()), padded
+  to 1680x1080; alt text 414 characters.

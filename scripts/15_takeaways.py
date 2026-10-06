@@ -403,6 +403,45 @@ def chart_stable(N):
     save(fig, "07-large-metros-since-2015.png")
 
 
+def hero(N):
+    """Chart 1 re-rendered at hero scale (1412x812, which `hero pad` brings to 1680x1080 with 8% padding)."""
+    c = N["t1"]["curve"]
+    fig = plt.figure(figsize=(14.12, 8.12), dpi=100, facecolor=BG)
+    fig.text(0.0, 0.985, "The result turns on about $10,000", fontsize=38, fontweight="bold", va="top")
+    fig.text(0.0, 0.885, "Share of U.S. jobs in areas where one median paycheck falls short of the local\npoverty threshold plus money for surprise expenses, 2025",
+             fontsize=20, color=MUTED, va="top", linespacing=1.3)
+    ax = fig.add_axes([0.07, 0.17, 0.91, 0.54])
+    clean(ax)
+    x, y = [p["cushion"] for p in c], [p["jobs_pct"] for p in c]
+    ax.plot(x, y, color=RED, lw=4.5)
+    ax.fill_between(x, y, color=RED, alpha=0.12)
+    for v in (0, 5000, 10000, 15000, 20000):
+        p = next(q for q in c if q["cushion"] == v)
+        ax.plot([v], [p["jobs_pct"]], "o", color=RED, ms=13, mec=BG, mew=2.5)
+        lab = (f"{p['jobs_pct']:.0f}%" if v else f"{p['jobs_pct']:.1f}%") + " of jobs"
+        if v == 0:
+            ax.annotate(lab, (v, p["jobs_pct"]), (1300, 24), fontsize=20, va="bottom",
+                        arrowprops=dict(arrowstyle="-", color=MUTED, lw=1.2, shrinkB=7))
+        else:
+            ax.text(v + 600, p["jobs_pct"] - 4, lab, fontsize=24 if v == 10000 else 20, ha="left", va="top",
+                    fontweight="bold" if v == 10000 else "normal")
+    ax.set_xlim(-600, 25600)
+    ax.set_ylim(0, 108)
+    ax.set_xticks(range(0, 25001, 5000))
+    ax.set_xticklabels([f"${v // 1000}k" if v else "$0" for v in range(0, 25001, 5000)], fontsize=19)
+    ax.set_yticks([0, 25, 50, 75, 100])
+    ax.set_yticklabels(["0%", "25%", "50%", "75%", "100%"], fontsize=19, color=MUTED)
+    ax.grid(axis="y", color=GRID, lw=1)
+    ax.set_axisbelow(True)
+    ax.set_xlabel("Money set aside for surprise expenses", fontsize=19, color=MUTED, labelpad=10)
+    fig.text(0.0, 0.0, "The Single Income Stress Test: five takeaways  ·  Data 4 The People", fontsize=16, color=MUTED, va="bottom")
+    fig.text(1.0, 0.0, "Sources: BLS, U.S. Census Bureau", fontsize=16, color=MUTED, va="bottom", ha="right")
+    OUT.mkdir(parents=True, exist_ok=True)
+    fig.savefig(OUT / f"{SLUG}-hero-source.png", facecolor=BG)
+    plt.close(fig)
+    print("  wrote", f"{SLUG}-hero-source.png")
+
+
 def main():
     N = numbers()
     (PROC / "takeaways.json").write_text(json.dumps(N, indent=1))
@@ -425,7 +464,7 @@ def main():
     print(f"5. stable big metros {t5['n']} ({t5['same_outline']} same outline); fell {t5['fell']}, rose {t5['rose']}; cleared $10k test {t5['cleared_2015']} then {t5['cleared_2025']}; "
           f"cleared to short {t5['cleared_to_short']}; short to cleared {t5['short_to_cleared']}")
     print("   left out:", t5["left_out"])
-    for f in (chart_cushion, chart_levels, chart_san_jose, chart_big, chart_index, chart_top_down, chart_stable):
+    for f in (chart_cushion, chart_levels, chart_san_jose, chart_big, chart_index, chart_top_down, chart_stable, hero):
         f(N)
 
 

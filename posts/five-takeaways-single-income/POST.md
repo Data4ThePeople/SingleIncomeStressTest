@@ -5,7 +5,7 @@ slug: five-takeaways-single-income
 date: 2026-10-07
 section: Data 4 Thought
 hero: images/five-takeaways-single-income-hero-1680x1080.png
-hero_alt:
+hero_alt: Line chart on a dark background titled The result turns on about $10,000. It shows the share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025. The line rises from 0.6% of jobs with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000. The Single Income Stress Test: five takeaways. Data 4 The People.
 meta_title:
 description:
 keywords:
