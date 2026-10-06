@@ -2,7 +2,7 @@
 
 Post URL: https://www.data4thepeople.com/p/stress-test-viz
 
-Drafted by Claude from the post text (October 5, 2026), then edited by Eric (October 6, 2026); his wording, with look-over edits 1 to 3 accepted.
+Drafted by Claude from the post text (October 5, 2026), then edited by Eric (October 6, 2026); his wording, with look-over edits 1 to 3 accepted and the "on-paper world" line replaced at his request.
 
 ```
 Subject:  Can a family live on one income?
@@ -42,7 +42,7 @@ Screenshot of the interactive map The Single Income Stress Test for 2025. Every 
 ```
 In 2025, for a median earner supporting two adults and two children in a rented home, with $10,000 in surprise expenses (think, a hospital bill or a busted car that needs fixing), one income falls short in 283 of 521 areas. Those areas hold 49% of the jobs. In 2015 they held 40%.
 
-The entire purpose of this analysis is to understand the impact of surprise expenses. With no cushion (the perfect world that the government assumes in their paper poverty threshold estimates), the median paycheck falls short of the threshold in just five areas in America. No problem here! But with $20,000, it falls short in 515. That's what folks call "precarity." This visualization quantifies it for where you live. Slide it yourself and watch the map change color.
+The entire purpose of this analysis is to understand the impact of surprise expenses. With no cushion (the on-paper world, where the government's poverty threshold leaves no room for surprises), the median paycheck falls short of the threshold in just five areas in America. No problem here! But with $20,000, it falls short in 515. That's what folks call "precarity." This visualization quantifies it for where you live. Slide it yourself and watch the map change color.
 
 This is an illustration (or simulation), not a poverty rate. It uses one job's pay before taxes, and it leaves out a second earner, tax credits and aid.
 
