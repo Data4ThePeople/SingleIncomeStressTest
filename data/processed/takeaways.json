@@ -1,0 +1,1268 @@
+{
+ "areas": 521,
+ "t1": {
+  "curve": [
+   {
+    "cushion": 0,
+    "areas": 5,
+    "jobs_pct": 0.5510286854339803
+   },
+   {
+    "cushion": 500,
+    "areas": 9,
+    "jobs_pct": 3.7073067396797583
+   },
+   {
+    "cushion": 1000,
+    "areas": 13,
+    "jobs_pct": 3.9532413830938804
+   },
+   {
+    "cushion": 1500,
+    "areas": 17,
+    "jobs_pct": 4.175349418540665
+   },
+   {
+    "cushion": 2000,
+    "areas": 21,
+    "jobs_pct": 4.619779061270356
+   },
+   {
+    "cushion": 2500,
+    "areas": 23,
+    "jobs_pct": 5.968985765370381
+   },
+   {
+    "cushion": 3000,
+    "areas": 30,
+    "jobs_pct": 6.551149220038991
+   },
+   {
+    "cushion": 3500,
+    "areas": 36,
+    "jobs_pct": 7.616078462021155
+   },
+   {
+    "cushion": 4000,
+    "areas": 44,
+    "jobs_pct": 12.1361928911413
+   },
+   {
+    "cushion": 4500,
+    "areas": 52,
+    "jobs_pct": 13.59851257894733
+   },
+   {
+    "cushion": 5000,
+    "areas": 66,
+    "jobs_pct": 14.683450832326153
+   },
+   {
+    "cushion": 5500,
+    "areas": 80,
+    "jobs_pct": 16.15444687597463
+   },
+   {
+    "cushion": 6000,
+    "areas": 98,
+    "jobs_pct": 21.063168609158133
+   },
+   {
+    "cushion": 6500,
+    "areas": 111,
+    "jobs_pct": 24.45980841671923
+   },
+   {
+    "cushion": 7000,
+    "areas": 129,
+    "jobs_pct": 28.787688170970128
+   },
+   {
+    "cushion": 7500,
+    "areas": 143,
+    "jobs_pct": 32.78546595601528
+   },
+   {
+    "cushion": 8000,
+    "areas": 166,
+    "jobs_pct": 36.20694016364541
+   },
+   {
+    "cushion": 8500,
+    "areas": 194,
+    "jobs_pct": 39.45313196089847
+   },
+   {
+    "cushion": 9000,
+    "areas": 218,
+    "jobs_pct": 41.664768435737805
+   },
+   {
+    "cushion": 9500,
+    "areas": 252,
+    "jobs_pct": 44.829202264475484
+   },
+   {
+    "cushion": 10000,
+    "areas": 283,
+    "jobs_pct": 48.82255510804099
+   },
+   {
+    "cushion": 10500,
+    "areas": 314,
+    "jobs_pct": 54.262149684624475
+   },
+   {
+    "cushion": 11000,
+    "areas": 345,
+    "jobs_pct": 57.19524517012298
+   },
+   {
+    "cushion": 11500,
+    "areas": 371,
+    "jobs_pct": 60.78128982572471
+   },
+   {
+    "cushion": 12000,
+    "areas": 393,
+    "jobs_pct": 64.47949974000966
+   },
+   {
+    "cushion": 12500,
+    "areas": 420,
+    "jobs_pct": 71.44876922221609
+   },
+   {
+    "cushion": 13000,
+    "areas": 443,
+    "jobs_pct": 75.24045685952359
+   },
+   {
+    "cushion": 13500,
+    "areas": 458,
+    "jobs_pct": 78.01414766583669
+   },
+   {
+    "cushion": 14000,
+    "areas": 467,
+    "jobs_pct": 85.75527911202704
+   },
+   {
+    "cushion": 14500,
+    "areas": 472,
+    "jobs_pct": 86.08859800701437
+   },
+   {
+    "cushion": 15000,
+    "areas": 478,
+    "jobs_pct": 87.36355512746267
+   },
+   {
+    "cushion": 15500,
+    "areas": 486,
+    "jobs_pct": 89.93253732885304
+   },
+   {
+    "cushion": 16000,
+    "areas": 491,
+    "jobs_pct": 93.0734849297372
+   },
+   {
+    "cushion": 16500,
+    "areas": 500,
+    "jobs_pct": 93.80462141422063
+   },
+   {
+    "cushion": 17000,
+    "areas": 502,
+    "jobs_pct": 94.23531571823975
+   },
+   {
+    "cushion": 17500,
+    "areas": 505,
+    "jobs_pct": 94.65132695852549
+   },
+   {
+    "cushion": 18000,
+    "areas": 509,
+    "jobs_pct": 94.96900171651689
+   },
+   {
+    "cushion": 18500,
+    "areas": 511,
+    "jobs_pct": 95.31677008104184
+   },
+   {
+    "cushion": 19000,
+    "areas": 512,
+    "jobs_pct": 95.3441806913841
+   },
+   {
+    "cushion": 19500,
+    "areas": 513,
+    "jobs_pct": 95.36849451010258
+   },
+   {
+    "cushion": 20000,
+    "areas": 515,
+    "jobs_pct": 95.54405055939469
+   },
+   {
+    "cushion": 20500,
+    "areas": 516,
+    "jobs_pct": 95.61664496131647
+   },
+   {
+    "cushion": 21000,
+    "areas": 518,
+    "jobs_pct": 97.79185408985728
+   },
+   {
+    "cushion": 21500,
+    "areas": 518,
+    "jobs_pct": 97.79185408985728
+   },
+   {
+    "cushion": 22000,
+    "areas": 518,
+    "jobs_pct": 97.79185408985728
+   },
+   {
+    "cushion": 22500,
+    "areas": 520,
+    "jobs_pct": 99.94170823697851
+   },
+   {
+    "cushion": 23000,
+    "areas": 520,
+    "jobs_pct": 99.94170823697851
+   },
+   {
+    "cushion": 23500,
+    "areas": 520,
+    "jobs_pct": 99.94170823697851
+   },
+   {
+    "cushion": 24000,
+    "areas": 520,
+    "jobs_pct": 99.94170823697851
+   },
+   {
+    "cushion": 24500,
+    "areas": 520,
+    "jobs_pct": 99.94170823697851
+   },
+   {
+    "cushion": 25000,
+    "areas": 521,
+    "jobs_pct": 100.0
+   }
+  ],
+  "room_median_area": 9694,
+  "room_median_job": 10361,
+  "room_min": -3207,
+  "room_max": 24860
+ },
+ "t2": {
+  "levels": [
+   {
+    "level": "10th",
+    "areas": 521,
+    "jobs_pct": 100.0,
+    "median_gap": -8541
+   },
+   {
+    "level": "25th",
+    "areas": 418,
+    "jobs_pct": 91.71928598396784,
+    "median_gap": -2336
+   },
+   {
+    "level": "50th",
+    "areas": 5,
+    "jobs_pct": 0.5510286854339803,
+    "median_gap": 9694
+   },
+   {
+    "level": "75th",
+    "areas": 0,
+    "jobs_pct": 0.0,
+    "median_gap": 30801
+   },
+   {
+    "level": "90th",
+    "areas": 0,
+    "jobs_pct": 0.0,
+    "median_gap": 62025
+   }
+  ],
+  "san_jose": {
+   "name": "San Jose-Sunnyvale-Santa Clara, CA",
+   "threshold": 61763,
+   "wages": [
+    41590,
+    49800,
+    84050,
+    166940,
+    224240
+   ],
+   "median_room": 22287,
+   "p25_gap": -11963,
+   "drop_dollars": 34250,
+   "drop_pct": 40.749553837001784,
+   "drop_rank_among_metros": 1,
+   "metros": 387
+  },
+  "largest_drops": [
+   {
+    "name": "San Jose-Sunnyvale-Santa Clara, CA",
+    "dollars": 34250,
+    "pct": 40.749553837001784
+   },
+   {
+    "name": "San Francisco-Oakland-Fremont, CA",
+    "dollars": 26980,
+    "pct": 36.331807164018315
+   },
+   {
+    "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "dollars": 26070,
+    "pct": 36.68730650154799
+   },
+   {
+    "name": "Lexington Park, MD",
+    "dollars": 24330,
+    "pct": 38.02156586966714
+   },
+   {
+    "name": "Seattle-Tacoma-Bellevue, WA",
+    "dollars": 23450,
+    "pct": 32.295827021071474
+   }
+  ],
+  "typical_drop_pct": 25.12048192771085,
+  "clear_10k_at_median_but_short_at_25th_no_cushion": 135,
+  "clear_10k_at_median": 238
+ },
+ "t3": {
+  "big": [
+   {
+    "name": "Miami-Fort Lauderdale-West Palm Beach, FL",
+    "state": "FL",
+    "result": -9545,
+    "wage": 48640,
+    "threshold": 48185,
+    "jobs": 2819940
+   },
+   {
+    "name": "Orlando-Kissimmee-Sanford, FL",
+    "state": "FL",
+    "result": -9505,
+    "wage": 46630,
+    "threshold": 46135,
+    "jobs": 1411730
+   },
+   {
+    "name": "Riverside-San Bernardino-Ontario, CA",
+    "state": "CA",
+    "result": -7975,
+    "wage": 48400,
+    "threshold": 46375,
+    "jobs": 1716760
+   },
+   {
+    "name": "Las Vegas-Henderson-North Las Vegas, NV",
+    "state": "NV",
+    "result": -6971,
+    "wage": 46670,
+    "threshold": 43641,
+    "jobs": 1136960
+   },
+   {
+    "name": "Los Angeles-Long Beach-Anaheim, CA",
+    "state": "CA",
+    "result": -6418,
+    "wage": 55850,
+    "threshold": 52268,
+    "jobs": 6271560
+   },
+   {
+    "name": "Tampa-St. Petersburg-Clearwater, FL",
+    "state": "FL",
+    "result": -5587,
+    "wage": 48940,
+    "threshold": 44527,
+    "jobs": 1447120
+   },
+   {
+    "name": "San Antonio-New Braunfels, TX",
+    "state": "TX",
+    "result": -4488,
+    "wage": 47010,
+    "threshold": 41498,
+    "jobs": 1126880
+   },
+   {
+    "name": "San Diego-Chula Vista-Carlsbad, CA",
+    "state": "CA",
+    "result": -4428,
+    "wage": 58690,
+    "threshold": 53118,
+    "jobs": 1538060
+   },
+   {
+    "name": "Phoenix-Mesa-Chandler, AZ",
+    "state": "AZ",
+    "result": -4053,
+    "wage": 51380,
+    "threshold": 45433,
+    "jobs": 2375760
+   },
+   {
+    "name": "Atlanta-Sandy Springs-Roswell, GA",
+    "state": "GA",
+    "result": -3505,
+    "wage": 51170,
+    "threshold": 44675,
+    "jobs": 2889670
+   },
+   {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "state": "TX",
+    "result": -3438,
+    "wage": 51440,
+    "threshold": 44878,
+    "jobs": 4049800
+   },
+   {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "state": "TX",
+    "result": -2679,
+    "wage": 49410,
+    "threshold": 42089,
+    "jobs": 3289720
+   },
+   {
+    "name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "state": "TN",
+    "result": -2530,
+    "wage": 50390,
+    "threshold": 42920,
+    "jobs": 1099300
+   },
+   {
+    "name": "Charlotte-Concord-Gastonia, NC-SC",
+    "state": "NC",
+    "result": -2117,
+    "wage": 49990,
+    "threshold": 42107,
+    "jobs": 1358370
+   },
+   {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "state": "TX",
+    "result": -16,
+    "wage": 56950,
+    "threshold": 46966,
+    "jobs": 1293690
+   },
+   {
+    "name": "Indianapolis-Carmel-Greenwood, IN",
+    "state": "IN",
+    "result": 410,
+    "wage": 49340,
+    "threshold": 38930,
+    "jobs": 1105170
+   },
+   {
+    "name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "state": "PA",
+    "result": 411,
+    "wage": 54310,
+    "threshold": 43899,
+    "jobs": 2897830
+   },
+   {
+    "name": "Columbus, OH",
+    "state": "OH",
+    "result": 766,
+    "wage": 51340,
+    "threshold": 40574,
+    "jobs": 1105580
+   },
+   {
+    "name": "Kansas City, MO-KS",
+    "state": "MO",
+    "result": 1170,
+    "wage": 50820,
+    "threshold": 39650,
+    "jobs": 1096110
+   },
+   {
+    "name": "Cincinnati, OH-KY-IN",
+    "state": "OH",
+    "result": 1905,
+    "wage": 50170,
+    "threshold": 38265,
+    "jobs": 1101030
+   },
+   {
+    "name": "St. Louis, MO-IL",
+    "state": "MO",
+    "result": 1947,
+    "wage": 49990,
+    "threshold": 38043,
+    "jobs": 1341320
+   },
+   {
+    "name": "Pittsburgh, PA",
+    "state": "PA",
+    "result": 2272,
+    "wage": 49650,
+    "threshold": 37378,
+    "jobs": 1114490
+   },
+   {
+    "name": "Detroit-Warren-Dearborn, MI",
+    "state": "MI",
+    "result": 2300,
+    "wage": 52080,
+    "threshold": 39780,
+    "jobs": 1904530
+   },
+   {
+    "name": "Chicago-Naperville-Elgin, IL-IN",
+    "state": "IL",
+    "result": 2446,
+    "wage": 54720,
+    "threshold": 42274,
+    "jobs": 4513280
+   },
+   {
+    "name": "Sacramento-Roseville-Folsom, CA",
+    "state": "CA",
+    "result": 2710,
+    "wage": 59750,
+    "threshold": 47040,
+    "jobs": 1080590
+   },
+   {
+    "name": "Cleveland, OH",
+    "state": "OH",
+    "result": 2762,
+    "wage": 50140,
+    "threshold": 37378,
+    "jobs": 1031130
+   },
+   {
+    "name": "Denver-Aurora-Centennial, CO",
+    "state": "CO",
+    "result": 3119,
+    "wage": 62320,
+    "threshold": 49201,
+    "jobs": 1609350
+   },
+   {
+    "name": "New York-Newark-Jersey City, NY-NJ",
+    "state": "NY",
+    "result": 3522,
+    "wage": 61430,
+    "threshold": 47908,
+    "jobs": 9492000
+   },
+   {
+    "name": "Baltimore-Columbia-Towson, MD",
+    "state": "MD",
+    "result": 3933,
+    "wage": 59070,
+    "threshold": 45137,
+    "jobs": 1356680
+   },
+   {
+    "name": "Portland-Vancouver-Hillsboro, OR-WA",
+    "state": "OR",
+    "result": 4777,
+    "wage": 60690,
+    "threshold": 45913,
+    "jobs": 1208410
+   },
+   {
+    "name": "Boston-Cambridge-Newton, MA-NH",
+    "state": "MA",
+    "result": 5110,
+    "wage": 66620,
+    "threshold": 51510,
+    "jobs": 2703890
+   },
+   {
+    "name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "state": "MN",
+    "result": 5735,
+    "wage": 59320,
+    "threshold": 43585,
+    "jobs": 1951650
+   },
+   {
+    "name": "San Francisco-Oakland-Fremont, CA",
+    "state": "CA",
+    "result": 5859,
+    "wage": 74260,
+    "threshold": 58401,
+    "jobs": 2373920
+   },
+   {
+    "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "state": "DC",
+    "result": 10713,
+    "wage": 71060,
+    "threshold": 50347,
+    "jobs": 3136190
+   },
+   {
+    "name": "Seattle-Tacoma-Bellevue, WA",
+    "state": "WA",
+    "result": 12116,
+    "wage": 72610,
+    "threshold": 50494,
+    "jobs": 2086210
+   },
+   {
+    "name": "San Jose-Sunnyvale-Santa Clara, CA",
+    "state": "CA",
+    "result": 12287,
+    "wage": 84050,
+    "threshold": 61763,
+    "jobs": 1134970
+   }
+  ],
+  "big_n": 36,
+  "big_short": 15,
+  "short_states": [
+   "AZ",
+   "CA",
+   "FL",
+   "GA",
+   "NC",
+   "NV",
+   "TN",
+   "TX"
+  ],
+  "by_state": [
+   {
+    "state": "TX",
+    "short_jobs": 13009890,
+    "share_of_short": 17.78472373638196,
+    "share_of_state": 96.48176026935027
+   },
+   {
+    "state": "CA",
+    "short_jobs": 12860630,
+    "share_of_short": 17.58068297470816,
+    "share_of_state": 72.99805821054538
+   },
+   {
+    "state": "FL",
+    "short_jobs": 9250430,
+    "share_of_short": 12.645482935884914,
+    "share_of_state": 97.87892992088575
+   },
+   {
+    "state": "GA",
+    "short_jobs": 4627660,
+    "share_of_short": 6.326083821300975,
+    "share_of_state": 98.38319114061028
+   },
+   {
+    "state": "NC",
+    "short_jobs": 4064940,
+    "share_of_short": 5.556836753036996,
+    "share_of_state": 84.07269448173021
+   },
+   {
+    "state": "TN",
+    "short_jobs": 3247250,
+    "share_of_short": 4.439041694662008,
+    "share_of_state": 96.44886405826287
+   },
+   {
+    "state": "AZ",
+    "short_jobs": 3029670,
+    "share_of_short": 4.141606421146093,
+    "share_of_state": 95.8404509736932
+   },
+   {
+    "state": "PA",
+    "short_jobs": 1911920,
+    "share_of_short": 2.6136246352631267,
+    "share_of_state": 28.58565364758933
+   }
+  ],
+  "top3_share_of_short": 48.01088964697503
+ },
+ "t4": {
+  "comparable": 290,
+  "full_history": 290,
+  "series": [
+   {
+    "year": 2015,
+    "national_threshold": 25583,
+    "threshold_pct": 0.0,
+    "wage_pct": 0.0,
+    "ratio": 138.88862257661538
+   },
+   {
+    "year": 2016,
+    "national_threshold": 26104,
+    "threshold_pct": 2.0365086190048176,
+    "wage_pct": 2.419375312405858,
+    "ratio": 138.89500458983883
+   },
+   {
+    "year": 2017,
+    "national_threshold": 27005,
+    "threshold_pct": 5.558378610796222,
+    "wage_pct": 4.570579563730082,
+    "ratio": 137.13880475115883
+   },
+   {
+    "year": 2018,
+    "national_threshold": 28166,
+    "threshold_pct": 10.09654848923114,
+    "wage_pct": 7.506708407871199,
+    "ratio": 135.76440437389857
+   },
+   {
+    "year": 2019,
+    "national_threshold": 28881,
+    "threshold_pct": 12.891373177500686,
+    "wage_pct": 10.843328090182203,
+    "ratio": 136.3803675763157
+   },
+   {
+    "year": 2020,
+    "national_threshold": 30150,
+    "threshold_pct": 17.85169839346441,
+    "wage_pct": 16.34044913423307,
+    "ratio": 136.4454925370992
+   },
+   {
+    "year": 2021,
+    "national_threshold": 31453,
+    "threshold_pct": 22.94492436383535,
+    "wage_pct": 19.569011247350577,
+    "ratio": 133.54202999260139
+   },
+   {
+    "year": 2022,
+    "national_threshold": 34518,
+    "threshold_pct": 34.92553648907477,
+    "wage_pct": 26.83506288594939,
+    "ratio": 128.92463814433688
+   },
+   {
+    "year": 2023,
+    "national_threshold": 37482,
+    "threshold_pct": 46.51135519681038,
+    "wage_pct": 34.80787401449021,
+    "ratio": 126.73546672864039
+   },
+   {
+    "year": 2024,
+    "national_threshold": 39430,
+    "threshold_pct": 54.12578665520071,
+    "wage_pct": 40.87369928872498,
+    "ratio": 127.78295050497968
+   },
+   {
+    "year": 2025,
+    "national_threshold": 41701,
+    "threshold_pct": 63.00277528045968,
+    "wage_pct": 45.753709788450735,
+    "ratio": 124.66129512256524
+   }
+  ],
+  "yearly": [
+   {
+    "year": 2016,
+    "threshold": 2.0365086190048176,
+    "wage": 2.419375312405858
+   },
+   {
+    "year": 2017,
+    "threshold": 3.451578302175906,
+    "wage": 2.1860435773094378
+   },
+   {
+    "year": 2018,
+    "threshold": 4.299203851138689,
+    "wage": 2.830397721549971
+   },
+   {
+    "year": 2019,
+    "threshold": 2.5385216218135387,
+    "wage": 3.164864317497562
+   },
+   {
+    "year": 2020,
+    "threshold": 4.393892178248682,
+    "wage": 4.760890010028406
+   },
+   {
+    "year": 2021,
+    "threshold": 4.3217247097844025,
+    "wage": 2.2724010562062857
+   },
+   {
+    "year": 2022,
+    "threshold": 9.744698438940635,
+    "wage": 4.685649900655264
+   },
+   {
+    "year": 2023,
+    "threshold": 8.586824265600557,
+    "wage": 5.826491335247019
+   },
+   {
+    "year": 2024,
+    "threshold": 5.1971613040926234,
+    "wage": 4.223810719566979
+   },
+   {
+    "year": 2025,
+    "threshold": 5.7595739284808545,
+    "wage": 3.0658319728508188
+   }
+  ],
+  "wage_growth_median": 45.753709788450735,
+  "local_threshold_growth_median": 60.92875375039184,
+  "ratio_2015": 138.88862257661538,
+  "ratio_2025": 124.66129512256524,
+  "ratio_fell": 285,
+  "ratio_rose": 5
+ },
+ "top_down": {
+  "official_poverty": {
+   "2015": 13.5,
+   "2025": 10.2
+  },
+  "spm_poverty": {
+   "2015": 14.5,
+   "2025": 13.1
+  },
+  "real_median_household_income": {
+   "2015": 74590.0,
+   "2025": 87460.0,
+   "pct": 17.254323635876112
+  },
+  "real_mean_household_income": {
+   "2015": 104600.0,
+   "2025": 126700.0,
+   "pct": 21.12810707456978
+  }
+ },
+ "t5": {
+  "metros": [
+   {
+    "name": "Charlotte-Concord-Gastonia, NC-SC",
+    "same_outline": false,
+    "jobs_moved_pct": 0.49218725508197,
+    "ratio_2015": 149.40675513663234,
+    "ratio_2025": 118.72135274419931,
+    "result_2015": 1951,
+    "result_2025": -2117,
+    "wage_pct": 38.323187603763145,
+    "threshold_pct": 74.07499276530653,
+    "change": -30.685402392433033
+   },
+   {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "same_outline": false,
+    "jobs_moved_pct": 0.07585495819221,
+    "ratio_2015": 146.55775962660442,
+    "ratio_2025": 117.39409346860225,
+    "result_2015": 1970,
+    "result_2025": -2679,
+    "wage_pct": 31.130573248407643,
+    "threshold_pct": 63.70672889926099,
+    "change": -29.163666158002172
+   },
+   {
+    "name": "San Jose-Sunnyvale-Santa Clara, CA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 163.86601379924326,
+    "ratio_2025": 136.08471091106327,
+    "result_2015": 12956,
+    "result_2025": 12287,
+    "wage_pct": 42.699490662139226,
+    "threshold_pct": 71.8311818384153,
+    "change": -27.781302888179994
+   },
+   {
+    "name": "Phoenix-Mesa-Chandler, AZ",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 140.39370078740157,
+    "ratio_2025": 113.08960447251998,
+    "result_2015": 260,
+    "result_2025": -4053,
+    "wage_pct": 44.083006169377455,
+    "threshold_pct": 78.87007874015748,
+    "change": -27.30409631488159
+   },
+   {
+    "name": "Atlanta-Sandy Springs-Roswell, GA",
+    "same_outline": false,
+    "jobs_moved_pct": 0.45053509508961,
+    "ratio_2015": 140.49874347573942,
+    "ratio_2025": 114.53833240067152,
+    "result_2015": 475,
+    "result_2025": -3505,
+    "wage_pct": 40.80902586681343,
+    "threshold_pct": 72.72375797409627,
+    "change": -25.960411075067896
+   },
+   {
+    "name": "Sacramento-Roseville-Folsom, CA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 152.80849181777975,
+    "ratio_2025": 127.01955782312925,
+    "result_2015": 4328,
+    "result_2025": 2710,
+    "wage_pct": 44.114809454896275,
+    "threshold_pct": 73.37461300309597,
+    "change": -25.788933994650506
+   },
+   {
+    "name": "Denver-Aurora-Centennial, CO",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 151.8777614138439,
+    "ratio_2025": 126.66409219324811,
+    "result_2015": 4090,
+    "result_2025": 3119,
+    "wage_pct": 51.07878787878788,
+    "threshold_pct": 81.15243004418262,
+    "change": -25.21366922059579
+   },
+   {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "same_outline": false,
+    "jobs_moved_pct": 0.55974782264361,
+    "ratio_2015": 139.7837091578463,
+    "ratio_2025": 114.62186371941709,
+    "result_2015": 374,
+    "result_2025": -3438,
+    "wage_pct": 41.12482853223594,
+    "threshold_pct": 72.10461727258782,
+    "change": -25.161845438429197
+   },
+   {
+    "name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 140.71347678369196,
+    "ratio_2025": 117.4044734389562,
+    "result_2015": 66,
+    "result_2025": -2530,
+    "wage_pct": 44.84047139982754,
+    "threshold_pct": 73.59650541983498,
+    "change": -23.309003344735757
+   },
+   {
+    "name": "Columbus, OH",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 149.79806633215028,
+    "ratio_2025": 126.53423374574851,
+    "result_2015": 2207,
+    "result_2025": 766,
+    "wage_pct": 39.81481481481482,
+    "threshold_pct": 65.52033614816628,
+    "change": -23.263832586401776
+   },
+   {
+    "name": "Cincinnati, OH-KY-IN",
+    "same_outline": false,
+    "jobs_moved_pct": 0.52352425134292,
+    "ratio_2015": 153.73617593877466,
+    "ratio_2025": 131.11198222919117,
+    "result_2015": 2779,
+    "result_2025": 1905,
+    "wage_pct": 37.22647702407003,
+    "threshold_pct": 60.90576510659771,
+    "change": -22.624193709583494
+   },
+   {
+    "name": "Portland-Vancouver-Hillsboro, OR-WA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 154.15657788539144,
+    "ratio_2025": 132.1847842658942,
+    "result_2015": 4091,
+    "result_2025": 4777,
+    "wage_pct": 51.30890052356021,
+    "threshold_pct": 76.45951035781545,
+    "change": -21.971793619497248
+   },
+   {
+    "name": "Kansas City, MO-KS",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 149.46864606149103,
+    "ratio_2025": 128.17150063051702,
+    "result_2015": 2196,
+    "result_2025": 1170,
+    "wage_pct": 37.910447761194035,
+    "threshold_pct": 60.825829480003236,
+    "change": -21.297145430974012
+   },
+   {
+    "name": "Riverside-San Bernardino-Ontario, CA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 125.08140965337579,
+    "ratio_2025": 104.366576819407,
+    "result_2015": -3068,
+    "result_2025": -7975,
+    "wage_pct": 40.00578536303152,
+    "threshold_pct": 67.79434112453868,
+    "change": -20.714832833968785
+   },
+   {
+    "name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "same_outline": false,
+    "jobs_moved_pct": 0.20036306778348,
+    "ratio_2015": 156.80107828821747,
+    "ratio_2025": 136.10186990937248,
+    "result_2015": 5171,
+    "result_2025": 5735,
+    "wage_pct": 41.642788920725884,
+    "threshold_pct": 63.184694297802245,
+    "change": -20.699208378844986
+   },
+   {
+    "name": "Las Vegas-Henderson-North Las Vegas, NV",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 127.40689496137438,
+    "ratio_2025": 106.94072088173965,
+    "result_2015": -2869,
+    "result_2025": -6971,
+    "wage_pct": 40.78431372549021,
+    "threshold_pct": 67.72742995503287,
+    "change": -20.466174079634726
+   },
+   {
+    "name": "Detroit-Warren-Dearborn, MI",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 151.11448430135016,
+    "ratio_2025": 130.92006033182503,
+    "result_2015": 2796,
+    "result_2025": 2300,
+    "wage_pct": 37.66851704996035,
+    "threshold_pct": 58.90389070863626,
+    "change": -20.194423969525133
+   },
+   {
+    "name": "San Francisco-Oakland-Fremont, CA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 146.56955571740713,
+    "ratio_2025": 127.15535692881971,
+    "result_2015": 5985,
+    "result_2025": 5859,
+    "wage_pct": 47.60484993043133,
+    "threshold_pct": 70.14129643117262,
+    "change": -19.414198788587413
+   },
+   {
+    "name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 142.5495262704565,
+    "ratio_2025": 123.71580218228206,
+    "result_2015": 1856,
+    "result_2025": 411,
+    "wage_pct": 36.73212487411883,
+    "threshold_pct": 57.547372954349704,
+    "change": -18.83372408817445
+   },
+   {
+    "name": "Seattle-Tacoma-Bellevue, WA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 161.62003767529478,
+    "ratio_2025": 143.7992632788054,
+    "result_2015": 7664,
+    "result_2025": 12116,
+    "wage_pct": 56.72350528815022,
+    "threshold_pct": 76.14595688271821,
+    "change": -17.820774396489384
+   },
+   {
+    "name": "St. Louis, MO-IL",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 148.9379051657357,
+    "ratio_2025": 131.40393764950187,
+    "result_2015": 2003,
+    "result_2025": 1947,
+    "wage_pct": 36.846427593758555,
+    "threshold_pct": 55.106617197374334,
+    "change": -17.533967516233844
+   },
+   {
+    "name": "Tampa-St. Petersburg-Clearwater, FL",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 126.18152829973808,
+    "ratio_2025": 109.91084061356031,
+    "result_2015": -3103,
+    "result_2025": -5587,
+    "wage_pct": 47.23225030084235,
+    "threshold_pct": 69.02782522871351,
+    "change": -16.270687686177766
+   },
+   {
+    "name": "San Antonio-New Braunfels, TX",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 129.24576909357538,
+    "ratio_2025": 113.28256783459445,
+    "result_2015": -2621,
+    "result_2025": -4488,
+    "wage_pct": 44.15823367065317,
+    "threshold_pct": 64.4722761682058,
+    "change": -15.96320125898093
+   },
+   {
+    "name": "San Diego-Chula Vista-Carlsbad, CA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 125.34283282368148,
+    "ratio_2025": 110.48985278060168,
+    "result_2015": -1961,
+    "result_2025": -4428,
+    "wage_pct": 47.610663983903414,
+    "threshold_pct": 67.45373727183886,
+    "change": -14.852980043079796
+   },
+   {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 134.92608522788882,
+    "ratio_2025": 121.25793126942895,
+    "result_2015": -337,
+    "result_2025": -16,
+    "wage_pct": 52.55826413072595,
+    "threshold_pct": 69.75458127010519,
+    "change": -13.668153958459868
+   },
+   {
+    "name": "Orlando-Kissimmee-Sanford, FL",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 114.44856939288259,
+    "ratio_2025": 101.07293811639752,
+    "result_2015": -6147,
+    "result_2025": -9505,
+    "wage_pct": 52.78505897771952,
+    "threshold_pct": 73.0040874489069,
+    "change": -13.375631276485066
+   },
+   {
+    "name": "Los Angeles-Long Beach-Anaheim, CA",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 119.09524542237267,
+    "ratio_2025": 106.8531415014923,
+    "result_2015": -3795,
+    "result_2025": -6418,
+    "wage_pct": 44.31524547803618,
+    "threshold_pct": 60.84936144022157,
+    "change": -12.242103920880368
+   },
+   {
+    "name": "Miami-Fort Lauderdale-West Palm Beach, FL",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 112.77575424369459,
+    "ratio_2025": 100.94427726470893,
+    "result_2015": -6282,
+    "result_2025": -9545,
+    "wage_pct": 48.202315661182205,
+    "threshold_pct": 65.57281286509517,
+    "change": -11.831476978985663
+   },
+   {
+    "name": "Baltimore-Columbia-Towson, MD",
+    "same_outline": true,
+    "jobs_moved_pct": 0.0,
+    "ratio_2015": 141.639970008861,
+    "ratio_2025": 130.86824556350666,
+    "result_2015": 2218,
+    "result_2025": 3933,
+    "wage_pct": 42.13185755534168,
+    "threshold_pct": 53.83068638811261,
+    "change": -10.771724445354351
+   },
+   {
+    "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "same_outline": false,
+    "jobs_moved_pct": 0.70552202593966,
+    "ratio_2015": 151.84830147983942,
+    "ratio_2025": 141.140485033865,
+    "result_2015": 7308,
+    "result_2025": 10713,
+    "wage_pct": 40.185440915367934,
+    "threshold_pct": 50.820801629620746,
+    "change": -10.70781644597443
+   }
+  ],
+  "n": 30,
+  "same_outline": 23,
+  "left_out": [
+   {
+    "name": "Boston-Cambridge-Newton, MA-NH",
+    "why": "not in the 2015 data under this code"
+   },
+   {
+    "name": "Chicago-Naperville-Elgin, IL-IN",
+    "why": "counties that moved hold 1.6% of jobs"
+   },
+   {
+    "name": "Cleveland, OH",
+    "why": "not in the 2015 data under this code"
+   },
+   {
+    "name": "Indianapolis-Carmel-Greenwood, IN",
+    "why": "counties that moved hold 1.5% of jobs"
+   },
+   {
+    "name": "New York-Newark-Jersey City, NY-NJ",
+    "why": "counties that moved hold 2.9% of jobs"
+   },
+   {
+    "name": "Pittsburgh, PA",
+    "why": "counties that moved hold 2.4% of jobs"
+   }
+  ],
+  "fell": 30,
+  "rose": 0,
+  "cleared_2015": 21,
+  "cleared_2025": 15,
+  "cleared_to_short": [
+   "Charlotte-Concord-Gastonia, NC-SC",
+   "Houston-Pasadena-The Woodlands, TX",
+   "Phoenix-Mesa-Chandler, AZ",
+   "Atlanta-Sandy Springs-Roswell, GA",
+   "Dallas-Fort Worth-Arlington, TX",
+   "Nashville-Davidson--Murfreesboro--Franklin, TN"
+  ],
+  "short_to_cleared": []
+ }
+}
