@@ -7,9 +7,11 @@ Rules for every prompt: no words, letters, numbers or logos anywhere in the
 image; no recognizable faces; no flags or political symbols; leave calm, empty
 space on one side so the crop has room.
 
-## Prompt 1: the kitchen table
+## Prompt 1: the kitchen table (revised October 6, 2026, at Eric's request: a big-ticket repair, a bare-bones home)
 
-Documentary-style photograph of a worn wooden kitchen table at night, lit by one warm overhead lamp. On the table: a single open pay envelope, a neat stack of household bills held by a binder clip, a calculator, and a set of car keys resting on top of a crumpled auto repair receipt, as if just set down. In the soft-focus background, a refrigerator with two children's crayon drawings held by magnets and four coats on hooks by the door. No people in frame. Muted, natural colors, shallow depth of field, the right third of the frame falling into shadow. Honest and quiet, not staged or dramatic. No text, letters or numbers visible on any paper. 16:9.
+Documentary-style photograph of a small, bare-bones kitchen at night in a modest rented home, lit by a single bare ceiling bulb. The room is clean and cared for but has very little in it: an old laminate table with metal legs, two mismatched chairs, worn linoleum floor, plain painted walls with nothing hung on them, an older white refrigerator and a dated stove, a dish rack with a few plain dishes. On the table: a single open pay envelope, a small stack of household bills held by a binder clip, a basic calculator, and a set of car keys resting on a thick, multi-page auto repair estimate from a transmission shop, its top sheet showing a simple line diagram of a car transmission and a long column of itemized lines. Through the window over the sink, a tow truck's amber lights glow in the dark street as it pulls away with a sedan. On the refrigerator, two children's crayon drawings held by magnets are the only decoration, and four worn coats hang on hooks by the door. No people in frame. Muted, natural colors, shallow depth of field, the right third of the frame falling into shadow. Honest, quiet and dignified, not staged, not squalid. No readable text, letters or numbers anywhere, including on the papers. 16:9.
+
+Optional, only if the image tool renders text cleanly: replace "No readable text, letters or numbers anywhere, including on the papers" with "The only readable words in the image are TRANSMISSION REPLACEMENT in plain capitals across the top of the estimate; no dollar amounts or other text anywhere."
 
 ## Prompt 2 (variant): one paycheck, one surprise away
 

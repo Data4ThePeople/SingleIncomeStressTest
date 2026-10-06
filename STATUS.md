@@ -78,3 +78,5 @@ Since: 2026-10-06
 - 2026-10-06 Step back to 2d (Eric: "not loving the hero"). Four AI image
   prompts written to posts/five-takeaways-single-income/hero-prompt.md. The
   chart hero stays in place until an image is chosen.
+- 2026-10-06 2d: Eric picked prompt 1 and asked for a big-ticket repair (a
+  transmission replacement) and a bare-bones home. Prompt 1 revised.
