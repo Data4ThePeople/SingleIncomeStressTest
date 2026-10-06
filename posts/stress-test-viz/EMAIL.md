@@ -46,7 +46,7 @@ The entire purpose of this analysis is to understand the impact of surprise expe
 
 This is an illustration (or simulation), not a poverty rate. It uses one job's pay before taxes, and it leaves out a second earner, tax credits and aid.
 
-One finding from the 11 years stood out to us. Among the 290 areas we can compare, the median wage rose faster than the local threshold in only five areas. More takeaways coming tomorrow.
+One finding from the 11 years stood out to us. Among the 290 areas we can compare, the median wage rose faster than the local poverty threshold in only five areas. More takeaways coming tomorrow.
 
 Find your city and see which way it went.
 ```
