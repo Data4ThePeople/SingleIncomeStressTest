@@ -119,3 +119,7 @@ None.
   with Alaska and Hawaii in the new position (same script, same 283 of 521 and
   49%); email JPG re-exported (180 KB); Prismic draft re-pushed so the post's
   hero matches. YouTube thumbnail and video unchanged.
+- 2026-10-06 2g: Eric edited EMAIL.md directly. Look-over: numbers all match the
+  post; he accepted edits 1 to 3 (two typos, one comma) and kept his wording on
+  the "perfect world" line. "Yesterday" is right for an October 6 send. Eric
+  plans a takeaways follow-up post.

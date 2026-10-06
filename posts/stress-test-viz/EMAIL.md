@@ -2,7 +2,7 @@
 
 Post URL: https://www.data4thepeople.com/p/stress-test-viz
 
-Drafted by Claude from the post text (October 5, 2026). Waiting for Eric to approve or reject.
+Drafted by Claude from the post text (October 5, 2026), then edited by Eric (October 6, 2026); his wording, with look-over edits 1 to 3 accepted.
 
 ```
 Subject:  Can a family live on one income?
@@ -26,7 +26,7 @@ The Single Income Stress Test: Can a Family Live on One Income Where You Live?
 ```
 This map runs one test on every part of the United States. Take one person's annual pay. Subtract the local poverty threshold for their family. Subtract some money for surprise expenses. What is left is the excess, or the shortfall.
 
-We first published it in January with 2024 data only. We have rebuilt it from scratch. It now shows every year from 2015 to 2025, covers rural areas as well as metro areas, and lets you change the family, the housing and the cushion.
+We first published this "simulation" in January with 2024 data only. Yesterday, we rebuilt it from scratch in Python. It now shows every year from 2015 to 2025, covers rural areas as well as metro areas, and lets you change the family size, the housing and the surprise expenses.
 ```
 
 ## 4. The map (picture of the live tool)
@@ -40,15 +40,15 @@ Screenshot of the interactive map The Single Income Stress Test for 2025. Every 
 ## 5. Body, part two
 
 ```
-In 2025, for a median earner supporting two adults and two children in a rented home, with $10,000 set aside, one income falls short in 283 of 521 areas. Those areas hold 49% of the jobs. In 2015 they held 40%.
+In 2025, for a median earner supporting two adults and two children in a rented home, with $10,000 in surprise expenses (think, a hospital bill or a busted car that needs fixing), one income falls short in 283 of 521 areas. Those areas hold 49% of the jobs. In 2015 they held 40%.
 
-The cushion decides much of this. With no cushion, the median paycheck falls short of the threshold in 5 areas. With $20,000, it falls short in 515. Slide it yourself and watch the map change color.
+The entire purpose of this analysis is to understand the impact of surprise expenses. With no cushion (the perfect world that the government assumes in their paper poverty threshold estimates), the median paycheck falls short of the threshold in just five areas in America. No problem here! But with $20,000, it falls short in 515. That's what folks call "precarity." This visualization quantifies it for where you live. Slide it yourself and watch the map change color.
 
-High rents do not decide the result on their own. San Jose has the highest threshold on the map and the second-most room, because pay there is high too. Salinas has a lower threshold and the largest shortfall in the country.
+This is an illustration (or simulation), not a poverty rate. It uses one job's pay before taxes, and it leaves out a second earner, tax credits and aid.
 
-This is an illustration, not a poverty rate. It uses one job's pay before taxes, and it leaves out a second earner, tax credits and aid.
+One finding from the 11 years stood out to us. Among the 290 areas we can compare, the median wage rose faster than the local threshold in only five areas. More takeaways coming tomorrow.
 
-One finding from the 11 years stood out to us. Among the 290 areas we can compare, the median wage rose faster than the local threshold in 5. Find your city and see which way it went.
+Find your city and see which way it went.
 ```
 
 ## 6. Call to action
