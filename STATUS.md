@@ -5,8 +5,8 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 
 ## Current
 
-Post: five-takeaways-single-income (slug provisional)
-Step: 2a
+Post: five-takeaways-single-income
+Step: 2c
 Since: 2026-10-06
 
 ## Steps
@@ -14,8 +14,8 @@ Since: 2026-10-06
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-06 | Five takeaways, 7 charts (scripts/15_takeaways.py); numbers in data/processed/takeaways.json |
-| 2a | Draft with brackets resolved | | |
-| 2b | Eric's edit, Claude's look-over | | |
+| 2a | Draft with brackets resolved | 2026-10-06 | Claude-drafted structure at Eric's request; Eric added context |
+| 2b | Eric's edit, Claude's look-over | 2026-10-06 | Seven look-over items accepted; section 4 figures and explanation restored |
 | 2c | Slice markup | | |
 | 2d | Hero 1680x1080 + alt text | | |
 | 2e | SEO | | |
@@ -61,3 +61,8 @@ None.
   threshold plus $10,000) and six wording or consistency items. Eric accepted
   all seven and asked Claude to restore what he had cut from section 4 (the
   three sets of figures and how the measures differ), worked into his text.
+- 2026-10-06 Steps 2a and 2b confirmed by Eric. Step 2c opened.
+- 2026-10-06 2c: convert-only run. 42 slices: 1 drop cap, 19 text, 7 images, 12
+  spacers, 1 embed, 1 divider, 1 blurb; 4 FAQ entries; no doubled spacers. The
+  40px spacer after the embed gives way to the divider dots, as in the earlier
+  takeaways posts.
