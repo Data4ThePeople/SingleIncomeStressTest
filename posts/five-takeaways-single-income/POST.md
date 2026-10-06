@@ -136,10 +136,14 @@ By this test, in 2025 the median paycheck covers the local poverty threshold for
 
 Among metro areas with 1,000,000 or more jobs, the largest shortfalls with a $10,000 cushion are in Miami, Orlando, Riverside, Las Vegas and Los Angeles. The most room is in San Jose, Seattle and Washington, DC.
 
+### Which big cities can a family live in on one income?
+
+Among the 36 metro areas with 1,000,000 or more jobs, one median paycheck covers the local poverty threshold plus $10,000 in 21. The most room is in San Jose, Seattle and Washington, DC. This is a test against a poverty threshold, not a comfortable budget.
+
 ### Is it getting harder to live on one income?
 
 From 2015 to 2025, the median wage fell as a percent of the local poverty threshold in 285 of the 290 areas we can compare, from 139% to 125% in the typical area.
 
 ### Why does this differ from the official poverty rate?
 
-They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics.
+They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics. We wrote about how the official line was built in [Frozen in 1963](https://www.data4thepeople.com/p/frozen-in-1963/).

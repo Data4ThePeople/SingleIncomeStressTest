@@ -748,6 +748,39 @@
         "paragraph_text": [
           {
             "type": "heading3",
+            "text": "Which big cities can a family live in on one income?",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Among the 36 metro areas with 1,000,000 or more jobs, one median paycheck covers the local poverty threshold plus $10,000 in 21. The most room is in San Jose, Seattle and Washington, DC. This is a test against a poverty threshold, not a comfortable budget.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "heading3",
             "text": "Is it getting harder to live on one income?",
             "spans": [],
             "direction": "ltr"
@@ -787,13 +820,24 @@
           },
           {
             "type": "paragraph",
-            "text": "They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics.",
-            "spans": [],
+            "text": "They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics. We wrote about how the official line was built in Frozen in 1963.",
+            "spans": [
+              {
+                "start": 309,
+                "end": 323,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.data4thepeople.com/p/frozen-in-1963/",
+                  "target": "_blank"
+                }
+              }
+            ],
             "direction": "ltr"
           }
         ]
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"The Single Income Stress Test: five takeaways\",\n      \"description\": \"What a $10,000 surprise does to one paycheck, what the median hides, where big metros fall short, and how pay lost ground against basic costs since 2015.\",\n      \"datePublished\": \"2026-10-07T07:00:00-04:00\",\n      \"dateModified\": \"2026-10-07T07:00:00-04:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"living on one income\",\n        \"can a family live on one income\",\n        \"cities where one income is enough\",\n        \"hardest cities to live on one income\",\n        \"wages vs cost of basics\",\n        \"wages vs poverty threshold\",\n        \"surprise expenses and income\",\n        \"single income family statistics\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can a family live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"By this test, in 2025 the median paycheck covers the local poverty threshold for two adults and two children and a $10,000 cushion in 238 of 521 areas. At the 25th percentile of pay, with no cushion at all, it covers the threshold in 103.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities are hardest to live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among metro areas with 1,000,000 or more jobs, the largest shortfalls with a $10,000 cushion are in Miami, Orlando, Riverside, Las Vegas and Los Angeles. The most room is in San Jose, Seattle and Washington, DC.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it getting harder to live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"From 2015 to 2025, the median wage fell as a percent of the local poverty threshold in 285 of the 290 areas we can compare, from 139% to 125% in the typical area.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why does this differ from the official poverty rate?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"The Single Income Stress Test: five takeaways\",\n      \"description\": \"What a $10,000 surprise does to one paycheck, what the median hides, where big metros fall short, and how pay lost ground against basic costs since 2015.\",\n      \"datePublished\": \"2026-10-07T07:00:00-04:00\",\n      \"dateModified\": \"2026-10-07T07:00:00-04:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"living on one income\",\n        \"can a family live on one income\",\n        \"cities where one income is enough\",\n        \"hardest cities to live on one income\",\n        \"wages vs cost of basics\",\n        \"wages vs poverty threshold\",\n        \"surprise expenses and income\",\n        \"single income family statistics\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can a family live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"By this test, in 2025 the median paycheck covers the local poverty threshold for two adults and two children and a $10,000 cushion in 238 of 521 areas. At the 25th percentile of pay, with no cushion at all, it covers the threshold in 103.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities are hardest to live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among metro areas with 1,000,000 or more jobs, the largest shortfalls with a $10,000 cushion are in Miami, Orlando, Riverside, Las Vegas and Los Angeles. The most room is in San Jose, Seattle and Washington, DC.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities can a family live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among the 36 metro areas with 1,000,000 or more jobs, one median paycheck covers the local poverty threshold plus $10,000 in 21. The most room is in San Jose, Seattle and Washington, DC. This is a test against a poverty threshold, not a comfortable budget.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it getting harder to live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"From 2015 to 2025, the median wage fell as a percent of the local poverty threshold in 285 of the 290 areas we can compare, from 139% to 125% in the typical area.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why does this differ from the official poverty rate?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics. We wrote about how the official line was built in Frozen in 1963.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
 }

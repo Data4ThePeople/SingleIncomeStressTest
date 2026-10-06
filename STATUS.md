@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2e
+Step: 2d (reopened)
 Since: 2026-10-06
 
 ## Steps
@@ -24,7 +24,7 @@ Since: 2026-10-06
 
 ## Stale
 
-None.
+- 2d reopened 2026-10-06: Eric is not happy with the chart hero and wants to look at AI image prompts. 2e was in progress, not confirmed; its fields and accepted edits stay, and it is re-confirmed after 2d.
 
 ## Log
 
@@ -73,3 +73,8 @@ None.
   (153), 8 keywords written, aimed at the "live on one income" searches from
   the map post's assessment; schema article + FAQPage (4). Two text proposals
   sent to Eric.
+- 2026-10-06 2e: Eric accepted both proposals (new question on big cities that
+  have room; Frozen in 1963 link). 5 FAQ entries.
+- 2026-10-06 Step back to 2d (Eric: "not loving the hero"). Four AI image
+  prompts written to posts/five-takeaways-single-income/hero-prompt.md. The
+  chart hero stays in place until an image is chosen.
