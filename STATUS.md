@@ -49,3 +49,10 @@ None.
   posts/five-takeaways-single-income/POST.md, every number filled from
   data/processed/takeaways.json. Slug and date (October 7, 2026) are
   placeholders until Eric confirms them.
+- 2026-10-06 2a: section 1 rewritten as a walkthrough (Cincinnati example; jobs
+  against areas explained; chart 1 labels show share of jobs only), at Eric's
+  request. Eric asked whether rent explains takeaway 5. Quick check, not in the
+  post: two-bedroom rent rose faster than the median wage in 27 of the 30 large
+  metros (typical 66.7% against 42.4%); with each metro's rent index held at
+  2015, pay still lost ground in all 30 and about three quarters of the drop
+  remained. Eric: leave the post as is; he plans a follow-up study on this.
