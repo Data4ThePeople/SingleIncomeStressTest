@@ -70,6 +70,6 @@ None.
   = chart 1 re-rendered at hero scale (scripts/15_takeaways.py hero()), padded
   to 1680x1080; alt text 414 characters.
 - 2026-10-06 Step 2d confirmed by Eric. Step 2e: meta title (53), description
-  (152), 8 keywords written, aimed at the "live on one income" searches from
+  (153), 8 keywords written, aimed at the "live on one income" searches from
   the map post's assessment; schema article + FAQPage (4). Two text proposals
   sent to Eric.
