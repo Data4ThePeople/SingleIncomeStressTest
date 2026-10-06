@@ -83,3 +83,6 @@ Since: 2026-10-06
 - 2026-10-06 2d: first image came back as a wide shot of the whole kitchen; the
   estimate was too small to read as the surprise expense. Prompt 1 rewritten as
   a close-up across the tabletop with the estimate in the foreground.
+- 2026-10-06 2d: the close-up did not work either (a sketch on blank paper, no
+  sense of a bill). Eric's idea: first-person view, a hand holding up an auto
+  repair invoice for $5,000 with the kitchen behind it. Prompt written.
