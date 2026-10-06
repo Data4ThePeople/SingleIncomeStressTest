@@ -5,15 +5,15 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 
 ## Current
 
-Post: takeaways (slug not set yet)
-Step: 1
+Post: five-takeaways-single-income (slug provisional)
+Step: 2a
 Since: 2026-10-06
 
 ## Steps
 
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
-| 1  | Exploration and analysis | | |
+| 1  | Exploration and analysis | 2026-10-06 | Five takeaways, 7 charts (scripts/15_takeaways.py); numbers in data/processed/takeaways.json |
 | 2a | Draft with brackets resolved | | |
 | 2b | Eric's edit, Claude's look-over | | |
 | 2c | Slice markup | | |
@@ -44,3 +44,8 @@ None.
   data/processed/takeaways.json. Time comparisons use wage as a percent of
   threshold with no cushion, because a fixed cushion favors later years.
   Top-down figures from Census P60-289 table 2 and P60-290 tables 3 and 8.
+- 2026-10-06 Step 1 confirmed by Eric. Step 2a opened: Claude drafts at Eric's
+  request, words kept to explaining the charts; Eric will add context. Draft in
+  posts/five-takeaways-single-income/POST.md, every number filled from
+  data/processed/takeaways.json. Slug and date (October 7, 2026) are
+  placeholders until Eric confirms them.
