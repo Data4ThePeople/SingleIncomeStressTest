@@ -89,3 +89,7 @@ Since: 2026-10-06
 - 2026-10-06 2d: first-person image worked for the scene; the invoice read as a
   blank sheet with three typed lines. Prompt revised to describe a real shop
   form, plus an edit-only version that swaps just the paper.
+- 2026-10-06 2d: the invoice looked real but carried invented, garbled filler
+  text. Prompt revised to spell out every word on the form (five line items
+  that add to $5,000.00, no shop or person named) and to hold the image to
+  landscape with the kitchen on the right.

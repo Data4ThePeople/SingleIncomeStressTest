@@ -32,6 +32,37 @@ First-person point-of-view photograph, as seen through the eyes of someone stand
 If the tool can edit an existing image, use this on the image Eric already has, which keeps the kitchen and the hand:
 Replace only the sheet of paper. Make it a real auto repair shop invoice: a pale yellow carbonless copy, slightly creased, with a bold black header band reading AUTO REPAIR, small filled-in boxes for customer and vehicle in illegible pen, a ruled parts-and-labor table with small illegible handwritten rows, one larger row in blue pen reading TRANSMISSION REPLACEMENT, and a boxed TOTAL DUE of $5,000.00 at the bottom right, circled in red pen. Keep the hand, the kitchen, the lighting and everything else exactly as they are.
 
+## Prompt 1, first person, every word specified (fifth revision, October 6, 2026: the invoice looked real but the tool invented garbled filler text)
+
+Landscape first-person point-of-view photograph, as seen through the eyes of someone standing in their own small kitchen at night. On the left side of the frame, in sharp focus and filling about 40% of the width, one hand holds up an auto repair shop invoice, facing the viewer, the thumb on the lower edge of the paper. The invoice is a pale yellow carbonless copy of a pre-printed shop form, slightly creased, with a ruled table. On the right side of the frame, slightly soft but clearly visible, the bare-bones kitchen of a modest rented home, lit by a single bare ceiling bulb: an old laminate table with metal legs and two mismatched chairs, worn linoleum floor, plain empty walls, an older white refrigerator with two children's crayon drawings held by magnets, a dated stove, worn coats on hooks by the door, a dark window over the sink. The room is clean and cared for but has very little in it. No faces, no other people. Muted, natural colors, documentary style, honest and dignified. 16:9.
+
+The invoice contains exactly the following text and nothing else. Spell every word exactly as written. Do not add any other words, labels, numbers, codes, signatures or scribbles. Leave every other box and row empty.
+
+Printed header, white capitals in a black band:
+  AUTO REPAIR
+
+Printed labels with neat blue handwriting after each:
+  DATE: 10/02/25
+  VEHICLE: 2014 sedan
+  MILEAGE: 148,200
+
+Printed column headings:
+  DESCRIPTION          AMOUNT
+
+Five handwritten rows in neat blue ballpoint capitals, amounts aligned on the right:
+  Remanufactured transmission ..... $3,450.00
+  Torque converter ..... $310.00
+  Transmission fluid, 12 qt ..... $120.00
+  Labor: remove and replace, 9 hrs ..... $1,080.00
+  Shop supplies ..... $40.00
+
+All rows below these are empty ruled lines.
+
+Printed box at the bottom right, the amount handwritten and circled once in red pen:
+  TOTAL DUE  $5,000.00
+
+Notes: the five rows add up to exactly $5,000.00. The invoice is an illustration; it names no shop and no person. If the tool still garbles a row, cut the list to the first and fourth rows only and ask again. Check every word and the hand before using the image.
+
 ## Prompt 2 (variant): one paycheck, one surprise away
 
 Minimal editorial illustration on a deep charcoal background (#181A1B). A simple balance scale drawn in clean flat shapes. On the left pan, a single pale envelope representing one paycheck. On the right pan, a small house, a grocery bag and four small simple figures: two adults and two children. The scale is almost level. Above the right pan, a hand is about to set down one more object, a wrench, and the beam has just begun to tip. Limited palette: charcoal background, warm off-white, one coral red (#e0604c) for the wrench, one teal (#2a9d9b) for the envelope. Flat vector style, generous empty space on the left, no gradients, no texture, no text, letters or numbers. 16:9.
