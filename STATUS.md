@@ -86,3 +86,6 @@ Since: 2026-10-06
 - 2026-10-06 2d: the close-up did not work either (a sketch on blank paper, no
   sense of a bill). Eric's idea: first-person view, a hand holding up an auto
   repair invoice for $5,000 with the kitchen behind it. Prompt written.
+- 2026-10-06 2d: first-person image worked for the scene; the invoice read as a
+  blank sheet with three typed lines. Prompt revised to describe a real shop
+  form, plus an edit-only version that swaps just the paper.
