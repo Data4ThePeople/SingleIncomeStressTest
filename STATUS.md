@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: stress-test-viz
-Step: 2g
+Step: complete (2g confirmed 2026-10-06)
 Since: 2026-10-05
 
 ## Steps
@@ -20,7 +20,7 @@ Since: 2026-10-05
 | 2d | Hero 1680x1080 + alt text | 2026-10-05 | Viz image via scripts/14_hero.py; alt 488 characters |
 | 2e | SEO | 2026-10-05 | New title; meta title 55, description 150, 8 keywords; Dataset + WebApplication + FAQPage (15); all proposals accepted |
 | 2f | Pushed to Prismic (draft) | 2026-10-05 | Updated aXtuIxAAACAABefK in place (uid stress-test-viz), Migration Release, 95 slices |
-| 2g | Mailchimp teaser | | |
+| 2g | Mailchimp teaser | 2026-10-06 | Eric's edit of Claude's draft; three fixes and two wording changes accepted |
 
 ## Stale
 
@@ -123,3 +123,12 @@ None.
   post; he accepted edits 1 to 3 (two typos, one comma) and kept his wording on
   the "perfect world" line. "Yesterday" is right for an October 6 send. Eric
   plans a takeaways follow-up post.
+- 2026-10-06 Email: "on-paper world" line and "local poverty threshold"
+  clarification accepted. Step 2g confirmed by Eric. stress-test-viz complete
+  (steps 1 through 2g confirmed). Remaining manual steps in Prismic: set author
+  (Eric Pachman) and the Visualization tag, then publish draft aXtuIxAAACAABefK
+  from the Migration Release. "More takeaways coming tomorrow" stays in the
+  email; a takeaways post is planned.
+- 2026-10-06 SOCIAL.md drafted from Eric's email (X single, X thread of 4,
+  LinkedIn) and a GIF of the cushion slider built at Eric's request
+  (video/build_gif.py -> images/03-cushion-slider.gif). Waiting for his review.
