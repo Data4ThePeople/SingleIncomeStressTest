@@ -34,7 +34,7 @@ Every area has a tipping point like that. The chart below runs the same test on 
 
 Read it from left to right. With nothing set aside, 5 areas fall short, and they hold 0.6% of the jobs. At $5,000, 66 areas have tipped, holding 15% of the jobs. At $10,000 it is 283 areas and 49%. At $15,000 it is 478 areas and 87%. By $20,000, 515 of the 521 have fallen short.
 
-The line is steepest between $5,000 and $15,000 because that is where most areas' room sits. In the typical area, the median paycheck clears the threshold by $9,694, a little less than Cincinnati's $11,905.
+The line is steepest between $5,000 and $15,000 because that is where most areas' room sits. In the typical area, the median paycheck clears the threshold by $9,694, against Cincinnati's $11,905.
 
 ::: spacer
 
