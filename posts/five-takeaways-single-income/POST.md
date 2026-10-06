@@ -28,11 +28,17 @@ In the Cincinnati metro area, the median job paid $50,170 in 2025. The local pov
 
 Now set some money aside for a surprise expense. With $5,000 set aside, Cincinnati still has $6,905 of room. With $10,000 set aside, it has $1,905. With $12,000 set aside, the paycheck no longer covers both, and Cincinnati falls short.
 
-Every area has a tipping point like that. The chart below runs the same test on all 521 areas at once. Along the bottom is the money set aside, from $0 to $25,000. The line is the share of U.S. jobs in areas that have fallen short by that amount.
+Every area has a tipping point like that. The chart below runs the same test on all 521 areas at once.
+
+One thing to know before reading it. Areas are not the same size. The New York area has about 9.5 million jobs, and Eagle Pass, TX has about 19,000. Counting areas would treat the two as equal. So the chart counts jobs. When an area falls short, all of its jobs go into the total.
+
+Along the bottom is the money set aside, from $0 to $25,000. The line is the share of all U.S. jobs that are in areas that have fallen short by that amount.
 
 ![Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000. At $10,000, one income falls short in 283 of 521 areas.](images/01-cushion-curve.png)
 
-Read it from left to right. With nothing set aside, 5 areas fall short, and they hold 0.6% of the jobs. At $5,000, 66 areas have tipped, holding 15% of the jobs. At $10,000 it is 283 areas and 49%. At $15,000 it is 478 areas and 87%. By $20,000, 515 of the 521 have fallen short.
+Read it from left to right. With nothing set aside, 0.6% of jobs are in areas that fall short. At $5,000 it is 15%. At $10,000 it is 49%. At $15,000 it is 87%, and at $20,000 it is 96%.
+
+Take the middle point. With $10,000 set aside, one median paycheck falls short in 283 of the 521 areas, and those 283 areas hold 49% of the country's jobs. That does not mean 49% of workers fall short. In every area, half the jobs pay more than the median and half pay less. It means that about half of U.S. jobs are in places where the middle paycheck does not cover the threshold and a $10,000 surprise.
 
 The line is steepest between $5,000 and $15,000 because that is where most areas' room sits. In the typical area, the median paycheck clears the threshold by $9,694, against Cincinnati's $11,905.
 
