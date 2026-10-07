@@ -354,13 +354,18 @@ def chart_index(N):
     save(fig, "05-threshold-vs-pay.png")
 
 
-def chart_top_down(N):
+def chart_top_down(N, national_only=False):
+    """Three pairs of bars. With national_only, the third pair is left out and its space stays empty: the
+    post's intro shows the two national figures first, then the full chart with our figure filled in."""
     t, r = N["top_down"], N["t4"]
-    fig = frame("Two readings of the same ten years", "The national figures, and one paycheck against the local poverty threshold, 2015 and 2025", h=5.2)
+    if national_only:
+        fig = frame("Two national figures, ten years apart", "The official poverty rate and median household income, 2015 and 2025", h=5.2)
+    else:
+        fig = frame("Two readings of the same ten years", "The national figures, and one paycheck against the local poverty threshold, 2015 and 2025", h=5.2)
     panels = [("Official poverty rate", "national", [t["official_poverty"]["2015"], t["official_poverty"]["2025"]], "{:.1f}%", TEAL, "Lower is better"),
               ("Median household income", "national, in 2025 dollars", [t["real_median_household_income"]["2015"], t["real_median_household_income"]["2025"]], "${:,.0f}", TEAL, "Higher is better"),
               ("Median wage as a percent\nof local poverty threshold", f"typical area of {r['comparable']}", [r["ratio_2015"], r["ratio_2025"]], "{:.0f}%", RED, "Higher is better")]
-    for k, (name, sub, vals, fmt, col, hint) in enumerate(panels):
+    for k, (name, sub, vals, fmt, col, hint) in enumerate(panels[:2] if national_only else panels):
         ax = fig.add_axes([0.04 + k * 0.325, 0.22, 0.27, 0.4])
         clean(ax)
         ax.bar([0, 1], vals, color=[GREY, col], width=0.62)
@@ -374,6 +379,9 @@ def chart_top_down(N):
         fig.text(0.04 + k * 0.325, 0.8, name, fontsize=7.8 * FS, fontweight="bold", va="top", linespacing=1.2)
         fig.text(0.04 + k * 0.325, 0.69, sub, fontsize=7 * FS, color=MUTED, va="top")
         fig.text(0.04 + k * 0.325 + 0.135, 0.125, hint, fontsize=7 * FS, color=MUTED, ha="center")
+    if national_only:
+        footer(fig, source="and Income in the United States: 2025.", note="Sources: U.S. Census Bureau, Poverty in the United States: 2025")
+        return save(fig, "00c-two-national-figures.png")
     footer(fig, source="BLS Occupational Employment and Wage Statistics; Census SPM thresholds.",
            note="Sources: U.S. Census Bureau, Poverty in the United States: 2025 and Income in the United States: 2025;")
     save(fig, "06-two-readings.png")
@@ -464,6 +472,7 @@ def main():
     print(f"5. stable big metros {t5['n']} ({t5['same_outline']} same outline); fell {t5['fell']}, rose {t5['rose']}; cleared $10k test {t5['cleared_2015']} then {t5['cleared_2025']}; "
           f"cleared to short {t5['cleared_to_short']}; short to cleared {t5['short_to_cleared']}")
     print("   left out:", t5["left_out"])
+    chart_top_down(N, national_only=True)
     for f in (chart_cushion, chart_levels, chart_san_jose, chart_big, chart_index, chart_top_down, chart_stable):      # hero() made the first, chart-based hero; the post now uses an AI image
         f(N)
 

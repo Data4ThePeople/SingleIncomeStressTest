@@ -18,6 +18,221 @@
         "drop_cap_text": [
           {
             "type": "paragraph",
+            "text": "Today\u2019s post highlights our five key takeaways from the Single Income Stress Test data visualization we re-released yesterday.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
+            "text": "But rather than list those for you, I want to try something different with this e-mail this morning. I want to show you why it\u2019s so critical to do this work.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "To start, look at this image. How does it make you feel? Joyous? Peaceful? Calm? Maybe a bit jealous that you are not in this beautiful setting right now?",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "blog_body_content_image",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "image": {
+          "alt": "AI-generated illustration. A woman stands on a hiking trail in a sunlit forest with her eyes closed and her face turned up to the light, looking calm and at peace. Tall trees surround her and sunlight filters through the leaves.",
+          "copyright": null
+        },
+        "source_text": []
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
+            "text": "Notice how we create stories around what we see. This image only feeds so much information through our retinas into our brains\u2026 but then we humans have this amazing ability to manifest entire stories around this incomplete information. Without knowing it, you may have created an entire story about this woman\u2019s hike, or vacation, or life, filling in the pieces of the puzzle to make the story complete.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "But now let\u2019s pan the image to the right.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "blog_body_content_image",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "image": {
+          "alt": "AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed, unaware that to the right, among the trees, a man is pointing a hunting rifle in her direction.",
+          "copyright": null
+        },
+        "source_text": []
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
+            "text": "Now how do feel about the situation? It\u2019s a completely different story. No longer do we long to be in this woman\u2019s position.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "This exercise exposes a flaw in the way our brains work. We are storytelling machines. It\u2019s how we evolved as a species, and why we dominate this planet (in my view). But we evolved over time where all we had on which to base our stories was our experience. We didn\u2019t have photos, or AI slop videos, or incomplete data, or algorithms. So, we couldn\u2019t get ourselves in much trouble. Now, we have all this noise\u2026 but our minds desire story creation and will happily create stories out of noise.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Now, consider this finding we present in today\u2019s post.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "blog_body_content_image",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "image": {
+          "alt": "Two pairs of bars titled Two national figures, ten years apart. The official poverty rate fell from 13.5% in 2015 to 10.2% in 2025. Median household income in 2025 dollars rose from $74,590 to $87,460. The space for a third pair of bars is empty.",
+          "copyright": null
+        },
+        "source_text": []
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
+            "text": "What story does your mind create about America from this data? To be clear, these are real data points. We confirmed them. No one is lying to you when they try to take credit for them.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Again, the problem is not the data, it\u2019s the story we create around them. So we need to stay curious and try to find more data to feed to our flawed minds to create a more complete story.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "And so, we did that. Take a look at the third data point, which we unearthed today. This shows what has happened to the padding that a family living on a single income above the poverty threshold.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "blog_body_content_image",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "image": {
+          "id": "z0390OhN8oV9ISoe",
+          "alt": "Three pairs of bars titled Two readings of the same ten years, 2015 and 2025. The official poverty rate fell from 13.5% to 10.2%. Median household income in 2025 dollars rose from $74,590 to $87,460. The third pair, now filled in: the median wage as a percent of the local poverty threshold, in the typical area of 290, fell from 139% to 125%.",
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1040
+          }
+        },
+        "source_text": []
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
+            "text": "Now, that doesn\u2019t line up with the first two data points does it? Good. Our world is complex, and things rarely behave with the story we tell ourselves when you see the full picture. This is the point of giving you data visualizations rather than static images. You see more, and can build more nuanced stories in your mind, which then hopefully, will cause less trouble when those stories become dogma and are unleashed on the world.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "Thanks for indulging us by reading this intro. We hope you enjoy today\u2019s key takeaways post, use it to create more complex and complete stories about what its like to live on the threshold of poverty in America, and also come back to this experience as a reminder to be aware when your mind is recklessly creating a story based on information fed to you \u2013 especially when the person or entity feeding it to you benefits from the story you are creating.",
+            "spans": [],
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "spacer",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "spacer_value": "20px"
+      }
+    },
+    {
+      "slice_type": "paragarph_text",
+      "slice_label": null,
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "paragraph_text": [
+          {
+            "type": "paragraph",
             "text": "Yesterday we rebuilt our Single Income Stress Test, a map that takes one person's annual pay, subtracts the local poverty threshold for their family, and subtracts money for surprise expenses, for every U.S. metro and rural area from 2015 to 2025. Here are five findings that grabbed our attention.",
             "spans": [
               {
@@ -32,18 +247,7 @@
               }
             ],
             "direction": "ltr"
-          }
-        ]
-      }
-    },
-    {
-      "slice_type": "paragarph_text",
-      "slice_label": null,
-      "variation": "default",
-      "version": "initial",
-      "items": [],
-      "primary": {
-        "paragraph_text": [
+          },
           {
             "type": "paragraph",
             "text": "Note: Unless we say otherwise, the figures are for 2025, a median earner, and two adults and two children who rent. The test uses one job's pay before taxes, so read it as an illustrative Data 4 Thought experiment, not an official poverty measure.",
@@ -124,8 +328,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "AWQvPbFryE2NSQf4",
           "alt": "Line chart titled The result turns on about $10,000. The share of U.S. jobs in areas where one median paycheck falls short of the local poverty threshold plus money for surprise expenses, 2025, rises from 0.6% with nothing set aside to 15% at $5,000, 49% at $10,000, 87% at $15,000 and 96% at $20,000.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1080
+          }
         },
         "source_text": []
       }
@@ -200,8 +409,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "vsilTKHycStS5rf7",
           "alt": "Bar chart titled Below the median, there is no cushion to speak of. Share of U.S. jobs in areas where pay is below the local poverty threshold for two adults and two children, with nothing set aside, 2025: 100% at the 10th percentile (521 of 521 areas), 91.7% at the 25th (418 areas), 0.6% at the median (5 areas), and 0% at the 75th and 90th.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 919
+          }
         },
         "source_text": []
       }
@@ -237,8 +451,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "-Hja1YgPdFPF-qHM",
           "alt": "Bar chart titled San Jose: room at the median, none a step below. Annual pay in the San Jose metro area in 2025 against the local poverty threshold of $61,763: $41,590 at the 10th percentile and $49,800 at the 25th, both below the threshold, and $84,050 at the median, $166,940 at the 75th and $224,240 at the 90th, all above it. The 25th percentile is $11,963 short; the median clears it by $22,287.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1120
+          }
         },
         "source_text": []
       }
@@ -307,8 +526,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "r0uOs-joeCO_1IAh",
           "alt": "Bar chart titled Big metros that fall short: all South and West. One median paycheck, less the local poverty threshold, less $10,000, in the 36 metro areas with 1,000,000 or more jobs, 2025. 15 fall short, led by Miami ($9,545 short), Orlando, Riverside, Las Vegas and Los Angeles. The most room is in San Jose ($12,287), Seattle and Washington, DC. Midwest and Northeast metros such as Chicago, Detroit, New York and Boston have room.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1720
+          }
         },
         "source_text": []
       }
@@ -371,8 +595,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "Ui4_3vXkvq2mT-M2",
           "alt": "Line chart titled The poverty threshold rose faster than pay. From 2015 to 2025 the national poverty threshold for two adults and two children who rent rose 63.0%, and the median wage in the typical area rose 45.8%. The two lines stay close through 2021, then the threshold pulls away in 2022 and 2023.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1080
+          }
         },
         "source_text": []
       }
@@ -408,8 +637,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "z0390OhN8oV9ISoe",
           "alt": "Three pairs of bars titled Two readings of the same ten years, 2015 and 2025. The official poverty rate fell from 13.5% to 10.2%. Median household income in 2025 dollars rose from $74,590 to $87,460. The median wage as a percent of the local poverty threshold, in the typical area of 290, fell from 139% to 125%.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1040
+          }
         },
         "source_text": []
       }
@@ -484,8 +718,13 @@
       "items": [],
       "primary": {
         "image": {
+          "id": "2NcsfLOVP82EVMBx",
           "alt": "Bar chart titled Every large metro we can compare lost ground. Median wage as a percent of the local poverty threshold, 2015 and 2025, in 30 metro areas with 1,000,000 or more jobs and stable boundaries. It fell in all 30: Charlotte from 149% to 119%, Houston from 147% to 117%, San Jose from 164% to 136%. Charlotte, Houston, Phoenix, Atlanta, Dallas and Nashville went from clearing the $10,000 test to falling short.",
-          "copyright": null
+          "copyright": null,
+          "dimensions": {
+            "width": 1600,
+            "height": 1600
+          }
         },
         "source_text": []
       }
@@ -630,6 +869,12 @@
                 }
               }
             ],
+            "direction": "ltr"
+          },
+          {
+            "type": "list-item",
+            "text": "Hero image: an illustration generated with AI. The invoice and the kitchen are not real.",
+            "spans": [],
             "direction": "ltr"
           }
         ]
@@ -839,5 +1084,23 @@
       }
     }
   ],
-  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"The Single Income Stress Test: five takeaways\",\n      \"description\": \"What a $10,000 surprise does to one paycheck, what the median hides, where big metros fall short, and how pay lost ground against basic costs since 2015.\",\n      \"datePublished\": \"2026-10-07T07:00:00-04:00\",\n      \"dateModified\": \"2026-10-07T07:00:00-04:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"living on one income\",\n        \"can a family live on one income\",\n        \"cities where one income is enough\",\n        \"hardest cities to live on one income\",\n        \"wages vs cost of basics\",\n        \"wages vs poverty threshold\",\n        \"surprise expenses and income\",\n        \"single income family statistics\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can a family live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"By this test, in 2025 the median paycheck covers the local poverty threshold for two adults and two children and a $10,000 cushion in 238 of 521 areas. At the 25th percentile of pay, with no cushion at all, it covers the threshold in 103.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities are hardest to live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among metro areas with 1,000,000 or more jobs, the largest shortfalls with a $10,000 cushion are in Miami, Orlando, Riverside, Las Vegas and Los Angeles. The most room is in San Jose, Seattle and Washington, DC.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities can a family live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among the 36 metro areas with 1,000,000 or more jobs, one median paycheck covers the local poverty threshold plus $10,000 in 21. The most room is in San Jose, Seattle and Washington, DC. This is a test against a poverty threshold, not a comfortable budget.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it getting harder to live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"From 2015 to 2025, the median wage fell as a percent of the local poverty threshold in 285 of the 290 areas we can compare, from 139% to 125% in the typical area.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why does this differ from the official poverty rate?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics. We wrote about how the official line was built in Frozen in 1963.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
+  "featured_image": {
+    "id": "ND8XpC_Ncz50wawM",
+    "alt": "AI-generated illustration. A first-person view in a bare, modest kitchen at night: a hand holds up a yellow auto repair invoice dated 10/02/25 for a 2014 sedan. It lists a remanufactured transmission at $3,450, a torque converter, transmission fluid, labor and shop supplies, with a total due of $5,000.00 circled in red. Behind it are an old laminate table and chairs, coats on hooks by the door, and a white refrigerator with children's crayon drawings.",
+    "copyright": null,
+    "dimensions": {
+      "width": 1680,
+      "height": 1080
+    }
+  },
+  "meta_image": {
+    "id": "ND8XpC_Ncz50wawM",
+    "alt": "AI-generated illustration. A first-person view in a bare, modest kitchen at night: a hand holds up a yellow auto repair invoice dated 10/02/25 for a 2014 sedan. It lists a remanufactured transmission at $3,450, a torque converter, transmission fluid, labor and shop supplies, with a total due of $5,000.00 circled in red. Behind it are an old laminate table and chairs, coats on hooks by the door, and a white refrigerator with children's crayon drawings.",
+    "copyright": null,
+    "dimensions": {
+      "width": 1680,
+      "height": 1080
+    }
+  },
+  "schema": "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Article\",\n      \"headline\": \"The Single Income Stress Test: five takeaways\",\n      \"description\": \"What a $10,000 surprise does to one paycheck, what the median hides, where big metros fall short, and how pay lost ground against basic costs since 2015.\",\n      \"image\": \"https://images.prismic.io/data4thepeople/ND8XpC_Ncz50wawM_five-takeaways-single-income-hero-1680x1080.png?auto=format,compress\",\n      \"datePublished\": \"2026-10-07T07:00:00-04:00\",\n      \"dateModified\": \"2026-10-07T07:00:00-04:00\",\n      \"articleSection\": \"Data 4 Thought\",\n      \"license\": \"https://www.data4thepeople.com/terms-of-use\",\n      \"inLanguage\": \"en-US\",\n      \"isAccessibleForFree\": true,\n      \"keywords\": [\n        \"living on one income\",\n        \"can a family live on one income\",\n        \"cities where one income is enough\",\n        \"hardest cities to live on one income\",\n        \"wages vs cost of basics\",\n        \"wages vs poverty threshold\",\n        \"surprise expenses and income\",\n        \"single income family statistics\"\n      ],\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"Eric Pachman\",\n        \"url\": \"https://www.data4thepeople.com/authors/eric-pachman\"\n      },\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Data 4 The People\",\n        \"url\": \"https://data4thepeople.com\"\n      },\n      \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income\"\n      },\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#article\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.data4thepeople.com/p/five-takeaways-single-income#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can a family live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"By this test, in 2025 the median paycheck covers the local poverty threshold for two adults and two children and a $10,000 cushion in 238 of 521 areas. At the 25th percentile of pay, with no cushion at all, it covers the threshold in 103.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities are hardest to live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among metro areas with 1,000,000 or more jobs, the largest shortfalls with a $10,000 cushion are in Miami, Orlando, Riverside, Las Vegas and Los Angeles. The most room is in San Jose, Seattle and Washington, DC.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Which big cities can a family live in on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Among the 36 metro areas with 1,000,000 or more jobs, one median paycheck covers the local poverty threshold plus $10,000 in 21. The most room is in San Jose, Seattle and Washington, DC. This is a test against a poverty threshold, not a comfortable budget.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it getting harder to live on one income?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"From 2015 to 2025, the median wage fell as a percent of the local poverty threshold in 285 of the 290 areas we can compare, from 139% to 125% in the typical area.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why does this differ from the official poverty rate?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"They measure different things. The official rate fell from 13.5% in 2015 to 10.2% in 2025, using a line that is the same everywhere and rises only with prices. This test sets one job's pay against a local threshold that follows what families spend on basics. We wrote about how the official line was built in Frozen in 1963.\"\n          }\n        }\n      ]\n    }\n  ]\n}"
 }

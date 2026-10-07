@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2f
+Step: 2a (reopened)
 Since: 2026-10-06
 
 ## Steps
@@ -19,12 +19,12 @@ Since: 2026-10-06
 | 2c | Slice markup | 2026-10-06 | 42 slices, 4 FAQ entries; drop cap on the intro |
 | 2d | Hero 1680x1080 + alt text | 2026-10-07 | AI image (kitchen, hand holding a $5,000 repair invoice), cropped with hero fit; alt 455 characters |
 | 2e | SEO | 2026-10-07 | Meta title 53, description 153, 8 keywords; Article + FAQPage (5); proposals 1-2 accepted |
-| 2f | Pushed to Prismic (draft) | | |
+| 2f | Pushed to Prismic (draft) | 2026-10-07 | Created asYaRREAACkAD5Nj (uid five-takeaways-single-income), Migration Release, 44 slices, 8 images |
 | 2g | Mailchimp teaser | | |
 
 ## Stale
 
-None.
+- 2a reopened 2026-10-07: Eric wrote a new intro (the forest images and the two-readings reveal) and wants it at the start of the post. Confirmed steps now stale: 2b, 2c, 2d, 2e, 2f. Eric plans to approve 2a and 2b, then go to 2g. The intro changes the slices and the draft in Prismic, so 2c (convert check) and 2f (re-push) must be re-run; 2d and 2e are unaffected unless he changes the hero or the search fields.
 
 ## Log
 
@@ -103,3 +103,9 @@ None.
   five-takeaways-single-income) in the Migration Release; 44 slices; 8 images
   uploaded (7 charts and the hero). Date 2026-10-07. Not verified by read-back
   (no PRISMIC_READ_TOKEN). Before publishing in Prismic: set author and tags.
+- 2026-10-07 Step 2f confirmed by Eric. Step back to 2a at his request: his
+  email intro goes at the start of the post. Inserted word for word with its
+  brackets resolved (two AI image slots, a new two-panel chart
+  00c-two-national-figures.png, and the full two-readings chart). Readability
+  edits proposed as a numbered list, none applied. Image prompts in
+  posts/five-takeaways-single-income/image-prompts.md.

@@ -18,6 +18,42 @@ dividers: false
 
 # The Single Income Stress Test: five takeaways
 
+Today’s post highlights our five key takeaways from the Single Income Stress Test data visualization we re-released yesterday.
+
+But rather than list those for you, I want to try something different with this e-mail this morning. I want to show you why it’s so critical to do this work.
+
+To start, look at this image. How does it make you feel? Joyous? Peaceful? Calm? Maybe a bit jealous that you are not in this beautiful setting right now?
+
+![AI-generated illustration. A woman stands on a hiking trail in a sunlit forest with her eyes closed and her face turned up to the light, looking calm and at peace. Tall trees surround her and sunlight filters through the leaves.](images/00a-forest-close.jpg)
+
+Notice how we create stories around what we see. This image only feeds so much information through our retinas into our brains… but then we humans have this amazing ability to manifest entire stories around this incomplete information. Without knowing it, you may have created an entire story about this woman’s hike, or vacation, or life, filling in the pieces of the puzzle to make the story complete.
+
+But now let’s pan the image to the right.
+
+![AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed, unaware that to the right, among the trees, a man is pointing a hunting rifle in her direction.](images/00b-forest-wide.jpg)
+
+Now how do feel about the situation? It’s a completely different story. No longer do we long to be in this woman’s position.
+
+This exercise exposes a flaw in the way our brains work. We are storytelling machines. It’s how we evolved as a species, and why we dominate this planet (in my view). But we evolved over time where all we had on which to base our stories was our experience. We didn’t have photos, or AI slop videos, or incomplete data, or algorithms. So, we couldn’t get ourselves in much trouble. Now, we have all this noise… but our minds desire story creation and will happily create stories out of noise.
+
+Now, consider this finding we present in today’s post.
+
+![Two pairs of bars titled Two national figures, ten years apart. The official poverty rate fell from 13.5% in 2015 to 10.2% in 2025. Median household income in 2025 dollars rose from $74,590 to $87,460. The space for a third pair of bars is empty.](images/00c-two-national-figures.png)
+
+What story does your mind create about America from this data? To be clear, these are real data points. We confirmed them. No one is lying to you when they try to take credit for them.
+
+Again, the problem is not the data, it’s the story we create around them. So we need to stay curious and try to find more data to feed to our flawed minds to create a more complete story.
+
+And so, we did that. Take a look at the third data point, which we unearthed today. This shows what has happened to the padding that a family living on a single income above the poverty threshold.
+
+![Three pairs of bars titled Two readings of the same ten years, 2015 and 2025. The official poverty rate fell from 13.5% to 10.2%. Median household income in 2025 dollars rose from $74,590 to $87,460. The third pair, now filled in: the median wage as a percent of the local poverty threshold, in the typical area of 290, fell from 139% to 125%.](images/06-two-readings.png)
+
+Now, that doesn’t line up with the first two data points does it? Good. Our world is complex, and things rarely behave with the story we tell ourselves when you see the full picture. This is the point of giving you data visualizations rather than static images. You see more, and can build more nuanced stories in your mind, which then hopefully, will cause less trouble when those stories become dogma and are unleashed on the world.
+
+Thanks for indulging us by reading this intro. We hope you enjoy today’s key takeaways post, use it to create more complex and complete stories about what its like to live on the threshold of poverty in America, and also come back to this experience as a reminder to be aware when your mind is recklessly creating a story based on information fed to you – especially when the person or entity feeding it to you benefits from the story you are creating.
+
+::: spacer
+
 Yesterday we rebuilt our [Single Income Stress Test](https://www.data4thepeople.com/p/stress-test-viz), a map that takes one person's annual pay, subtracts the local poverty threshold for their family, and subtracts money for surprise expenses, for every U.S. metro and rural area from 2015 to 2025. Here are five findings that grabbed our attention.
 
 Note: Unless we say otherwise, the figures are for 2025, a median earner, and two adults and two children who rent. The test uses one job's pay before taxes, so read it as an illustrative Data 4 Thought experiment, not an official poverty measure.
