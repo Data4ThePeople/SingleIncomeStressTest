@@ -109,3 +109,7 @@ Since: 2026-10-06
   00c-two-national-figures.png, and the full two-readings chart). Readability
   edits proposed as a numbered list, none applied. Image prompts in
   posts/five-takeaways-single-income/image-prompts.md.
+- 2026-10-07 2a: Eric accepted all 13 readability edits to his intro; applied.
+  The forest image came back without the rifle. Claude recommended a mountain
+  lion in place of the man (prompts added to image-prompts.md); waiting for
+  Eric's choice and image.
