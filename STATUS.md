@@ -131,3 +131,7 @@ None.
   (steps 1 through 2g confirmed). In Prismic: set author and tags, then publish
   draft asYaRREAACkAD5Nj from the Migration Release, after or with the map post
   (draft aXtuIxAAACAABefK).
+- 2026-10-07 Social posts for the takeaways post, built around Eric's intro:
+  an eight-slide LinkedIn carousel (scripts/16_social_carousel.py ->
+  posts/five-takeaways-single-income/social/) and an X thread of five, in
+  SOCIAL.md. Waiting for Eric's review.
