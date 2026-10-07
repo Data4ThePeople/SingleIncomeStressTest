@@ -104,7 +104,7 @@
       "items": [],
       "primary": {
         "image": {
-          "alt": "AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed, unaware that to the right, among the trees, a man is pointing a hunting rifle in her direction.",
+          "alt": "AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed and her face turned up to the light. To the right, a few yards behind her and unseen by her, a mountain lion is creeping out of the ferns toward her, head low and eyes fixed ahead.",
           "copyright": null
         },
         "source_text": []
@@ -873,7 +873,7 @@
           },
           {
             "type": "list-item",
-            "text": "Hero image: an illustration generated with AI. The invoice and the kitchen are not real.",
+            "text": "The hero image and the two forest images are illustrations generated with AI. The invoice, the kitchen, the woman and the mountain lion are not real.",
             "spans": [],
             "direction": "ltr"
           }

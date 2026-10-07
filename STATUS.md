@@ -113,3 +113,8 @@ Since: 2026-10-06
   The forest image came back without the rifle. Claude recommended a mountain
   lion in place of the man (prompts added to image-prompts.md); waiting for
   Eric's choice and image.
+- 2026-10-07 2a: Eric generated the wide forest image with a mountain lion on
+  the right. Original kept as images/00-forest-source.jpg; 00b-forest-wide.jpg
+  is the full frame and 00a-forest-close.jpg is a 4:5 cut from its left side
+  (no trace of the animal). Alt text for the wide image rewritten; the AI
+  disclosure line in the blurb now covers all three AI images.

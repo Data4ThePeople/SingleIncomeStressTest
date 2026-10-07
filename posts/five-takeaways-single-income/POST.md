@@ -30,7 +30,7 @@ Notice how we create stories around what we see. This image feeds only so much i
 
 But now let’s pan the image to the right.
 
-![AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed, unaware that to the right, among the trees, a man is pointing a hunting rifle in her direction.](images/00b-forest-wide.jpg)
+![AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed and her face turned up to the light. To the right, a few yards behind her and unseen by her, a mountain lion is creeping out of the ferns toward her, head low and eyes fixed ahead.](images/00b-forest-wide.jpg)
 
 Now how do you feel about the situation? It’s a completely different story. No longer do we long to be in this woman’s position.
 
@@ -158,7 +158,7 @@ The chart covers large metro areas whose boundaries did not change, or changed b
 - A shortfall does not mean a family is in poverty. It means one paycheck does not cover the threshold and the cushion together.
 - Dollars are not adjusted for inflation. Comparisons across years use pay as a percent of the threshold, with no cushion.
 - The full method is on the [map's page](https://www.data4thepeople.com/p/stress-test-viz).
-- Hero image: an illustration generated with AI. The invoice and the kitchen are not real.
+- The hero image and the two forest images are illustrations generated with AI. The invoice, the kitchen, the woman and the mountain lion are not real.
 :::
 
 ::: spacer
