@@ -18,27 +18,27 @@ dividers: false
 
 # The Single Income Stress Test: five takeaways
 
-Today’s post highlights our five key takeaways from the [Single Income Stress Test](https://www.data4thepeople.com/p/stress-test-viz), the data visualization we re-released yesterday.
+Today's post highlights our five key takeaways from the [Single Income Stress Test](https://www.data4thepeople.com/p/stress-test-viz), the data visualization we re-released yesterday.
 
-But rather than list those for you up front, I want to try something different with the introduction to this post. 
+But rather than list those for you up front, I want to try something different with the introduction to this post.
 
-I want to show you why it’s so critical to do this work.
+I want to show you why it's so critical to do this work.
 
 To start, look at this AI-generated image. How does it make you feel? Joyous? Peaceful? Calm? Maybe a bit jealous that you are not in this beautiful setting right now?
 
 ![AI-generated illustration. A woman stands on a hiking trail in a sunlit forest with her eyes closed and her face turned up to the light, looking calm and at peace. Tall trees surround her and sunlight filters through the leaves.](images/00a-forest-close.jpg)
 
-Notice how we create stories around what we see. This image feeds only so much information through our eyes and into our brains. But we humans have an amazing ability to build entire stories around incomplete information. Without knowing it, you may have created an entire story about this woman’s hike, or vacation, or life, filling in the pieces of the puzzle to make the story complete.
+Notice how we create stories around what we see. This image feeds only so much information through our eyes and into our brains. But we humans have an amazing ability to build entire stories around incomplete information. Without knowing it, you may have created an entire story about this woman's hike, or vacation, or life, filling in the pieces of the puzzle to make the story complete.
 
-But now let’s pan the image to the right.
+But now let's pan the image to the right.
 
 ![AI-generated illustration. The same forest scene, shown wider. The woman still stands on the trail with her eyes closed and her face turned up to the light. To the right, a few yards behind her and unseen by her, a mountain lion is creeping out of the ferns toward her, head low and eyes fixed ahead.](images/00b-forest-wide.jpg)
 
-Now how do you feel about the situation? It’s a completely different story. No longer do we long to be in this woman’s position.
+Now how do you feel about the situation? It's a completely different story. No longer do we long to be in this woman's position.
 
-This exercise exposes a flaw in the way our brains work. We are storytelling machines. It’s how we evolved as a species, and why we dominate this planet (in my view). But we evolved in a world where all we had to base our stories on was our own experience. We didn’t have photos, or AI slop videos, or incomplete data, or algorithms. So, the trouble we caused with our flawed stories was more limited. Now we have all this noise, and our minds still want stories. They will happily build them out of noise.
+This exercise exposes a flaw in the way our brains work. We are storytelling machines. It's how we evolved as a species, and why we dominate this planet (in my view). But we evolved in a world where all we had to base our stories on was our own experience. We didn't have photos, or AI slop videos, or incomplete data, or algorithms. So, the trouble we caused with our flawed stories was more limited. Now we have all this noise, and our minds still want stories. They will happily build them out of noise.
 
-Now, consider this finding we present in today’s post.
+Now, consider this finding we present in today's post.
 
 ![Two pairs of bars titled Two national figures, ten years apart. The official poverty rate fell from 13.5% in 2015 to 10.2% in 2025. Median household income in 2025 dollars rose from $74,590 to $87,460. The space for a third pair of bars is empty.](images/00c-two-national-figures.png)
 
@@ -50,9 +50,9 @@ And so, we did that. Take a look at the third data point, which we unearthed in 
 
 ![Three pairs of bars titled Two readings of the same ten years, 2015 and 2025. The official poverty rate fell from 13.5% to 10.2%. Median household income in 2025 dollars rose from $74,590 to $87,460. The third pair, now filled in: the median wage as a percent of the local poverty threshold, in the typical area of 290, fell from 139% to 125%.](images/06-two-readings.png)
 
-Now, that doesn’t line up with the first two data points, does it? Good. Our world is complex, and things rarely fit the simple cause-and-effect story we tell ourselves once we see the full picture. This is the point of giving you data visualizations rather than static images. You see more, and you can build more nuanced stories in your mind. Hopefully those stories cause less trouble when they harden into dogma and are unleashed on the world.
+Now, that doesn't line up with the first two data points, does it? Good. Our world is complex, and things rarely fit the simple cause-and-effect story we tell ourselves once we see the full picture. This is the point of giving you data visualizations rather than static images. You see more, and you can build more nuanced stories in your mind. Hopefully those stories cause less trouble when they harden into dogma and are unleashed on the world.
 
-Thanks for indulging us by reading this intro. We hope you enjoy today’s key takeaways post, and that you use it to build more complete stories about what it’s like to live on the threshold of poverty in America. We also hope you come back to this exercise as a reminder. Notice when your mind is recklessly creating a story from information fed to you, especially when the person or entity feeding it to you benefits from the story you are creating.
+Thanks for indulging us by reading this intro. We hope you enjoy today's key takeaways post, and that you use it to build more complete stories about what it's like to live on the threshold of poverty in America. We also hope you come back to this exercise as a reminder. Notice when your mind is recklessly creating a story from information fed to you, especially when the person or entity feeding it to you benefits from the story you are creating.
 
 ::: divider
 

@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2g
+Step: complete (2g confirmed 2026-10-07)
 Since: 2026-10-06
 
 ## Steps
@@ -20,7 +20,7 @@ Since: 2026-10-06
 | 2d | Hero 1680x1080 + alt text | 2026-10-07 | AI image (kitchen, hand holding a $5,000 repair invoice), cropped with hero fit; alt 455 characters |
 | 2e | SEO | 2026-10-07 | Meta title 53, description 153, 8 keywords; Article + FAQPage (5); proposals 1-2 accepted |
 | 2f | Pushed to Prismic (draft) | 2026-10-07 | Re-pushed: updated asYaRREAACkAD5Nj (uid five-takeaways-single-income), Migration Release, 54 slices |
-| 2g | Mailchimp teaser | | |
+| 2g | Mailchimp teaser | 2026-10-07 | Eric's essay intro, laid out by Claude: 5 text blocks, 4 images, hero above the button; three email JPGs under 300 KB |
 
 ## Stale
 
@@ -124,3 +124,10 @@ None.
   (54 slices) and 2f re-pushed (draft asYaRREAACkAD5Nj updated; three new
   images uploaded). 2d and 2e stand. Step 2g: EMAIL.md laid out from Eric's
   essay intro, with email exports of the two forest images and the hero.
+- 2026-10-07 Eric accepted look-over items 1 and 2 (trailing space removed; the
+  intro's curly apostrophes made straight to match the rest of the post) and
+  left item 3 (the two-readings chart stays in both places). Draft re-pushed.
+- 2026-10-07 Step 2g confirmed by Eric. five-takeaways-single-income complete
+  (steps 1 through 2g confirmed). In Prismic: set author and tags, then publish
+  draft asYaRREAACkAD5Nj from the Migration Release, after or with the map post
+  (draft aXtuIxAAACAABefK).
