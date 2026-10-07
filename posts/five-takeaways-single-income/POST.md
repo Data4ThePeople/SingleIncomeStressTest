@@ -122,6 +122,7 @@ The chart covers large metro areas whose boundaries did not change, or changed b
 - A shortfall does not mean a family is in poverty. It means one paycheck does not cover the threshold and the cushion together.
 - Dollars are not adjusted for inflation. Comparisons across years use pay as a percent of the threshold, with no cushion.
 - The full method is on the [map's page](https://www.data4thepeople.com/p/stress-test-viz).
+- Hero image: an illustration generated with AI. The invoice and the kitchen are not real.
 :::
 
 ::: spacer

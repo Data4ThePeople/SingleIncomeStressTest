@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2d (reopened)
+Step: 2f
 Since: 2026-10-06
 
 ## Steps
@@ -17,14 +17,14 @@ Since: 2026-10-06
 | 2a | Draft with brackets resolved | 2026-10-06 | Claude-drafted structure at Eric's request; Eric added context |
 | 2b | Eric's edit, Claude's look-over | 2026-10-06 | Seven look-over items accepted; section 4 figures and explanation restored |
 | 2c | Slice markup | 2026-10-06 | 42 slices, 4 FAQ entries; drop cap on the intro |
-| 2d | Hero 1680x1080 + alt text | | Reopened: AI image (kitchen, hand holding a $5,000 repair invoice), cropped with hero fit; waiting for Eric |
-| 2e | SEO | | |
+| 2d | Hero 1680x1080 + alt text | 2026-10-07 | AI image (kitchen, hand holding a $5,000 repair invoice), cropped with hero fit; alt 455 characters |
+| 2e | SEO | 2026-10-07 | Meta title 53, description 153, 8 keywords; Article + FAQPage (5); proposals 1-2 accepted |
 | 2f | Pushed to Prismic (draft) | | |
 | 2g | Mailchimp teaser | | |
 
 ## Stale
 
-- 2d reopened 2026-10-06: Eric is not happy with the chart hero and wants to look at AI image prompts. 2e was in progress, not confirmed; its fields and accepted edits stay, and it is re-confirmed after 2d.
+None.
 
 ## Log
 
@@ -97,3 +97,9 @@ Since: 2026-10-06
   images/. Renamed to the hero source (jpg), cropped center to 1680x1080 with
   `hero fit`; alt text 455 characters, says it is an AI-generated
   illustration. The chart hero and its source are replaced.
+- 2026-10-07 Step 2d re-confirmed by Eric; AI disclosure line added to the blurb
+  at his request. Step 2e taken as confirmed with "move to 2f". Step 2f opened.
+- 2026-10-07 2f: dry run then publish. Created draft asYaRREAACkAD5Nj (uid
+  five-takeaways-single-income) in the Migration Release; 44 slices; 8 images
+  uploaded (7 charts and the hero). Date 2026-10-07. Not verified by read-back
+  (no PRISMIC_READ_TOKEN). Before publishing in Prismic: set author and tags.
