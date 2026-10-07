@@ -6,7 +6,7 @@ Process: ~/.claude/d4tp-process/PROCESS.md
 ## Current
 
 Post: five-takeaways-single-income
-Step: 2a (reopened)
+Step: 2g
 Since: 2026-10-06
 
 ## Steps
@@ -14,17 +14,17 @@ Since: 2026-10-06
 | Step | What | Confirmed | Notes |
 |---|---|---|---|
 | 1  | Exploration and analysis | 2026-10-06 | Five takeaways, 7 charts (scripts/15_takeaways.py); numbers in data/processed/takeaways.json |
-| 2a | Draft with brackets resolved | 2026-10-06 | Claude-drafted structure at Eric's request; Eric added context |
-| 2b | Eric's edit, Claude's look-over | 2026-10-06 | Seven look-over items accepted; section 4 figures and explanation restored |
-| 2c | Slice markup | 2026-10-06 | 42 slices, 4 FAQ entries; drop cap on the intro |
+| 2a | Draft with brackets resolved | 2026-10-07 | Claude-drafted structure; Eric's context; Eric's essay intro added with 13 accepted edits and two AI images |
+| 2b | Eric's edit, Claude's look-over | 2026-10-07 | Eric's edits to the intro reviewed; three small items reported |
+| 2c | Slice markup | 2026-10-07 | Re-run: 54 slices, 11 images, 2 dividers (Eric added one after the intro), 5 FAQ entries |
 | 2d | Hero 1680x1080 + alt text | 2026-10-07 | AI image (kitchen, hand holding a $5,000 repair invoice), cropped with hero fit; alt 455 characters |
 | 2e | SEO | 2026-10-07 | Meta title 53, description 153, 8 keywords; Article + FAQPage (5); proposals 1-2 accepted |
-| 2f | Pushed to Prismic (draft) | 2026-10-07 | Created asYaRREAACkAD5Nj (uid five-takeaways-single-income), Migration Release, 44 slices, 8 images |
+| 2f | Pushed to Prismic (draft) | 2026-10-07 | Re-pushed: updated asYaRREAACkAD5Nj (uid five-takeaways-single-income), Migration Release, 54 slices |
 | 2g | Mailchimp teaser | | |
 
 ## Stale
 
-- 2a reopened 2026-10-07: Eric wrote a new intro (the forest images and the two-readings reveal) and wants it at the start of the post. Confirmed steps now stale: 2b, 2c, 2d, 2e, 2f. Eric plans to approve 2a and 2b, then go to 2g. The intro changes the slices and the draft in Prismic, so 2c (convert check) and 2f (re-push) must be re-run; 2d and 2e are unaffected unless he changes the hero or the search fields.
+None.
 
 ## Log
 
@@ -118,3 +118,9 @@ Since: 2026-10-06
   is the full frame and 00a-forest-close.jpg is a 4:5 cut from its left side
   (no trace of the animal). Alt text for the wide image rewritten; the AI
   disclosure line in the blurb now covers all three AI images.
+- 2026-10-07 Steps 2a and 2b re-confirmed by Eric after his own edits to the
+  intro. Look-over: numbers unchanged; a trailing space, mixed curly and
+  straight apostrophes, and the two-readings chart now shown twice. 2c re-run
+  (54 slices) and 2f re-pushed (draft asYaRREAACkAD5Nj updated; three new
+  images uploaded). 2d and 2e stand. Step 2g: EMAIL.md laid out from Eric's
+  essay intro, with email exports of the two forest images and the hero.

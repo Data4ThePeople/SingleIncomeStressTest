@@ -1,58 +1,79 @@
 {
-  "images/01-cushion-curve.png": {
-    "id": "AWQvPbFryE2NSQf4",
-    "width": 1600,
-    "height": 1080,
-    "url": "https://images.prismic.io/data4thepeople/AWQvPbFryE2NSQf4_01-cushion-curve.png?auto=format,compress",
-    "stamp": "140140:1791323510"
-  },
-  "images/02-pay-levels-no-cushion.png": {
-    "id": "vsilTKHycStS5rf7",
-    "width": 1600,
-    "height": 919,
-    "url": "https://images.prismic.io/data4thepeople/vsilTKHycStS5rf7_02-pay-levels-no-cushion.png?auto=format,compress",
-    "stamp": "125072:1791323510"
-  },
-  "images/03-san-jose-pay-scale.png": {
-    "id": "-Hja1YgPdFPF-qHM",
-    "width": 1600,
-    "height": 1120,
-    "url": "https://images.prismic.io/data4thepeople/-Hja1YgPdFPF-qHM_03-san-jose-pay-scale.png?auto=format,compress",
-    "stamp": "142153:1791323510"
-  },
-  "images/04-largest-metros-2025.png": {
-    "id": "r0uOs-joeCO_1IAh",
-    "width": 1600,
-    "height": 1720,
-    "url": "https://images.prismic.io/data4thepeople/r0uOs-joeCO_1IAh_04-largest-metros-2025.png?auto=format,compress",
-    "stamp": "286948:1791323510"
-  },
-  "images/05-threshold-vs-pay.png": {
-    "id": "Ui4_3vXkvq2mT-M2",
-    "width": 1600,
-    "height": 1080,
-    "url": "https://images.prismic.io/data4thepeople/Ui4_3vXkvq2mT-M2_05-threshold-vs-pay.png?auto=format,compress",
-    "stamp": "145785:1791323510"
-  },
-  "images/06-two-readings.png": {
-    "id": "z0390OhN8oV9ISoe",
-    "width": 1600,
-    "height": 1040,
-    "url": "https://images.prismic.io/data4thepeople/z0390OhN8oV9ISoe_06-two-readings.png?auto=format,compress",
-    "stamp": "121451:1791323510"
-  },
-  "images/07-large-metros-since-2015.png": {
-    "id": "2NcsfLOVP82EVMBx",
-    "width": 1600,
-    "height": 1600,
-    "url": "https://images.prismic.io/data4thepeople/2NcsfLOVP82EVMBx_07-large-metros-since-2015.png?auto=format,compress",
-    "stamp": "331187:1791323510"
-  },
   "images/five-takeaways-single-income-hero-1680x1080.png": {
     "id": "ND8XpC_Ncz50wawM",
     "width": 1680,
     "height": 1080,
     "url": "https://images.prismic.io/data4thepeople/ND8XpC_Ncz50wawM_five-takeaways-single-income-hero-1680x1080.png?auto=format,compress",
     "stamp": "3022824:1791324477"
+  },
+  "images/00a-forest-close.jpg": {
+    "id": "fiM6233K94wmwqis",
+    "width": 1200,
+    "height": 1500,
+    "url": "https://images.prismic.io/data4thepeople/fiM6233K94wmwqis_00a-forest-close.jpg?auto=format,compress",
+    "stamp": "437484:1791375420"
+  },
+  "images/00b-forest-wide.jpg": {
+    "id": "lYZc3SKejzh-y7RJ",
+    "width": 1800,
+    "height": 1005,
+    "url": "https://images.prismic.io/data4thepeople/lYZc3SKejzh-y7RJ_00b-forest-wide.jpg?auto=format,compress",
+    "stamp": "518324:1791375420"
+  },
+  "images/00c-two-national-figures.png": {
+    "id": "kxHJe2OPcHWV6CUk",
+    "width": 1600,
+    "height": 1040,
+    "url": "https://images.prismic.io/data4thepeople/kxHJe2OPcHWV6CUk_00c-two-national-figures.png?auto=format,compress",
+    "stamp": "93761:1791374938"
+  },
+  "images/06-two-readings.png": {
+    "id": "FDuK_VVQrfGKMUX0",
+    "width": 1600,
+    "height": 1040,
+    "url": "https://images.prismic.io/data4thepeople/FDuK_VVQrfGKMUX0_06-two-readings.png?auto=format,compress",
+    "stamp": "121451:1791374939"
+  },
+  "images/01-cushion-curve.png": {
+    "id": "hStjuzbHPvCJSfmP",
+    "width": 1600,
+    "height": 1080,
+    "url": "https://images.prismic.io/data4thepeople/hStjuzbHPvCJSfmP_01-cushion-curve.png?auto=format,compress",
+    "stamp": "140140:1791374938"
+  },
+  "images/02-pay-levels-no-cushion.png": {
+    "id": "-yoRG2CifYUq0suk",
+    "width": 1600,
+    "height": 919,
+    "url": "https://images.prismic.io/data4thepeople/-yoRG2CifYUq0suk_02-pay-levels-no-cushion.png?auto=format,compress",
+    "stamp": "125072:1791374938"
+  },
+  "images/03-san-jose-pay-scale.png": {
+    "id": "MDBS0GI7f7M_WEL3",
+    "width": 1600,
+    "height": 1120,
+    "url": "https://images.prismic.io/data4thepeople/MDBS0GI7f7M_WEL3_03-san-jose-pay-scale.png?auto=format,compress",
+    "stamp": "142153:1791374938"
+  },
+  "images/04-largest-metros-2025.png": {
+    "id": "4qgbhams-4gpmLgN",
+    "width": 1600,
+    "height": 1720,
+    "url": "https://images.prismic.io/data4thepeople/4qgbhams-4gpmLgN_04-largest-metros-2025.png?auto=format,compress",
+    "stamp": "286948:1791374939"
+  },
+  "images/05-threshold-vs-pay.png": {
+    "id": "pgIY181lELfq7geo",
+    "width": 1600,
+    "height": 1080,
+    "url": "https://images.prismic.io/data4thepeople/pgIY181lELfq7geo_05-threshold-vs-pay.png?auto=format,compress",
+    "stamp": "145785:1791374939"
+  },
+  "images/07-large-metros-since-2015.png": {
+    "id": "dAfGmTIYtDdfcFUs",
+    "width": 1600,
+    "height": 1600,
+    "url": "https://images.prismic.io/data4thepeople/dAfGmTIYtDdfcFUs_07-large-metros-since-2015.png?auto=format,compress",
+    "stamp": "331187:1791374939"
   }
 }

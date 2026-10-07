@@ -46,13 +46,19 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "But rather than list those for you, I want to try something different with this post. I want to show you why it\u2019s so critical to do this work.",
+            "text": "But rather than list those for you up front, I want to try something different with the introduction to this post.",
             "spans": [],
             "direction": "ltr"
           },
           {
             "type": "paragraph",
-            "text": "To start, look at this image. How does it make you feel? Joyous? Peaceful? Calm? Maybe a bit jealous that you are not in this beautiful setting right now?",
+            "text": "I want to show you why it\u2019s so critical to do this work.",
+            "spans": [],
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "text": "To start, look at this AI-generated image. How does it make you feel? Joyous? Peaceful? Calm? Maybe a bit jealous that you are not in this beautiful setting right now?",
             "spans": [],
             "direction": "ltr"
           }
@@ -126,7 +132,7 @@
           },
           {
             "type": "paragraph",
-            "text": "This exercise exposes a flaw in the way our brains work. We are storytelling machines. It\u2019s how we evolved as a species, and why we dominate this planet (in my view). But we evolved in a world where all we had to base our stories on was our own experience. We didn\u2019t have photos, or AI slop videos, or incomplete data, or algorithms. So, we couldn\u2019t get ourselves in much trouble. Now we have all this noise, and our minds still want stories. They will happily build them out of noise.",
+            "text": "This exercise exposes a flaw in the way our brains work. We are storytelling machines. It\u2019s how we evolved as a species, and why we dominate this planet (in my view). But we evolved in a world where all we had to base our stories on was our own experience. We didn\u2019t have photos, or AI slop videos, or incomplete data, or algorithms. So, the trouble we caused with our flawed stories was more limited. Now we have all this noise, and our minds still want stories. They will happily build them out of noise.",
             "spans": [],
             "direction": "ltr"
           },
@@ -169,7 +175,7 @@
           },
           {
             "type": "paragraph",
-            "text": "Again, the problem is not the data. It is the story we create around it. So we need to stay curious and try to find more data to feed to our flawed minds to create a more complete story.",
+            "text": "Again, the problem is not the data. It is the story we create around it. So we need to stay vigilant and try to find more data to feed to our flawed minds to create a more complete story.",
             "spans": [],
             "direction": "ltr"
           },
@@ -211,7 +217,7 @@
         "paragraph_text": [
           {
             "type": "paragraph",
-            "text": "Now, that doesn\u2019t line up with the first two data points, does it? Good. Our world is complex, and things rarely fit the story we tell ourselves once we see the full picture. This is the point of giving you data visualizations rather than static images. You see more, and you can build more nuanced stories in your mind. Hopefully those stories cause less trouble when they harden into dogma and are unleashed on the world.",
+            "text": "Now, that doesn\u2019t line up with the first two data points, does it? Good. Our world is complex, and things rarely fit the simple cause-and-effect story we tell ourselves once we see the full picture. This is the point of giving you data visualizations rather than static images. You see more, and you can build more nuanced stories in your mind. Hopefully those stories cause less trouble when they harden into dogma and are unleashed on the world.",
             "spans": [],
             "direction": "ltr"
           },
@@ -225,14 +231,12 @@
       }
     },
     {
-      "slice_type": "spacer",
+      "slice_type": "divider_dots",
       "slice_label": null,
       "variation": "default",
       "version": "initial",
       "items": [],
-      "primary": {
-        "spacer_value": "20px"
-      }
+      "primary": {}
     },
     {
       "slice_type": "paragarph_text",
